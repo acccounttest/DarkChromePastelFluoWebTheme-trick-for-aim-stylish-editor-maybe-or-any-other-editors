@@ -1,3 +1,4 @@
+EDIT:Main theme have been changed: Jekyll theme set to "Merlot"
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/acccounttest/DarkChromePastelFluoWebTheme/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
