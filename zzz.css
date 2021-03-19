@@ -53,7 +53,7 @@ background:inherit !important;
 }
 h1,h2,h3,li
 {
-background-color:black !important;
+background-color:rgba(0, 0, 0, 0.20) !important;
 /*position:relative!important;*/
 padding:0;
 /*background-image:herit !important;*/
@@ -87,8 +87,9 @@ div[class*="ytp-player-content"],div[class*="c-breadcrumb"],div * img,div * sour
   height: auto 0 0;
   color:inherit !important;
   z-index:9999;
-  visibility: visible;
+  /*visibility: visible;*/
   /*background-image:inherit !important;*/
+  /*visibility:visible !important;*/
 }
 
 
@@ -97,34 +98,86 @@ div[class*="ytp-player-content"],div[class*="c-breadcrumb"],div * img,div * sour
 iframe,iframe *,div[id*="video"],div[id*="video"] *
 */
 /*
+  visibility:visible !important;
   background-color:none !important;
   background:none !important;*/
   /*color:transparent !important;
 */
 
+
 video, video *,figure, figcaption{
   visibility:visible !important;
-  z-index:9999 !important;
+  background-color:transparent !important;
+  background:none !important;
+  /*z-index:99999 !important;*/
+  background-image: transparent !important;
+  position:inherit !important;
 }
 
 /*visibility: transparent !important;
   overflow:transparent !important;*/
-div[class*="video"] ,video{
-visibility:visible !important;
-  /*z-index:9999 !important;*/
+
+
+div[class*="video"],div[class*="Video"],div[class*="player"],div[class*="Player"] ,video{
   /*color: inherit !important;*/
-  /*background-color:transparent !important;
+  background-color:transparent !important;
   background-image: transparent !important;
-  position:inherit !important;*/
+  visibility:visible !important;
+  background:none !important;
+  /*z-index:99999 !important;never*/ 
+  /*position:inherit !important;never for youtu too*/
+  
+  /*background:unset !important;*/
+  /*z-index:99999 !important;*/
 }
 
 body,div{
 color: #C4862E !important;
-background-color: #000000 !important;
+background-color: rgba(0,0, 12, 0.45) !important;
+/*background: -webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61,0.35) 0%,rgba(0,0,0,0.55) 100%) !important;*/
 padding:0;
   /*background-image: herit !important;*/
 }
 
+    body >:not(*:not(*:not(h1):not(h2):not(h3):not(a):not(link):not(img):not(svg):not(button):hover)) , div >:not(*:not(*:not(h1):not(h2):not(h3):not(a):not(link):not(img):not(svg):not(button):hover)){
+color: #C4862E !important;
+background-color:  rgba(0, 6, 0, 0.45) !important;
+/*background: -webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61,50) 0%,rgba(0,0,0,0.50) 100%) !important;*/
+                                           
+/* padding:0; */
+  /*background-image: herit !important;*/
+}
+
+/*box-shadow:
+    0 40 120 0.5px hsl(0, 25%, 75%),
+    0 40 120 1.0px hsl(0, 25%, 90%);
+ padding: 2.5px;
+ background-clip: content-box;*/
+
+
+body:hover > * div:hover{
+background-color: initial !important;
+background: transparent !important;
+}
+   
+    * body:not(:hover):not(link):not(img):not(svg):not(button){
+           color: #C4862E !important;
+/*background-color:  rgba(255, 255, 255, 0.35) !important;*/
+background: -webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61,0.08) 0%,rgba(57,61,61,0.18) 8%,rgba(57,61,61,0.35) 70%,rgba(57,61,61,0.30) 72%,rgba(57,61,61,0.25) 76%,rgba(57,61,61,0.20) 80%,rgba(57,61,61,0.15) 85%,rgba(57,61,61,0.1) 90%,rgba(57,61,61,0.05) 95%,rgba(57,61,61,0) 100%) !important;
+}
+
+    
+html:not(div:hover):not(link):not(img):not(svg):not(button){
+           color: #C4862E !important;
+/*background-color:  rgba(255, 255, 255, 0.35) !important;*/
+background: -webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61,0.08) 0%,rgba(57,61,61,0.18) 8%,rgba(57,61,61,0.35) 70%,rgba(57,61,61,0.30) 72%,rgba(57,61,61,0.25) 76%,rgba(57,61,61,0.20) 80%,rgba(57,61,61,0.15) 85%,rgba(57,61,61,0.1) 90%,rgba(57,61,61,0.05) 95%,rgba(57,61,61,0) 100%) !important;
+}
+    
+    *:hover ~ *:not(*:hover) > *:not([class*="favicon"]):not(img){
+background-color:inherit !important;
+background: inherit !important;
+}
+    
 span[style*="color:#FF5000"] *{
 color:#FF5000 !important;
 }
@@ -152,16 +205,17 @@ color:yellow !important;
 
 
 * div{
-/*background-color: #000000 !important*/
-/*color: black !important;*/
+/*background-color: rgba(0, 0, 0, 0.15) !important*/
+/*color: rgba(0, 0, 0, 0.20) !important;*/
 display:block;
 }
 
 * div div td+div td+div td+div td+div td+div, #page
 {
 /*background-image: none !important;*/
-background-color: #000000 !important;
-color: black !important;
+/*background-color: rgba(0, 0, 0, 0.15) !important;*/
+background: -webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61,0.08) 0%,rgba(57,61,61,0.18) 8%,rgba(57,61,61,0.35) 70%,rgba(57,61,61,0.30) 72%,rgba(57,61,61,0.25) 76%,rgba(57,61,61,0.20) 80%,rgba(57,61,61,0.15) 85%,rgba(57,61,61,0.1) 90%,rgba(57,61,61,0.05) 95%,rgba(57,61,61,0) 100%) !important;
+color: -webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61,0.08) 0%,rgba(57,61,61,0.18) 8%,rgba(57,61,61,0.35) 70%,rgba(57,61,61,0.30) 72%,rgba(57,61,61,0.25) 76%,rgba(57,61,61,0.20) 80%,rgba(57,61,61,0.15) 85%,rgba(57,61,61,0.1) 90%,rgba(57,61,61,0.05) 95%,rgba(57,61,61,0) 100%) !important;
 }
 
 /* Exception for <pre> so that ASCII art is still nice 
@@ -170,41 +224,46 @@ color: black !important;
   font-family: monospace !important;
   font-size: 1.1em !important;
   color: lightred !important;
-  background-color: #000000 !important;
+  background-color: rgba(0, 0, 0, 0.15) !important;
   background-image:herit !important;
 }
 */
 
 
+tr{
+  /*color:orange !important;*/
+  background: -webkit-radial-gradient(center,circle closest-corner, rgba(0,16,0,1.0) 15%,rgba(0,0,16,0.8) 75%) !important;
+}
 
-    
+
 td
 {
-font-size: 1.0em !important;
-color: #FFCC66 !important;
-background-color: #000000 !important;
+font-size: 1.05em !important;
+color: rgba(222,102,17) !important;
+background: -webkit-radial-gradient(center,circle closest-corner, rgba(0,16,0,1.0) 15%,rgba(0,0,16,0.8) 75%) !important;
+/*background: -webkit-radial-gradient(center,farthest-corner, rgba(54,43,27,1.0) 15%,rgba(30,67,64,0.8) 75%) !important;*/
 }
 
 div * polygon,svg
 {
 font-size: 1.2em !important;
 color: #FFCC66 !important;
-background-color: #000000 !important;
+background: -webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61,0.08) 0%,rgba(57,61,61,0.18) 8%,rgba(57,61,61,0.35) 70%,rgba(57,61,61,0.30) 72%,rgba(57,61,61,0.25) 76%,rgba(57,61,61,0.20) 80%,rgba(57,61,61,0.15) 85%,rgba(57,61,61,0.1) 90%,rgba(57,61,61,0.05) 95%,rgba(57,61,61,0) 100%) !important;
 }
 
 p
 {
 font-size: 1.2em !important;
 color: #FFCC66 !important;
-background-color: #000000 !important;
+background: -webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61,0.08) 0%,rgba(57,61,61,0.18) 8%,rgba(57,61,61,0.35) 70%,rgba(57,61,61,0.30) 72%,rgba(57,61,61,0.25) 76%,rgba(57,61,61,0.20) 80%,rgba(57,61,61,0.15) 85%,rgba(57,61,61,0.1) 90%,rgba(57,61,61,0.05) 95%,rgba(57,61,61,0) 100%) !important;
 }
 
 /* li:not(a) > em *:not(a) > em,*:not(a) > li*/
-li:not(a),label/*problème avec un lien mais la forme change dans des balises et imbriquées*/
+li:not(a),label/*problÃ¨me avec un lien mais la forme change dans des balises et imbriquÃ©es*/
 {
 font-size: 1.2em !important;
 color: #FFCC66 !important;
-/*background-color: #000000 !important;*/
+/*background-color: rgba(0, 0, 0, 0.15) !important;*/
     /*background-color: red !important;*/
 }
 /*
@@ -233,24 +292,10 @@ span#__firefox-findbar-search-id
 
 
 
-* font[color="#000000"]{
+* font[color="rgba(0, 0, 0, 0.15)"]{
 color:inherit !important;
 background-color:inherit !important;
 }
-
-
-*[style*="color: #000000"],* [style*="color:#000000"],*[style*="color: #000000000"],*[style*="color:#000000000"],*[style*="color: #000"],*[style*="color:#000"],*[style*="color: black"],*[style*="color:black"]{
- color:inherit !important;
- background-color:inherit !important;
-}
-
-
-
-
-
-
-
-
 
 
 
@@ -298,13 +343,23 @@ text-decoration:blink !important;
 
 
 input,option {/*input:not(input[type=submit])*/
-/*color:unset !important;*/
-background: black !important;
-/*background-color:black !important;*/
+color:unset !important;
+background: -webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61,0.18) 0%,rgba(57,61,61,0.28) 8%,rgba(57,61,61,0.35) 70%,rgba(57,61,61,0.45) 72%,rgba(57,61,61,0.25) 76%,rgba(57,61,61,0.15) 80%,rgba(57,61,61,0.15) 85%,rgba(57,61,61,0.1) 90%,rgba(57,61,61,0.05) 95%,rgba(57,61,61,0) 100%) !important;
+/*background-color:rgba(0, 0, 0, 0.20) !important;*/
 border:solid 1px #00CC14 !important;
     margin:1px !important;
     font-size:1.1em  !important;
     /*width:80% !important;*/
+}
+
+select{
+  background-color:inherit !important;
+}
+select,option{
+/*border:orange 0.5 px !important;*/
+/*border:solid 1px #00CC14 !important;*/
+/*background:initial !important;*/
+/*color:default !important;*/
 }
 
 form input
@@ -319,13 +374,7 @@ input[type=radio] {
     /*width:auto !important;*/
     color:red;
   }
-input[name=q] {
-    background:#181818 !important;
-    color:inherit !important;
-    padding:2px 5px !important;
-    width:406px !important;
-    border:solid 5px #00CC14 !important;
-}
+
 input[type=submit] {
     width:202px !important;
     text-align:center !important;
@@ -346,12 +395,12 @@ background:none repeat scroll 0% 0% rgb(168, 236, 255) ! important;
 }*/
 
 
-span[style*="black"]
+span[style*="rgba(0, 0, 0, 0.20)"]
 {
 font-family: monospace !important;
 font-size: 1.1em !important;
 color: #1C98C9 !important;
-background-color: #000000 !important;
+background-color: rgba(0, 0, 0, 0.15) !important;
 }
 
 span[style*="rgb("],span[style*="rgba("]
@@ -361,15 +410,16 @@ background-color:#3e7350 !important;
 font-size: 1.1em !important;
 }
 
-
+/*
 *[style*=border]
 {
 border:solid 2px #00CC14 !important;
-}
+}*/
 
 th
 {
 color:#FFCC11 !important;
+background: rgba(222,102,17,0.2) !important;
 }
 
 b
@@ -383,7 +433,7 @@ strong
 font-family: monospace !important;
 /*font-size: 1.1em !important;*/
 color: cyan !important;
-background-color: #000000 !important;
+background: -webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61,0.08) 0%,rgba(57,61,61,0.18) 8%,rgba(57,61,61,0.35) 70%,rgba(57,61,61,0.30) 72%,rgba(57,61,61,0.25) 76%,rgba(57,61,61,0.20) 80%,rgba(57,61,61,0.15) 85%,rgba(57,61,61,0.1) 90%,rgba(57,61,61,0.05) 95%,rgba(57,61,61,0) 100%) !important;
 }
 
 em{
@@ -403,7 +453,11 @@ h1
 {color: red !important;}
 h2
 {color:#B40404 !important;}
-h3 *:not(a){color:#FE2E2E;}/*for forget h3 links in google*/
+
+/*for forget h3 links in google*/
+h3 *:not(a){color:#FE2E2E;}
+h4
+{color:#FE2E2E !important;}
 h4
 {color:#FA5858 !important;}
 h6
@@ -513,11 +567,13 @@ text-decoration-thickness: 0.3px !important;
 
 
 a{
-text-decoration-color: currentColor !important;
-font-size: 1.0em !important;
+/*text-decoration-color: currentColor !important;*/
+/*font-size: 1.0em !important;*/
+ /*   text-decoration-color: #85C247 !important;*/
 color:#85C247 !important;
+    
 background-color: none !important;
-visibility:visible;
+/*visibility:visible;*/
 }
 
 a *{
@@ -528,6 +584,7 @@ color:#85C247 !important;
 a:visited,a:visited *
 {
 color:#CC3399 !important;
+ text-decoration-color: #CC3399 !important;
 }
 
 
@@ -537,9 +594,11 @@ color:#CC3399 !important;
 
 *[href]
 {
-font-size: 1.0em !important;
-text-decoration-color: currentColor !important;
+/*font-size: 1.0em !important;*/
+/*text-decoration-color: currentColor !important;*/
+     /*text-decoration-color: #85C247 !important;*/
 color:#85C247 !important;
+   
 }
 
 
@@ -556,7 +615,7 @@ background-color:#cc66cc !important;
 
 
 code{
-background-color:black !important;
+background-color:-webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61,0.08) 0%,rgba(57,61,61,0.18) 8%,rgba(57,61,61,0.35) 70%,rgba(57,61,61,0.30) 72%,rgba(57,61,61,0.25) 76%,rgba(57,61,61,0.20) 80%,rgba(57,61,61,0.15) 85%,rgba(57,61,61,0.1) 90%,rgba(57,61,61,0.05) 95%,rgba(57,61,61,0) 100%)!important;
 color:inherit !important;
 /*text-decoration:strike !important;*/
 }
@@ -614,16 +673,18 @@ box-shadow:
 }
 */
 }
-select,option{
-color:inherit !important;
-}
-/*initial hide things black on black*/
+
+/*initial hide things rgba(0, 0, 0, 0.20) on rgba(0, 0, 0, 0.20)*/
 /*
 span[style*=color]{
 color:!important;
 background-color: inherit !important;
 }
 */
-
-
+   /* 
+*[style*="color"]{
+ color:inherit !important;
+background-color:inherit !important;
+}*/
+    
 }
