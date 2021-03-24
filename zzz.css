@@ -517,7 +517,7 @@ color:inherit !important;
 
 
 
-a > span, a > span *, a span{
+a > span, a > span *, a span,*[data-url]{
 text-decoration-color: currentColor !important;
 text-decoration: wavy !important;
 color:#85C247 !important;
@@ -571,6 +571,9 @@ color:#85C247 !important;
 /*text-decoration-color: #85C247 !important;*/
 color:#85C247 !important; 
 }
+
+
+/**[data-url]:visited*/
 
 *[href]:visited,*[xmlns]:visited,*[xlink]:visited,*[xlinkHref]:visited,:not(p) a:visited,:not(p) > a:visited */*,*[href]:visited,*[xmlns:xlink]:visited,*[xmlns]:visited,*[xmlns:xhtml],*[xlink:href]:visited,*[xlinkHref]:visited*/
 {
