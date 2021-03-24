@@ -572,7 +572,7 @@ color:#85C247 !important;
 color:#85C247 !important; 
 }
 
-:not(p) a:visited,:not(p) > a:visited *,*[href]:visited,*[xmlns:xlink]:visited,*[xmlns]:visited,*[xmlns:xhtml],*[xlink:href]:visited,*[xlinkHref]:visited
+*[href]:visited,*[xmlns]:visited,*[xlink]:visited,*[xlinkHref]:visited,:not(p) a:visited,:not(p) > a:visited */*,*[href]:visited,*[xmlns:xlink]:visited,*[xmlns]:visited,*[xmlns:xhtml],*[xlink:href]:visited,*[xlinkHref]:visited*/
 {
 color:#CC3399 !important;
 text-decoration-color: #CC3399 !important;
