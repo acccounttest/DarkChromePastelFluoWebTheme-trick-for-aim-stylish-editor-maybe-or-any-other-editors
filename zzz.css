@@ -277,6 +277,9 @@ color: #FFCC66 !important;
     /*background-color: red !important;*/
 }
 
+label{
+  background-color: inherit !important;
+}
 
 /*
 span#__firefox-findbar-search-id
@@ -564,7 +567,13 @@ color:#85C247 !important;
 /*background-color: none !important;*/
 }
 
-*[href],*[xlink],*[xmlns:xlink],*[xmlns],*[xmlns:xhtml],*[xlink:href],*[xlinkHref]
+/*
+,*[xmlns:xhtml]
+,*[xlink:href]
+*[xmlns:xlink]
+*/
+
+*[href],*[xlink],*[xmlns],*[xlinkHref]
 {
 /*font-size: 1.0em !important;*/
 /*text-decoration-color: currentColor !important;*/
