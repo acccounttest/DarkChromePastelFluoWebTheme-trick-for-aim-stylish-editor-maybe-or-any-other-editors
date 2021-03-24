@@ -526,17 +526,25 @@ background-image:unset !important;
 background: unset !important;*/
 }
 
+
 a > span::before, a > span *::before, a span::before{
 text-decoration-color: currentColor !important;
 text-decoration-line:underline !important;
 text-decoration-style:wavy !important;
-/*color:unset !important;*/
-/*color:red !important;*/
 background-color:unset !important;
 background-image:unset !important;
 background:unset !important;
 }
 
+*[xmlns:xlink],*[xmlns],*[xlink],*[xmlns:xhtml],*[xlink:href],*[xlinkHref]
+{
+text-decoration-color: currentColor !important;
+text-decoration-line:underline !important;
+text-decoration-style:dotted !important;
+background-color:unset !important;
+background-image:unset !important;
+background:unset !important;
+}
 
 p * a,p > a,div > a{
 color:#85C247 !important;
@@ -556,8 +564,15 @@ color:#85C247 !important;
 /*background-color: none !important;*/
 }
 
+*[href],*[xlink],*[xmlns:xlink],*[xmlns],*[xmlns:xhtml],*[xlink:href],*[xlinkHref]
+{
+/*font-size: 1.0em !important;*/
+/*text-decoration-color: currentColor !important;*/
+/*text-decoration-color: #85C247 !important;*/
+color:#85C247 !important; 
+}
 
-a:visited,a:visited *
+:not(p) a:visited,:not(p) > a:visited *,*[href]:visited,*[xmlns:xlink]:visited,*[xmlns]:visited,*[xmlns:xhtml],*[xlink:href]:visited,*[xlinkHref]:visited
 {
 color:#CC3399 !important;
 text-decoration-color: #CC3399 !important;
@@ -566,30 +581,51 @@ text-decoration-color: #CC3399 !important;
 
 /*content: attrib(style="color:#979;");*/
 /*image-background: none !important;*/
+/*
+xmlns:xlink=
+xmlns=
+xlink:href=
+xlinkHref*/
 
-
-*[href]
-{
-/*font-size: 1.0em !important;*/
-/*text-decoration-color: currentColor !important;*/
-     /*text-decoration-color: #85C247 !important;*/
-color:#85C247 !important;
-   
-}
-
-
+/*
+a[href$=".rss"] > span::before, a[href$=".rss"] > span *::before, a[href$=".rss"] span::before
+*/
+[class*="-rss"],
 enclosure,
-:not(p) a[href$=".rss"],:not(p) > a[href$=".rss"] *,a[href$=".rss"] > span, a[href$=".rss"] > span *, a[href$=".rss"] span,a[href$=".rss"] > span::before, a[href$=".rss"] > span *::before, a[href$=".rss"] span::before,p * a[href$=".rss"],p > a[href$=".rss"],div > a[href$=".rss"]
-:not(p) a[href*="/feed/"],:not(p) > a[href*="/feed/"] *,a[href*="/feed/"] > span, a[href*="/feed/"] > span *, a[href*="/feed/"] span,a[href*="/feed/"] > span::before, a[href*="/feed/"] > span *::before, a[href*="/feed/"] span::before,p * a[href*="/feed/"],p > a[href*="/feed/"],div > a[href*="/feed/"],
-:not(p) a[href*="/feeds/"],:not(p) > a[href*="/feeds/"] *,a[href*="/feeds/"] > span, a[href*="/feeds/"] > span *, a[href*="/feeds/"] span,a[href*="/feeds/"] > span::before, a[href*="/feeds/"] > span *::before, a[href*="/feeds/"] span::before,p * a[href*="/feeds/"],p > a[href*="/feeds/"],div > a[href*="/feeds/"],
-:not(p) a[href*=".xml"],:not(p) > a[href*=".xml"] *,a[href*=".xml"] > span, a[href*=".xml"] > span *, a[href*=".xml"] span,a[href*=".xml"] > span::before, a[href*=".xml"] > span *::before, a[href*=".xml"] span::before,p * a[href*=".xml"],p > a[href*=".xml"],div > a[href*=".xml"],
-object[type^="text/"], object[type$="+xml"], object[type="application/xml"]{
+:not(p) a[href$=".rss"],:not(p) > a[href$=".rss"] *,a[href$=".rss"] > span, a[href$=".rss"] > span *, a[href$=".rss"] span,p * a[href$=".rss"],p > a[href$=".rss"],div > a[href$=".rss"]
+:not(p) a[href*="/feed"],:not(p) > a[href*="/feed"] *,a[href*="/feed"] > span, a[href*="/feed"] > span *, a[href*="/feed"] span,p * a[href*="/feed"],p > a[href*="/feed"],div > a[href*="/feed"],
+:not(p) a[href$=".xml"],:not(p) > a[href$=".xml"] *,a[href$=".xml"] > span, a[href$=".xml"] > span *, a[href$=".xml"] span,p * a[href$=".xml"],p > a[href$=".xml"],div > a[href$=".xml"],
+object[type$="/xml"], object[type$="+xml"]{
   color:yellow !important;
   outline: yellow inset 1px;
   outline-offset: yellow outset 2px;
 }
 
+/*
+[class*="-rss"]:after,
+enclosure:after,
+:not(p) a[href$=".rss"]:after,:not(p) > a[href$=".rss"]:after *,a[href$=".rss"]:after > span, a[href$=".rss"]:after > span *, a[href$=".rss"]:after span,p * a[href$=".rss"]:after,p > a[href$=".rss"]:after,div > a[href$=".rss"]:after
+:not(p) a[href*="/feed"]:after,:not(p) > a[href*="/feed"]:after *,a[href*="/feed"]:after > span, a[href*="/feed"]:after > span *, a[href*="/feed"]:after span, a[href*="/feed"]:after span,p * a[href*="/feed"]:after,p > a[href*="/feed"]:after,div > a[href*="/feed"]:after,
+:not(p) a[href$=".xml"]:after,:not(p) > a[href$=".xml"]:after *,a[href$=".xml"]:after > span, a[href$=".xml"]:after > span *, a[href$=".xml"]:after span,p * a[href$=".xml"]:after,p > a[href$=".xml"]:after,div > a[href$=".xml"]:after,
+object[type$="/xml"]:after, object[type$="+xml"]:after
+*/
+[class*="-rss"]:after,
+enclosure:after,
+:not(p) a[href$=".rss"]:after,:not(p) > a[href$=".rss"] *:after,a[href$=".rss"] > span:after, a[href$=".rss"] > span *:after, a[href$=".rss"] span:after,p * a[href$=".rss"]:after,p > a[href$=".rss"]:after,div > a[href$=".rss"]
+:not(p) a[href*="/feed"]:after,:not(p) > a[href*="/feed"] *:after,a[href*="/feed"] > span:after, a[href*="/feed"] > span *:after, a[href*="/feed"] span:after,p * a[href*="/feed"]:after,p > a[href*="/feed"]:after,div > a[href*="/feed"]:after,
+:not(p) a[href$=".xml"]:after,:not(p) > a[href$=".xml"] *:after,a[href$=".xml"] > span:after, a[href$=".xml"] > span *:after, a[href$=".xml"] span:after,p * a[href$=".xml"]:after,p > a[href$=".xml"]:after,div > a[href$=".xml"]:after,
+object[type$="/xml"]:after, object[type$="+xml"]:after
+{
+content:'<' !important;
+color:yellow !important;
+z-index:9999999 !important;
+}
 
+
+/*
+object[type^="text/"]
+object[type="application/xml"]
+*/
 
 
 /* highlight links which would pop up a new window */
