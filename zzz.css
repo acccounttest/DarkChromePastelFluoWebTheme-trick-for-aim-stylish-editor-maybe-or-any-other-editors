@@ -100,8 +100,8 @@ div[class*="ytp-player-content"],div[class*="c-breadcrumb"],div * img,div * sour
   /*width:auto;
   height: auto;*/
   color:inherit !important;
-  z-index:9999;
-  /*visibility: visible;*/
+  /*z-index:999999
+ ; /*visibility: visible;*/
   /*background-image:inherit !important;*/
   /*visibility:visible !important;*/
 }
@@ -124,7 +124,7 @@ video, video *,figure, figcaption{
   background-color:unset !important;
   background:unset !important;
   /*z-index:99999 !important;*/
-  background-image: unset !important;
+  /*background-image: unset !important;*/
   position:inherit !important;
 }
 
@@ -135,9 +135,9 @@ video, video *,figure, figcaption{
 div[class*="video"],div[class*="Video"],div[class*="player"],div[class*="Player"] ,video{
   /*color: inherit !important;*/
   background-color:unset !important;
-  background-image: unset !important;
+  /*background-image: unset !important;*/
   visibility:visible !important;
-  background:unset !important;
+  /*background:unset !important;*/
   /*z-index:99999 !important;never*/ 
   /*position:inherit !important;never for youtu too*/
   
