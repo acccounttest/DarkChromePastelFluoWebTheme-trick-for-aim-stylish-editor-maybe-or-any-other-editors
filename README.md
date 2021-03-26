@@ -83,3 +83,5 @@ but use @document
 or moz with below line
 about:config?filter=layout.css.moz-document.content.enabled
 
+CHROME EXTENSIONS
+-------------------
