@@ -83,5 +83,33 @@ but use @document
 or moz with below line
 about:config?filter=layout.css.moz-document.content.enabled
 
-CHROME EXTENSIONS
+CHROME EXTENSIONS(This CSS script need zero extension)
 -------------------
+
+Case: Youtube.
+_________________
+Best compatible extensions
+--------------------------
+Download magic actions, it enhance video experience in black borders or supress them while keeping a 
+quality max , much more youtube unique functionnalities, it permit a black theme that solve sometimes 
+something, like commentary text and tags, dont take the magic extension theme alone as extension, it 
+does nothing, you must access your options by the gear but from the new magic action icon included 
+in the player bar.
+The all in one extension can get hardly configured if you use too much anti popup and anti adverts, you get
+many img error similar to personnal msg but maybe nothing is 
+accessible though this space incrusted vertically, anyway even after solve configuration access next times.
+The same messages that were more numerous during the problem case in the pre-configuration 
+page can even remain but less numerously, try just figure out one time more, the advantage is really 
+appreciated, no problem with any others extensions like codecs and protocols.
+The only problem is maybe the interface using their black theme activated(the button normally must 
+appear top left like an interruptor but can deseapear, the little switch for day and night), it add latency to the UI
+system reponse time, and somehow bring back the browser front to the user. It wait the last response of CSS 
+or mouse overing the UI later with or without focus, untested deeper.
+
+Others domains and extensions:
+------------------------------
+Two compatibles extension to find:
+-Clich though every elements and set them all to no transparancy, then videos outside youtube will be readable.
+-See, remain, move, blacklist switch any DOM partial or total area differenciated of all others included thoses included in same total area, a plugin cant do that, all i tried draw you a rectangle but not all child rectangle so you often eleminate the video itself of all layers.
+
+PS: I added two chars added after links(>) and RSS(< but on yellow, XML links could interfer with this, visited and much more), exemple social network icons are more and more black theses days, this help to not avoid them. 
