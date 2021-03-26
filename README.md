@@ -53,3 +53,33 @@ Explanations about youtube, now you can see thumbnails during the video play, as
 Stylish can use SASS with a local server, just for load a page that is forced to reload multiple ways every 10s or anothers values, maybe nodejs is a better alternative ?
 https://github.com/stylish-userstyles/stylish-chrome/issues/176
 
+
+FIREFOX
+--------
+
+regex
+______
+\. is normally used in a script and \\. in css, I do believe.
+
+regex for exclusion
+____________________
+firefox/userstyles.org:
+@-moz-document regexp('^(?!https?://(www\\.)?(discordapp\\.com|example\\.com).*).*$')
+
+chrome (URLs matching the regexp):
+^(?!https?://(www\.)?(discordapp\.com|example\.com).*).*$
+
+
+apply style to certain sites but only FTM Mozilla
+https://github.com/stylish-userstyles/stylish/wiki/Applying-styles-to-specific-sites
+
+/*[[AS]]*/@-moz-document regexp('^(?!https?://(www\\.)?(/*[[L1]]*//*[[L2]]*//*[[L3]]*//*[[CE]]*/).*).*$')
+
+
+Firefox config
+_______________
+no more @-moz-document
+but use @document
+or moz with below line
+about:config?filter=layout.css.moz-document.content.enabled
+
