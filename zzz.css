@@ -539,7 +539,13 @@ background-image:unset !important;
 background:unset !important;
 }
 
-*[xmlns:xlink],*[xmlns],*[xlink],*[xmlns:xhtml],*[xlink:href],*[xlinkHref]
+
+/*
+*[xmlns\:xhtml]
+*[xmlns\\3Axlink],
+*[xlink\\3Ahref]
+*/
+[xmlns\:xhtml],[xmlns\:xlink],[xlink\:href],[xmlns],[xlink],[xlinkHref]
 {
 text-decoration-color: currentColor !important;
 text-decoration-line:underline !important;
@@ -573,7 +579,7 @@ color:#85C247 !important;
 *[xmlns:xlink]
 */
 
-*[href],*[xlink],*[xmlns],*[xlinkHref]
+*[href],[xlink],[xmlns],[xlinkHref],[xmlns\:xhtml],[xmlns\:xlink],[xlink\:href]
 {
 /*font-size: 1.0em !important;*/
 /*text-decoration-color: currentColor !important;*/
@@ -584,7 +590,7 @@ color:#85C247 !important;
 
 /**[data-url]:visited*/
 
-*[href]:visited,*[xmlns]:visited,*[xlink]:visited,*[xlinkHref]:visited,:not(p) a:visited,:not(p) > a:visited */*,*[href]:visited,*[xmlns:xlink]:visited,*[xmlns]:visited,*[xmlns:xhtml],*[xlink:href]:visited,*[xlinkHref]:visited*/
+*[href]:visited,[xmlns]:visited,[xlink]:visited,[xlinkHref]:visited,[xmlns\:xhtml]:visited,[xmlns\:xlink]:visited,[xlink\:href]:visited,:not(p) a:visited,:not(p) > a:visited */*,*[href]:visited,*[xmlns:xlink]:visited,*[xmlns]:visited,*[xmlns:xhtml],*[xlink:href]:visited,*[xlinkHref]:visited*/
 {
 color:#CC3399 !important;
 text-decoration-color: #CC3399 !important;
