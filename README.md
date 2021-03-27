@@ -54,9 +54,11 @@ Stylish can use SASS with a local server, just for load a page that is forced to
 https://github.com/stylish-userstyles/stylish-chrome/issues/176
 
 
-FIREFOX
+BROWSERS
 --------
 
+FIREFOX
+-------
 regex
 ______
 \. is normally used in a script and \\. in css, I do believe.
@@ -83,11 +85,10 @@ but use @document
 or moz with below line
 about:config?filter=layout.css.moz-document.content.enabled
 
-CHROME EXTENSIONS(This CSS script need zero extension)
--------------------
 
-Case: Youtube.
-_________________
+CHROME EXTENSIONS(This CSS script need zero extension)
+-------------------------------------------------------
+
 Best compatible extensions
 --------------------------
 Download magic actions, it enhance video experience in black borders or supress them while keeping a 
@@ -113,3 +114,24 @@ Two compatibles extension to find:
 -See, remain, move, blacklist switch any DOM partial or total area differenciated of all others included thoses included in same total area, a plugin cant do that, all i tried draw you a rectangle but not all child rectangle so you often eleminate the video itself of all layers.
 
 PS: I added two chars added after links(>) and RSS(< but on yellow, XML links could interfer with this, visited and much more), exemple social network icons are more and more black theses days, this help to not avoid them. 
+
+HELP
+----
+I forgot a little detail about Stylish, it is really not intuitive, it can lost your file saved then subitely erase all content and titles of scripts, i had this behavior when i had one script, it can do it several different times, you too, the popup could move(or since you want use the scrollbar.css it does a movment and all controls specially text are not fixed in size properly.
+
+Steps for first install of a script, necessary only one time for each script you want add, no need edit or, delete them eventually frequently, this script need to be copied into the editor, no need use their editor, even if colors seems good with the script, the caret is hidden, but maybe its more platform dependant.
+Step list is:
+-Clic the puzzle icon on your plugin taskbar of your chrome, else goto extension and access options of stylish
+-Show the icon(a puzzle of 4 pieces) then a simple left clic, now choose in the popup
+-Clic the three dots vertically (...) and select nvo style or new style, second entry is for manage them but nothing is interesting here too, if you dont know you could loose your modifications except for save them.
+-Clic top right text, it should add a new blank script
+-Paste content into the sort of textarea in right pane.
+-In left pane ,give a name is enough to finish
+-Clic save the script
+-Normally no need reload it should be on by default
+-Dont clic delete in the script list, its instant and no save is available.
+
+
+In the scripts manage page, not the editor page, whats the purpose of theses options, only edited and only active, it filter in live the script list but does nothing on option only edited, works well with or without only edited.
+
+
