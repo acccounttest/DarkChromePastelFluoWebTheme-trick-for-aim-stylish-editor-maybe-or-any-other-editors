@@ -545,7 +545,7 @@ background:unset !important;
 *[xmlns\\3Axlink],
 *[xlink\\3Ahref]
 */
-[xmlns\:xhtml],[xmlns\:xlink],[xlink\:href],[xmlns],[xlink],[xlinkHref]
+[xmlns\:xhtml]:not(html),[xmlns\:xlink]:not(html),[xlink\:href]:not(html),[xmlns]:not(html),[xlink]:not(html),[xlinkHref]:not(html)
 {
 text-decoration-color: currentColor !important;
 text-decoration-line:underline !important;
@@ -741,5 +741,4 @@ box-shadow:
 */
 }
 
-    
 }
