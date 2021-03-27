@@ -2,7 +2,7 @@
 
 INFORMATION
 -----------
-This a theme to dark web pages, chrome protocol UI and URL prefixes are not well done entirely(ex:chrome://), only the stylish code editor inside the extension page configuration part, inside theme manager and editor is compatible, you should use another theme to have complete UI in the same theme.  The current stylish editor or the way the theme is interpreted does not permit to allow or refuse(only chrome) a web site itself or a regex of part of the URL(Except Firefox, need an extension for chrome, anyway i ll publish list of extension related that works or not.).
+This a theme to dark web pages, chrome protocol UI and URL prefixes are not well done entirely(ex:chrome://), only the Stylus(ex Stylish) code editor inside the extension page configuration part, inside theme manager and editor is compatible, you should use another theme to have complete UI in the same theme.  The current stylish editor or the way the theme is interpreted does not permit to allow or refuse(only chrome) a web site itself or a regex of part of the URL(Except Firefox, need an extension for chrome, anyway i ll publish list of extension related that works or not.).
 The most reliable way to do and keep them all is restrict maximum global scope to whole web and exceptionnaly shut it down.
 
 Exemple using another theme made for Git Pages[https://acccounttest.github.io/DarkChromePastelFluoWebTheme-trick-for-aim-stylish-editor-maybe-or-any-other-editors]
@@ -39,7 +39,7 @@ Test here:https://enbulleiugnen.com/catering/minnesstund/
 
 The dark mode of Chrome navigator is really not needed cause very poor basic theme  and could force choice of dark theme of site itself and you would not in the future.
 
-I recommand to not use the Stylish website cause i had issues with it in chrome, normally it take long to accept, respond and make something.(chrome plugin works well)
+I recommand to not use the Stylus(ex Stylish) website cause i had issues with it in chrome, normally it take long to accept, respond and make something.(chrome plugin works well)
 https://userstyles.org/styles/194390/darkchromepastelfluowebtheme
 
 The website itself take a very long time to respond and often conduct a 503 error, even if a theme page finish to load(sometimes long url show nothing), it refuse to continue to install a script or do something else, the only way to be sure is wait the css content to load after ask to show it, then copy paste it in the extension page configuration in a new script you need give a name, or copy the css content from github.
@@ -50,7 +50,7 @@ MORE
 
 Explanations about youtube, now you can see thumbnails during the video play, as well in the end but you need keep the mouse on hover differently.
 
-Stylish can use SASS with a local server, just for load a page that is forced to reload multiple ways every 10s or anothers values, maybe nodejs is a better alternative ?
+Stylus(ex Stylish) can use SASS with a local server, just for load a page that is forced to reload multiple ways every 10s or anothers values, maybe nodejs is a better alternative ?
 https://github.com/stylish-userstyles/stylish-chrome/issues/176
 
 
@@ -117,11 +117,11 @@ PS: I added two chars added after links(>) and RSS(< but on yellow, XML links co
 
 HELP
 ----
-I forgot a little detail about Stylish, it is really not intuitive, it can lost your file saved then subitely erase all content and titles of scripts, i had this behavior when i had one script, it can do it several different times, you too, the popup could move(or since you want use the scrollbar.css it does a movment and all controls specially text are not fixed in size properly.
+I forgot a little detail about Stylus(ex Stylish), it is really not intuitive, it can lost your file saved then subitely erase all content and titles of scripts, i had this behavior when i had one script, it can do it several different times, you too, the popup could move(or since you want use the scrollbar.css it does a movment and all controls specially text are not fixed in size properly.
 
 Steps for first install of a script, necessary only one time for each script you want add, no need edit or, delete them eventually frequently, this script need to be copied into the editor, no need use their editor, even if colors seems good with the script, the caret is hidden, but maybe its more platform dependant.
 Step list is:
--Clic the puzzle icon on your plugin taskbar of your chrome, else goto extension and access options of stylish
+-Clic the puzzle icon on your plugin taskbar of your chrome, else goto extension and access options of Stylus(ex Stylish)
 -Show the icon(a puzzle of 4 pieces) then a simple left clic, now choose in the popup
 -Clic the three dots vertically (...) and select nvo style or new style, second entry is for manage them but nothing is interesting here too, if you dont know you could loose your modifications except for save them.
 -Clic top right text, it should add a new blank script
