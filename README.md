@@ -135,7 +135,7 @@ HELP
 ----
 For videos i have deleted possibility to use the right clic and show controls(more generics) since ability to see all video controls works, and are accessibles without any added but supressed code, just remains ftm the added layer that reduce dragstically the bright level of the videos, again, we need an extension that clic/remember the edited/deleted layers and tags.
 
-
+(((
 I forgot a little detail about Stylus(ex Stylish), it is really not intuitive, it can lost your file saved then subitely erase all content and titles of scripts, i had this behavior when i had one script, it can do it several different times, you too, the popup could move(or since you want use the scrollbar.css it does a movment and all controls specially text are not fixed in size properly.
 
 Steps for first install of a script, necessary only one time for each script you want add, no need edit or, delete them eventually frequently, this script need to be copied into the editor, no need use their editor, even if colors seems good with the script, the caret is hidden, but maybe its more platform dependant.
@@ -149,6 +149,7 @@ Step list is:
 -Clic save the script
 -Normally no need reload it should be on by default
 -Dont clic delete in the script list, its instant and no save is available.
+)))
 
 (((
 In the scripts manage page, not the editor page, whats the purpose of theses options, only edited and only active, it filter in live the script list but does nothing on option only edited, works well with or without only edited.
@@ -156,4 +157,5 @@ In the scripts manage page, not the editor page, whats the purpose of theses opt
 
 URLS
 ----
+Stylus
 https://github.com/openstyles/stylus/wiki/Stylish-alternatives
