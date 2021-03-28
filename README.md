@@ -1,4 +1,4 @@
-# ChromePastelFluoWebTheme
+# ChromePastelFluoWebTheme ((( and ))) means we passed from stylish to stylus or any other except if you are pro ?
 
 INFORMATION
 -----------
@@ -137,7 +137,7 @@ Step list is:
 -Normally no need reload it should be on by default
 -Dont clic delete in the script list, its instant and no save is available.
 
-
+(((
 In the scripts manage page, not the editor page, whats the purpose of theses options, only edited and only active, it filter in live the script list but does nothing on option only edited, works well with or without only edited.
-
+)))
 
