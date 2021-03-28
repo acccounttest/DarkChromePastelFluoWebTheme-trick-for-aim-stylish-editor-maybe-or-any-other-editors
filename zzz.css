@@ -191,16 +191,6 @@ background: -webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61
 background-color:inherit !important;
 background: inherit !important;
 }
-    
-span[style*="color:#FF5000"] *{
-color:#FF5000 !important;
-}
-span[style*="color:#004080"] *{
-color:#004080 !important;
-}
-span[style*="color:#00DD00"] *{
-color:#00DD00 !important;
-}
 
 img,source{
 /*background: none !important;*/
@@ -730,6 +720,7 @@ box-shadow:
 
   3em 5em #F22613;*/
   /*
+
   .pixel-block {
   position: absolute;
   top: 50%;
