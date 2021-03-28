@@ -141,3 +141,6 @@ Step list is:
 In the scripts manage page, not the editor page, whats the purpose of theses options, only edited and only active, it filter in live the script list but does nothing on option only edited, works well with or without only edited.
 )))
 
+URLS
+----
+https://github.com/openstyles/stylus/wiki/Stylish-alternatives
