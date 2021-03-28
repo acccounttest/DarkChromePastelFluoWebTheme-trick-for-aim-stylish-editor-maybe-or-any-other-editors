@@ -60,6 +60,14 @@ Stylus(ex Stylish) can use SASS with a local server, just for load a page that i
 https://github.com/stylish-userstyles/stylish-chrome/issues/176
 
 Performance hit is like 5 to 10 % more than usual, due to the most demand, the universal operator is needed else too much unbelievable exception occurs specially with links, certainly another more postprocessing or preprocessing for styling page but locally should gain performance, i tried convert the script but didnt started interpret it everywhere cause i doubt update page each time is a good solution.
+To convince yourself its not entirely due to this script, look the difference from theses points of views separatly:
+Test on youtube and playing video, then try lower your cpu usage for next.
+-Move mouse around a point to the bottom right at the intersection of black transluescent backgrounds
+-Compare when you only scroll page, scroll page while moving constantly mouse up and down.
+-Compare with script on/off
+
+The most demanded CPU should be when you move mouse as well outside as inside of chrome window with/wo script activated, even without scrolling.
+Test on youtube is most problematic since the usage of extensions and especially in my case, the magic option extension theme included in the full addon.
 
 
 BROWSERS
@@ -125,6 +133,9 @@ PS: I added two chars added after links(>) and RSS(< but on yellow, XML links co
 
 HELP
 ----
+For videos i have deleted possibility to use the right clic and show controls(more generics) since ability to see all video controls works, and are accessibles without any added but supressed code, just remains ftm the added layer that reduce dragstically the bright level of the videos, again, we need an extension that clic/remember the edited/deleted layers and tags.
+
+
 I forgot a little detail about Stylus(ex Stylish), it is really not intuitive, it can lost your file saved then subitely erase all content and titles of scripts, i had this behavior when i had one script, it can do it several different times, you too, the popup could move(or since you want use the scrollbar.css it does a movment and all controls specially text are not fixed in size properly.
 
 Steps for first install of a script, necessary only one time for each script you want add, no need edit or, delete them eventually frequently, this script need to be copied into the editor, no need use their editor, even if colors seems good with the script, the caret is hidden, but maybe its more platform dependant.
