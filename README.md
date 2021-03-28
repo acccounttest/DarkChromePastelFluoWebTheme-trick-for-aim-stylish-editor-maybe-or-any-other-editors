@@ -19,13 +19,20 @@ PROBLEMS
 --------
 There is a list of main problems encountered during the usage of this global theme replacer:
 -Videos, worst case, need a clic though all elements and set no transparancy colored(Earlier, we had to require a right clic before able to use any functionnalities visually except shortcuts but usually the UI show the abstract only by itself.)
+
 -Menus(Like any ui, should change contrast between interior element by moving in exteriors and/or parents.)
+
 -Buttons, the only button not showing up is in stylish website itself, when you want edit your style
+
 -Images(may be related more to icons if others images near take a zindex too high.
+
 -Frame(Not modified much but can be broken , need tests)
+
 -Code(Visible most of the time but at least CANNOT be partially or totaly not readable and/or visible, like black or grey on black), fully working in V2, the only site encountered proposed a dark theme for it.
--Links(Visited works always but XML links may be not)
--Graphics are much more supported but certain transparancy added are useless
+
+-Links(Visited works always but XML links may be not fully working)
+
+-Graphics are much more supported but certain transparancy added are useless, need recognize more and more tags groups instead and only.
 
 CONFIGURATION
 --------------
@@ -157,5 +164,5 @@ In the scripts manage page, not the editor page, whats the purpose of theses opt
 
 URLS
 ----
-Stylus
+Stylus page of alternatives programs, free or not and only same supported functionnalities
 https://github.com/openstyles/stylus/wiki/Stylish-alternatives
