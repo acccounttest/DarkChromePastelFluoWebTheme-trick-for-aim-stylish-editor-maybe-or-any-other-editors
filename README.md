@@ -59,6 +59,8 @@ Explanations about youtube, now you can see thumbnails during the video play, as
 Stylus(ex Stylish) can use SASS with a local server, just for load a page that is forced to reload multiple ways every 10s or anothers values, maybe nodejs is a better alternative ?
 https://github.com/stylish-userstyles/stylish-chrome/issues/176
 
+Performance hit is like 5 to 10 % more than usual, due to the most demand, the universal operator is needed else too much unbelievable exception occurs specially with links, certainly another more postprocessing or preprocessing for styling page but locally should gain performance, i tried convert the script but didnt started interpret it everywhere cause i doubt update page each time is a good solution.
+
 
 BROWSERS
 --------
@@ -84,7 +86,7 @@ https://github.com/stylish-userstyles/stylish/wiki/Applying-styles-to-specific-s
 /*[[AS]]*/@-moz-document regexp('^(?!https?://(www\\.)?(/*[[L1]]*//*[[L2]]*//*[[L3]]*//*[[CE]]*/).*).*$')
 
 
-Firefox config
+Firefox config(Untested domain filtering on chrome but seems promicious now)
 _______________
 no more @-moz-document
 but use @document
