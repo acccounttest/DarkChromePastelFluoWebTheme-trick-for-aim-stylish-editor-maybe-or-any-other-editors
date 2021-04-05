@@ -207,3 +207,9 @@ Exemple of not a broken rss link since we get ride of * operator for performance
 __________________________________________________________________________________________________________________________________________________________________
 https://www.sw.siemens.com/en-US/?component=231130&componenttemplate=822
 
+Last problem images and videos:
+_______________________________
+There are tons of new or old extension that works, depend the deep of your need fonction you can recognize or not the situation ,sometimes broken, sometimes not easily doable even for a long period of use, we need cocnentrate on simplicity, thats why i dont even give any extension, search something around the modification instant on page and deletion of elements.
+
+The last problem could concern, video autoloading and playing(that should not or that not choosen by default), cause front of all.
+The images are too much top of all others, maybe delete the z-index can help but what about the youtube or icons configuration, visible or not ?
