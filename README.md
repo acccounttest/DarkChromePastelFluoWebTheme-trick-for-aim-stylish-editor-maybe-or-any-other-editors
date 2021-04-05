@@ -166,3 +166,44 @@ URLS
 ----
 Stylus page of alternatives programs, free or not and only same supported functionnalities
 https://github.com/openstyles/stylus/wiki/Stylish-alternatives
+
+
+NEXT YOU DO, YOU CHANGE, YOU DELETE
+-----------------------------------
+Chrome UI
+----------
+Maybe i can add more compatiility because even with DOM loaded and loading , still too much cases of white page a long time.
+
+Most important minimal feature to be release in addition to this script, we got the domain filter for every browser, 
+now you need to find how to get ride of the new backgrounds, only made for chrome when you:
+
+-Start to load(partially fixed) or wait the response.
+-Switch a tab newly created never seen before( its a fast flash often only first time of the tab, maybe hibernated tab avoid this a little bit more than default new tab config of chrome.)
+-Create a new tab(doable in its bottom right and with main theme extension but color override it as well as os theme)
+-Reload a tab.
+-Delete a tab ?
+-Site loading itself background first but stuck or waiting itself.
+-Browser loading etc
+
+Only windows example:
+_____________________
+http://jollo.org/LNT/public/chrome-white-flash.html
+
+all threads types(and chromium)
+______________________________
+https://superuser.com/questions/717343/how-can-i-make-chromes-white-flash-when-a-new-tab-is-opened-be-black
+
+Extensions style: i want redraw
+______________________________
+https://chrome.google.com/webstore/detail/care-your-eyes/fidmpnedniahpnkeomejhnepmbdamlhl?hl=en
+
+research keywords
+_________________
+google chrome new tab switch delete white background
+chrome-protocol-ui
+chrome:// theme
+
+Exemple of not a broken rss link since we get ride of * operator for performance reason and lost even green basic link effect as font color sometimes very rarely.
+__________________________________________________________________________________________________________________________________________________________________
+https://www.sw.siemens.com/en-US/?component=231130&componenttemplate=822
+
