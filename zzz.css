@@ -609,6 +609,7 @@ object[type$="/xml"], object[type$="+xml"]{
   color:yellow !important;
   outline: yellow inset 1px;
   outline-offset: yellow outset 2px;
+  outline-style: dotted;
 }
 
 /*
