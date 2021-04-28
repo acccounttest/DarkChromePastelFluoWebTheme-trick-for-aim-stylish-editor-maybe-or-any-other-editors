@@ -37,22 +37,38 @@ There is a list of main problems encountered during the usage of this global the
 RESOLUTIONS
 ------------
 
-0.x EM like size of font used for commentaries while the number of answer increment in the inner as the commentaries grows
+0.x EM like size of font used for commentaries while the number of answer increment in the inner as the commentaries grows.
+1.
 BUTTONS Sometimes like in gdrive, something interesting
+
 PAGINATION Sometimes as link, they does not works, usually respected color are well, but rarely the visited or current are not.
+
 CANT CLICK Unique problem, opened a new window wo tabs or plugin, needed open it manually to a new or current.
+
 LINKS As * operator is not done everywhere, should not increase usage, mainly since first body rule, from third rule.
+
 RSS Usually more or not enough effects
+
 MENUS Unreadable cause no contrast switch available
+
 ICONS Can be hidden but always switched , or , dark then need a visual switch to be allowed to be dicerned.
+
 SOCIAL NETWORKS As more and more in white or in black or in gray, in white and gray never a problem.
+
 LABELS Handmade are more difficult to be detected, ususally combinaisons in forms is not a problem, see HTML switch fixed.
+
 H123 For same perf reasons, operators inused mainly.
+
 BACKGROUNDS cause too bright, not enough gray or unapplied background, see chrome hacks for delete the flash when you switch a tab(partially).
+
 IMGS Source of problems since idk if its youtube related but normally not, problem is useless and unapproprieted z-index value and/or zoom on it(easter eggs like videos).
+
 CHECKBOXES Misplaced tick or exceptionnaly unattended check/uncheck when click another wanted item, always works.
+
 VIDEOS The main problem unresolved in this version, maybe use more and more full transluancy by tests for best compatibility ? no green, no gray, only blue.
+
 GRAPHICS AND FORMULAS Just like code tags, reveal or invade colors.
+
 SUSPECTED
 UNCLASSIFIED
 PDF
