@@ -18,21 +18,49 @@ This last url is not representative of all possibilities and exceptions, usually
 PROBLEMS
 --------
 There is a list of main problems encountered during the usage of this global theme replacer:
--Videos, worst case, need a clic though all elements and set no transparancy colored(Earlier, we had to require a right clic before able to use any functionnalities visually except shortcuts but usually the UI show the abstract only by itself.)
++Videos, worst case, need a clic though all elements and set no transparancy colored(Earlier, we had to require a right clic before able to use any functionnalities visually except shortcuts but usually the UI show the abstract only by itself.)
 
--Menus(Like any ui, should change contrast between interior element by moving in exteriors and/or parents.)
++Menus(Like any ui, should change contrast between interior element by moving in exteriors and/or parents.)
 
--Buttons, the only button not showing up is in stylish website itself, when you want edit your style
++Buttons, the only button not showing up is in stylish website itself, when you want edit your style
 
--Images(may be related more to icons if others images near take a zindex too high.
++Images(may be related more to icons if others images near take a zindex too high.
 
--Frame(Not modified much but can be broken , need tests)
++Frame(Not modified much but can be broken , need tests)
 
--Code(Visible most of the time but at least CANNOT be partially or totaly not readable and/or visible, like black or grey on black), fully working in V2, the only site encountered proposed a dark theme for it.
++Code(Visible most of the time but at least CANNOT be partially or totaly not readable and/or visible, like black or grey on black), fully working in V2, the only site encountered proposed a dark theme for it.
 
--Links(Visited works always but XML links may be not fully working)
++Links(Visited works always but XML links may be not fully working)
 
--Graphics are much more supported but certain transparancy added are useless, need recognize more and more tags groups instead and only.
++Graphics are much more supported but certain transparancy added are useless, need recognize more and more tags groups instead and only.
+
+RESOLUTIONS
+------------
+
+0.x EM like size of font used for commentaries while the number of answer increment in the inner as the commentaries grows
+BUTTONS Sometimes like in gdrive, something interesting
+PAGINATION Sometimes as link, they does not works, usually respected color are well, but rarely the visited or current are not.
+CANT CLICK Unique problem, opened a new window wo tabs or plugin, needed open it manually to a new or current.
+LINKS As * operator is not done everywhere, should not increase usage, mainly since first body rule, from third rule.
+RSS Usually more or not enough effects
+MENUS Unreadable cause no contrast switch available
+ICONS
+SOCIAL NETWORKS
+LABELS
+H123
+BACKGROUNDS
+IMGS
+CHECKBOXES
+VIDEOS
+GRAPHICS AND FORMULAS
+SUSPECTED
+UNCLASSIFIED
+CHROME DEL PLUGIN
+PDF
+
+NEXT
+-----
+Try to figure a switch (not a HTML) to allow script to stop switch contrast ratio but more retain current or default global disposition of all fg/bg contrast.
 
 CONFIGURATION
 --------------
