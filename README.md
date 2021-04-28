@@ -44,19 +44,24 @@ CANT CLICK Unique problem, opened a new window wo tabs or plugin, needed open it
 LINKS As * operator is not done everywhere, should not increase usage, mainly since first body rule, from third rule.
 RSS Usually more or not enough effects
 MENUS Unreadable cause no contrast switch available
-ICONS
-SOCIAL NETWORKS
-LABELS
-H123
-BACKGROUNDS
-IMGS
-CHECKBOXES
-VIDEOS
-GRAPHICS AND FORMULAS
+ICONS Can be hidden but always switched , or , dark then need a visual switch to be allowed to be dicerned.
+SOCIAL NETWORKS As more and more in white or in black or in gray, in white and gray never a problem.
+LABELS Handmade are more difficult to be detected, ususally combinaisons in forms is not a problem, see HTML switch fixed.
+H123 For same perf reasons, operators inused mainly.
+BACKGROUNDS cause too bright, not enough gray or unapplied background, see chrome hacks for delete the flash when you switch a tab(partially).
+IMGS Source of problems since idk if its youtube related but normally not, problem is useless and unapproprieted z-index value and/or zoom on it(easter eggs like videos).
+CHECKBOXES Misplaced tick or exceptionnaly unattended check/uncheck when click another wanted item, always works.
+VIDEOS The main problem unresolved in this version, maybe use more and more full transluancy by tests for best compatibility ? no green, no gray, only blue.
+GRAPHICS AND FORMULAS Just like code tags, reveal or invade colors.
 SUSPECTED
 UNCLASSIFIED
-CHROME DEL PLUGIN
 PDF
+
+CHROME PLUGIN BUG
+------------------
+There is a active script counter on the icon on the addon toolbar of chrome, it happened only one time but the count could 
+be lower than the actual sitation reveals, i had 1 on 2 but both were activated and working even touching anything,i 
+clicked as normally and all was fine again.
 
 NEXT
 -----
