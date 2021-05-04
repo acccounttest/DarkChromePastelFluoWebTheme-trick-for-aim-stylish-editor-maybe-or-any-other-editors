@@ -1,4 +1,20 @@
+
 # ChromePastelFluoWebTheme ((( and ))) means we passed from stylish to stylus or any other except if you are pro ?
+______________________________________________________________________________________________________________________
+
+#1  #INFORMATION
+#2  #PROBLEMS
+#3  #RESOLUTIONS
+#4  #CHROME PLUGIN BUG
+#5  #CONFIGURATION
+#6  #MORE
+#7  #FIREFOX
+#8  #CHROME EXTENSIONS
+#9  #HELP
+#10 #INSTALL RECAPITULATIVE STEPS
+#11 #URLS
+#12 #NEXT YOU DO, YOU CHANGE, YOU DELETE#
+
 
 INFORMATION
 -----------
@@ -6,7 +22,7 @@ This a theme to dark web pages, chrome protocol UI and URL prefixes are not well
 
 (((
 The current stylish editor or the way the theme is interpreted does not permit to allow or refuse(only chrome) a web site itself or a regex of part of the URL(Except Firefox, need an extension for chrome, anyway i ll publish list of extension related that works or not.).
-The most reliable way to do and keep them all is restrict maximum global scope to whole web and exceptionnaly shut it down.
+The most reliable way to do and keep them all is restrict maximum global scope to whole web and exceptionally shut it down.
 )))
 
 --->It seems now Stylus is the extension name and should provide option for domain filtering on Chrome, need more tests.
@@ -18,7 +34,7 @@ This last url is not representative of all possibilities and exceptions, usually
 PROBLEMS
 --------
 There is a list of main problems encountered during the usage of this global theme replacer:
-+Videos, worst case, need a clic though all elements and set no transparancy colored(Earlier, we had to require a right clic before able to use any functionnalities visually except shortcuts but usually the UI show the abstract only by itself.)
++Videos, worst case, need a clic though all elements and set no transparency colored(Earlier, we had to require a right clic before able to use any functionalities visually except shortcuts but usually the UI show the abstract only by itself.)
 
 +Menus(Like any ui, should change contrast between interior element by moving in exteriors and/or parents.)
 
@@ -28,11 +44,11 @@ There is a list of main problems encountered during the usage of this global the
 
 +Frame(Not modified much but can be broken , need tests)
 
-+Code(Visible most of the time but at least CANNOT be partially or totaly not readable and/or visible, like black or grey on black), fully working in V2, the only site encountered proposed a dark theme for it.
++Code(Visible most of the time but at least CANNOT be partially or totally not readable and/or visible, like black or grey on black), fully working in V2, the only site encountered proposed a dark theme for it.
 
 +Links(Visited works always but XML links may be not fully working)
 
-+Graphics are much more supported but certain transparancy added are useless, need recognize more and more tags groups instead and only.
++Graphics are much more supported but certain transparency added are useless, need recognize more and more tags groups instead and only.
 
 RESOLUTIONS
 ------------
@@ -51,21 +67,21 @@ RSS Usually more or not enough effects
 
 MENUS Unreadable cause no contrast switch available
 
-ICONS Can be hidden but always switched , or , dark then need a visual switch to be allowed to be dicerned.
+ICONS Can be hidden but always switched , or , dark then need a visual switch to be allowed to be discerned.
 
 SOCIAL NETWORKS As more and more in white or in black or in gray, in white and gray never a problem.
 
-LABELS Handmade are more difficult to be detected, ususally combinaisons in forms is not a problem, see HTML switch fixed.
+LABELS Handmade are more difficult to be detected, usually combinaisons in forms is not a problem, see HTML switch fixed.
 
 H123 For same perf reasons, operators inused mainly.
 
 BACKGROUNDS cause too bright, not enough gray or unapplied background, see chrome hacks for delete the flash when you switch a tab(partially).
 
-IMGS Source of problems since idk if its youtube related but normally not, problem is useless and unapproprieted z-index value and/or zoom on it(easter eggs like videos).
+IMGS Source of problems since idk if its youtube related but normally not, problem is useless and unappropriated z-index value and/or zoom on it(easter eggs like videos).
 
-CHECKBOXES Misplaced tick or exceptionnaly unattended check/uncheck when click another wanted item, always works.
+CHECKBOXES Misplaced tick or exceptionally unattended check/uncheck when click another wanted item, always works.
 
-VIDEOS The main problem unresolved in this version, maybe use more and more full transluancy by tests for best compatibility ? no green, no gray, only blue.
+VIDEOS The main problem unresolved in this version, maybe use more and more full transluency by tests for best compatibility ? no green, no gray, only blue.
 
 GRAPHICS AND FORMULAS Just like code tags, reveal or invade colors.
 
@@ -104,7 +120,7 @@ The dark mode of Chrome navigator is really not needed cause very poor basic the
 I recommand to not use the Stylus(ex Stylish) website cause i had issues with it in chrome, normally it take long to accept, respond and make something.(chrome plugin works well)
 https://userstyles.org/styles/194390/darkchromepastelfluowebtheme
 
-The website itself take a very long time to respond and often conduct a 503 error, even if a theme page finish to load(sometimes long url show nothing), it refuse to continue to install a script or do something else, the only way to be sure is wait the css content to load after ask to show it, then copy paste it in the extension page configuration in a new script you need give a name, or copy the css content from github.
+The website itself take a very long time to respond and often conduct a 503 error, even if a theme page finish to load(sometimes long url show nothing), it refuse to continue to install a script or do something else, the only way to be sure is wait the CSS content to load after ask to show it, then copy paste it in the extension page configuration in a new script you need give a name, or copy the CSS content from github.
 
 
 MORE
@@ -112,7 +128,7 @@ MORE
 
 Explanations about youtube, now you can see thumbnails during the video play, as well in the end but you need keep the mouse on hover differently.
 
-Stylus(ex Stylish) can use SASS with a local server, just for load a page that is forced to reload multiple ways every 10s or anothers values, maybe nodejs is a better alternative ?
+Stylus(ex Stylish) can use SASS with a local server, just for load a page that is forced to reload multiple ways every 10s or another values, maybe nodejs is a better alternative ?
 https://github.com/stylish-userstyles/stylish-chrome/issues/176
 
 Performance hit is like 5 to 10 % more than usual, due to the most demand, the universal operator is needed else too much unbelievable exception occurs specially with links, certainly another more postprocessing or preprocessing for styling page but locally should gain performance, i tried convert the script but didnt started interpret it everywhere cause i doubt update page each time is a good solution.
@@ -150,7 +166,7 @@ https://github.com/stylish-userstyles/stylish/wiki/Applying-styles-to-specific-s
 /*[[AS]]*/@-moz-document regexp('^(?!https?://(www\\.)?(/*[[L1]]*//*[[L2]]*//*[[L3]]*//*[[CE]]*/).*).*$')
 
 
-Firefox config(Untested domain filtering on chrome but seems promicious now)
+Firefox config(Untested domain filtering on chrome but seems promiscuous now)
 _______________
 no more @-moz-document
 but use @document
@@ -164,12 +180,12 @@ CHROME EXTENSIONS(This CSS script need zero extension)
 Best compatible extensions
 --------------------------
 Download magic actions, it enhance video experience in black borders or supress them while keeping a 
-quality max , much more youtube unique functionnalities, it permit a black theme that solve sometimes 
+quality max , much more youtube unique functionalities, it permit a black theme that solve sometimes 
 something, like commentary text and tags, dont take the magic extension theme alone as extension, it 
 does nothing, you must access your options by the gear but from the new magic action icon included 
 in the player bar.
 The all in one extension can get hardly configured if you use too much anti popup and anti adverts, you get
-many img error similar to personnal msg but maybe nothing is 
+many img error similar to personal msg but maybe nothing is 
 accessible though this space incrusted vertically, anyway even after solve configuration access next times.
 The same messages that were more numerous during the problem case in the pre-configuration 
 page can even remain but less numerously, try just figure out one time more, the advantage is really 
@@ -182,34 +198,48 @@ or mouse overing the UI later with or without focus, untested deeper.
 Others domains and extensions:
 ------------------------------
 Two compatibles extension to find:
--Clich though every elements and set them all to no transparancy, then videos outside youtube will be readable.
--See, remain, move, blacklist switch any DOM partial or total area differenciated of all others included thoses included in same total area, a plugin cant do that, all i tried draw you a rectangle but not all child rectangle so you often eleminate the video itself of all layers.
+-Click though every elements and set them all to no transparency, then videos outside youtube will be readable.
+-See, remain, move, blacklist switch any DOM partial or total area differentiated of all others included those included in same total area, a plugin cant do that, all i tried draw you a rectangle but not all child rectangle so you often eliminate the video itself of all layers.
 
-PS: I added two chars added after links(>) and RSS(< but on yellow, XML links could interfer with this, visited and much more), exemple social network icons are more and more black theses days, this help to not avoid them. 
+PS: I added two chars added after links(>) and RSS(< but on yellow, XML links could interfere with this, visited and much more), exemple social network icons are more and more black theses days, this help to not avoid them. 
 
 HELP
 ----
-For videos i have deleted possibility to use the right clic and show controls(more generics) since ability to see all video controls works, and are accessibles without any added but supressed code, just remains ftm the added layer that reduce dragstically the bright level of the videos, again, we need an extension that clic/remember the edited/deleted layers and tags.
+For videos i have deleted possibility to use the right clic and show controls(more generics) since ability to see all video controls works, and are accessibles without any added but supressed code, just remains FTM the added layer that reduce drastically the bright level of the videos, again, we need an extension that clic/remember the edited/deleted layers and tags.
 
-(((
-I forgot a little detail about Stylus(ex Stylish), it is really not intuitive, it can lost your file saved then subitely erase all content and titles of scripts, i had this behavior when i had one script, it can do it several different times, you too, the popup could move(or since you want use the scrollbar.css it does a movment and all controls specially text are not fixed in size properly.
+(
+I forgot a little detail about Stylus(ex Stylish), it is really not intuitive, it can lost your file saved then subitly erase all content and titles of scripts, i had this behaviour when i had one script, it can do it several different times, you too, the popup could move(or since you want use the scrollbar.css it does a movement and all controls specially text are not fixed in size properly.
 
 Steps for first install of a script, necessary only one time for each script you want add, no need edit or, delete them eventually frequently, this script need to be copied into the editor, no need use their editor, even if colors seems good with the script, the caret is hidden, but maybe its more platform dependant.
 Step list is:
--Clic the puzzle icon on your plugin taskbar of your chrome, else goto extension and access options of Stylus(ex Stylish)
+-Clic the puzzle icon on your plugin taskbar of your chrome, else goto extension and access options of Stylus(ex Stylish) or similar extension...
 -Show the icon(a puzzle of 4 pieces) then a simple left clic, now choose in the popup
--Clic the three dots vertically (...) and select nvo style or new style, second entry is for manage them but nothing is interesting here too, if you dont know you could loose your modifications except for save them.
+-Clic the three dots vertically (...) and select new/nvo/nouveau style or new style, second entry is for manage them but nothing is interesting here too, if you dont know you could loose your modifications except for save them.
 -Clic top right text, it should add a new blank script
 -Paste content into the sort of textarea in right pane.
 -In left pane ,give a name is enough to finish
 -Clic save the script
 -Normally no need reload it should be on by default
 -Dont clic delete in the script list, its instant and no save is available.
-)))
+)
 
-(((
+(
 In the scripts manage page, not the editor page, whats the purpose of theses options, only edited and only active, it filter in live the script list but does nothing on option only edited, works well with or without only edited.
-)))
+)
+
+INSTALL RECAPITULATIVE STEPS
+----------------------------
+-Get the browser extension, this main aim is provide themes secured in simple css with code editor in chrome(useless)
+-The extension can filters url matching their needs but no blacklist at all, only maybe the idea with extensions for only a browser and code for filters URLS directly and not from the extension editor itself and not for others browsers, original behaviour tend to fail and bug itself easily, at least in "antiperfmode", without any operator demanding and/or combined with big resources demanding pages, only one solution, change file or try the version static better, you could try delete some rules after the two first including general tags.
+-The file, or the paste you get, fill it in the browser extension editor, and name it, then save it, load a page that is not included in google services for test it well, avoid first printing in GAFAM, especially those with videos, the only problem.
+-Delete the video problem does not solve the performance or the visuals common problems.
+-Add/Edit transluency maybe means more performance or less, without taking in account the fact the tags can switch or loose background by inheritance and/or better than default keywords for reporting the default behaviour on something related, like the real or false labels wanted behaviour possibility.
+-The script no need user choices, but i preferred separate them to let a chance to approach something 99.5% usable and visible against something 99 % usable and 50% less visible(combined effects), same tags:
++links(total ignorance of visited or/and links clickable = at least 0.001%) in this conception, the only exception for this one is with images or XML links, exemple SVG, not even socials networks.
++titles(when really assembled from 0 knowledge or very poor content)
+
+
+
 
 URLS
 ----
