@@ -34,7 +34,7 @@ ________________________________________________________________________________
 
 
 
-INFORMATION
+# INFORMATION
 
 _________________
 
@@ -64,7 +64,7 @@ This last url is not representative of all possibilities and exceptions, usually
 
 
 
-PROBLEMS
+# PROBLEMS
 
 _________________
 
@@ -102,7 +102,7 @@ There is a list of main problems encountered during the usage of this global the
 
 
 
-RESOLUTIONS
+# RESOLUTIONS
 
 _________________
 
@@ -200,7 +200,7 @@ Try to figure a switch (not a HTML) to allow script to stop switch contrast rati
 
 
 
-CONFIGURATION
+# CONFIGURATION
 
 _________________
 
@@ -248,7 +248,7 @@ The website itself take a very long time to respond and often conduct a 503 erro
 
 
 
-MORE
+# MORE
 
 _________________
 
@@ -286,7 +286,7 @@ Test on youtube is most problematic since the usage of extensions and especially
 
 
 
-BROWSERS
+# BROWSERS
 
 _________________
 
@@ -456,7 +456,7 @@ In the scripts manage page, not the editor page, whats the purpose of theses opt
 
 
 
-INSTALL RECAPITULATIVE STEPS
+# INSTALL RECAPITULATIVE STEPS
 
 __________________________________
 
@@ -484,7 +484,7 @@ __________________________________
 
 
 
-URLS
+# URLS
 
 _________________
 
@@ -496,7 +496,7 @@ https://github.com/openstyles/stylus/wiki/Stylish-alternatives
 
 
 
-NEXT YOU DO, YOU CHANGE, YOU DELETE
+# NEXT YOU DO, YOU CHANGE, YOU DELETE
 
 _________________
 
@@ -586,7 +586,7 @@ The last problem could concern, video autoloading and playing(that should not or
 
 The images are too much top of all others, maybe delete the z-index can help but what about the youtube or icons configuration, visible or not ?
 
-Google pages,local test, and others DOM loading a white page(again).
+# Google pages,local test, and others DOM loading a white page(again).
 _____________________________________________________________________
 Sometimes the page load take more time to continue, its like its doing nothing and is difficult to know where it come from, what i tried.
 
@@ -608,7 +608,7 @@ Next click details button of Stylus
 Scroll down new config page just opened and check on autorize access to file URL, ex: file://
 
 EDIT:Apparently this does not works better, its like DOM load operation is blocked until something from network or client happend.
-Videos, the solution.
+# Videos, the solution.
 __________________________________
 Another script only for videos but with very minor changes and obviously with brighter backgrounds but it is not disturbing(i have very bright screen).
 Normal script name is zzz, but this one is videos.zzz
