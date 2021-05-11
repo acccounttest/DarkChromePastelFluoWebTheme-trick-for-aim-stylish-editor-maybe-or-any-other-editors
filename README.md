@@ -586,3 +586,33 @@ The last problem could concern, video autoloading and playing(that should not or
 
 The images are too much top of all others, maybe delete the z-index can help but what about the youtube or icons configuration, visible or not ?
 
+Google pages,local test, and others DOM loading a white page(again).
+--------------------------------------------------------------------
+Sometimes the page load take more time to continue, its like its doing nothing and is difficult to know where it come from, what i tried.
+
+During a long moment, Google URLs were a problem, they simply escaped completly to any effects, or with very low contrast differences, here you could retrieve this behaviour, hopefully this is no more a problem since the v2.
+https://developers.google.com/web/updates/2018/07/nostate-prefetch
+
+Example of very rare URL(more often from google than anything) where script both works and not, menus seems do something but all the rest mostly not, links and background are inexistant.
+https://chromestatus.com/features/5794378545102848
+
+Even after fixing all the new ways , chrome or the websites, i have always same issues even with op flags configuration.
+
+Solution:
+Use Instant inject mode, the stylus option, maybe the script was not able to be loaded since the DOM load was controled by something else, this option solve more cases, feel free to change the select color, dark blue was not a good choice.
+Goto add-on options, not chrome add-on options or manage scripts, just options, then select Instant Inject Mode, its asynchronous load of this file, so occurs early and no more white page.
+
+If you want test local scripts, you need goto absolutly by this way:
+Chrome URL: chrome://extensions
+Next click details button of Stylus
+Scroll down new config page just opened and check on autorize access to file URL, ex: file://
+
+Videos, the solution.
+---------------------
+Another script only for videos but with very minor changes and obviously with brighter backgrounds but it is not disturbing(i have very bright screen).
+Normal script name is zzz, but this one is videos.zzz
+
+
+
+
+Only 2 changes, suppression of direct div and video tags.
