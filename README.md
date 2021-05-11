@@ -36,7 +36,7 @@ ________________________________________________________________________________
 
 INFORMATION
 
------------
+_________________
 
 This a theme to dark web pages, chrome protocol UI and URL prefixes are not well done entirely(ex:chrome://), only the Stylus(ex Stylish) code editor inside the extension page configuration part, inside theme manager and editor is compatible, you should use another theme to have complete UI in the same theme. 
 
@@ -66,7 +66,7 @@ This last url is not representative of all possibilities and exceptions, usually
 
 PROBLEMS
 
---------
+_________________
 
 There is a list of main problems encountered during the usage of this global theme replacer:
 
@@ -104,7 +104,7 @@ There is a list of main problems encountered during the usage of this global the
 
 RESOLUTIONS
 
-------------
+_________________
 
 
 
@@ -202,7 +202,7 @@ Try to figure a switch (not a HTML) to allow script to stop switch contrast rati
 
 CONFIGURATION
 
---------------
+_________________
 
 There is a new setting in chrome, this configure your navigator to choose automatically by default, the dark theme over the light one.
 
@@ -250,7 +250,7 @@ The website itself take a very long time to respond and often conduct a 503 erro
 
 MORE
 
-----
+_________________
 
 
 
@@ -288,7 +288,7 @@ Test on youtube is most problematic since the usage of extensions and especially
 
 BROWSERS
 
---------
+_________________
 
 
 
@@ -336,7 +336,7 @@ https://github.com/stylish-userstyles/stylish/wiki/Applying-styles-to-specific-s
 
 Firefox config(Untested domain filtering on chrome but seems promiscuous now)
 
-_______________
+-------------------------------------------------------------------------------
 
 no more @-moz-document
 
@@ -458,7 +458,7 @@ In the scripts manage page, not the editor page, whats the purpose of theses opt
 
 INSTALL RECAPITULATIVE STEPS
 
-----------------------------
+__________________________________
 
 -Get the browser extension, this main aim is provide themes secured in simple css with code editor in chrome(useless)
 
@@ -486,7 +486,7 @@ INSTALL RECAPITULATIVE STEPS
 
 URLS
 
-----
+_________________
 
 Stylus page of alternatives programs, free or not and only same supported functionnalities
 
@@ -498,7 +498,7 @@ https://github.com/openstyles/stylus/wiki/Stylish-alternatives
 
 NEXT YOU DO, YOU CHANGE, YOU DELETE
 
------------------------------------
+_________________
 
 Chrome UI
 
@@ -532,7 +532,7 @@ now you need to find how to get ride of the new backgrounds, only made for chrom
 
 Only windows example:
 
-_____________________
+--------------------------
 
 http://jollo.org/LNT/public/chrome-white-flash.html
 
@@ -540,7 +540,7 @@ http://jollo.org/LNT/public/chrome-white-flash.html
 
 all threads types(and chromium)
 
-______________________________
+----------------------------------
 
 https://superuser.com/questions/717343/how-can-i-make-chromes-white-flash-when-a-new-tab-is-opened-be-black
 
@@ -548,7 +548,7 @@ https://superuser.com/questions/717343/how-can-i-make-chromes-white-flash-when-a
 
 Extensions style: i want redraw
 
-______________________________
+-----------------------------------
 
 https://chrome.google.com/webstore/detail/care-your-eyes/fidmpnedniahpnkeomejhnepmbdamlhl?hl=en
 
@@ -556,7 +556,7 @@ https://chrome.google.com/webstore/detail/care-your-eyes/fidmpnedniahpnkeomejhne
 
 research keywords
 
-_________________
+-----------------------
 
 google chrome new tab switch delete white background
 
@@ -568,7 +568,7 @@ chrome:// theme
 
 Exemple of not a broken rss link since we get ride of * operator for performance reason and lost even green basic link effect as font color sometimes very rarely.
 
-__________________________________________________________________________________________________________________________________________________________________
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 https://www.sw.siemens.com/en-US/?component=231130&componenttemplate=822
 
@@ -576,7 +576,7 @@ https://www.sw.siemens.com/en-US/?component=231130&componenttemplate=822
 
 Last problem images and videos:
 
-_______________________________
+------------------------------
 
 There are tons of new or old extension that works, depend the deep of your need fonction you can recognize or not the situation ,sometimes broken, sometimes not easily doable even for a long period of use, we need cocnentrate on simplicity, thats why i dont even give any extension, search something around the modification instant on page and deletion of elements.
 
@@ -587,7 +587,7 @@ The last problem could concern, video autoloading and playing(that should not or
 The images are too much top of all others, maybe delete the z-index can help but what about the youtube or icons configuration, visible or not ?
 
 Google pages,local test, and others DOM loading a white page(again).
---------------------------------------------------------------------
+_____________________________________________________________________
 Sometimes the page load take more time to continue, its like its doing nothing and is difficult to know where it come from, what i tried.
 
 During a long moment, Google URLs were a problem, they simply escaped completly to any effects, or with very low contrast differences, here you could retrieve this behaviour, hopefully this is no more a problem since the v2.
@@ -607,8 +607,9 @@ Chrome URL: chrome://extensions
 Next click details button of Stylus
 Scroll down new config page just opened and check on autorize access to file URL, ex: file://
 
+EDIT:Apparently this does not works better, its like DOM load operation is blocked until something from network or client happend.
 Videos, the solution.
----------------------
+__________________________________
 Another script only for videos but with very minor changes and obviously with brighter backgrounds but it is not disturbing(i have very bright screen).
 Normal script name is zzz, but this one is videos.zzz
 
