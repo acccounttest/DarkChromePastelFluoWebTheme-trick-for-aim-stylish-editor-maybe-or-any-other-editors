@@ -30,6 +30,8 @@ ________________________________________________________________________________
 
 #12 #NEXT YOU DO, YOU CHANGE, YOU DELETE#
 
+#13 More GUI
+
 
 
 
@@ -617,3 +619,101 @@ Normal script name is zzz, but this one is videos.zzz
 
 
 Only 2 changes, suppression of direct div and video tags.
+
+
+#New exception for videos.zzz, domain and URL matching system is by default set on URL in the domain, meaning any part of the url after protocol in the scheme.
+_____________________________________________________________________________________________________________________________________________________________
+
+This URL doesn't work, you need to blacklist it and use domain(not url or url start by or others), support.google.com , never use www.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Or you can just use their black theme, it is nice with conjonction.
+Sometimes with the zzz file, not videos, the page cannot be read, it's like an entire filter that fills the page of a dark blue color, sometimes at 10% sometimes 99%, so use videos file, it's at 0%.
+https://support.google.com/
+https://support.google.com/chrome/community/?hl=en&gpf=%23!profile%2Fchrome%2FAPn2wQeRSr_oMdxE_7mEXr4Nzx9IseeKsFM5I_I7c4tulEZedYkyCu6YF1Sht_n4LJXSQ24OpTqX
+
+new-tab-redirect that fails to load, and 404 is white(like timeout, DNS, and others HTML return codes, certainly more.)
+
+-----------------------------------------------------------------------------------------------------------------------
+
+https://chrome.google.com/webstore/detail/new-tab-redirect/ddjdamcnphfdljlojajeoiogkanilahc?hl=hu&ref=recruiterstackbyinstalent
+
+As you can see, easter egg bottom east, the chromium wheel appears in the background. Page works, not content.
+
+-------------------------------------------------------------------------------------
+
+https://bugs.chromium.org/
+
+
+
+#Last tip is about specials pages and specials interfaces(yes one more time):
+____________________________________________________________________________
+
+There are different ways to obtain the interfaces accessed by URL scheme following: chrome://...(/).., chrome-extension:// , view-source: etc
+This include a part of a trick you can entirely do in Firefox but chrome does not allow only to recompile your version(or dl another), or CSS anymore, you can allow extensions.
+
+(
+Here are examples how to build, compile , probably obsolet or need another brower.
+https://superuser.com/questions/181214/change-the-white-background-in-webpages-to-another-color?lq=1&newreg=9baa765f988b404985051755f47d56bc
+)
+
+Try follow this tutorial or any other to build your own extensions, in this case reuse stylus, i am asking the dev to know more about this sort of feature, because by default the addon permit get only a message about the refused demand on the current URL , and its say its not permit until navigator allow it in the flags, and it is, no changes.
+
+Different point of view regarding the main browser types, chrome offers only a partial clue(maybe chromium is often more experimental and offers more but died in the same way chrome did, with the CSS trick no more actual, except Firefox).
+
+
+Firefox
+
+---------
+
+Look for the chrome folder. In that folder, find userContent-example.css and rename it to userContent.css
+chrome/userContent.css
+
+The rule for this specific page, about:blank, is:
+@-moz-document url-prefix(about:blank) {*{background-color:#000000;}}
+
+The problem is different in chrome, there are security reasons to not bring when you require plugin get authorizations to the interfaces, but maybe if it's you and the well know extension, you can only allow(or even block usual URLS if you care something) the needed pages and further, interfaces.
+
+Chromium
+
+----------
+
+waitForEvent('backgroundpage') // this is only available via chromium
+
+Chrome
+
+-------
+
+Here is the trick,:
+https://superuser.com/questions/181214/change-the-white-background-in-webpages-to-another-color?lq=1&newreg=9baa765f988b404985051755f47d56bc
+
+The following trick is not yet approved, and I am not responsible for any damages or risk encountered during the activation of the experimental flag, a bit deprecated when used as a switch in the command line from a console, normally you must be experimented to try this and ask deeper if its really necessary.
+
+Try the following link for using a flag about extensions, should allow you to allow an extension to do that, you should look at how an extension can or not.
+chrome://flags/#extensions-on-chrome-urls
+
+(In stylus options, as I said previously, good to know to inject script earlier with only the first option of the last category, no js, no frame, no CSS security hole, only performance and compatibility).
+
+Normally , maybe,  every pages(not between behaviours like OS patches), 404 and page based on chrome protocol, should be rendered using the CSS file you use, maybe it's easier in Firefox with config and one CSS rule for all, in addition and in conclusion, CSS can be a one line.
+
+But this is not currently working, the access to pages is not accessed by the extension, another extension needed?
+
+See to allow an extension, normally a new one, or completely another, in this example we should require stylus source code or extension.
+Template included to override definition data in an extension application format JSON.
+https://www.reddit.com/r/chrome/comments/8ueqtr/making_chrome_extensions_work_on_every_page/e1glry1/
+
+Another one line script.
+
+-------------------------
+
+Another way of compatibility if no huge script works with a minimum readable level.
+html {-webkit-filter: invert(90%);color:darkblue;background-color: lightblue;}
+
+Disadvantage, it's not made for images or videos( you will need js or extension, but it ll be harder than my entire script to retrieve the exact inner sets of same exceptions)
+Advantage is , it's highly probable the font colors configured, cannot be extremely exceptionally not readable at lowest rate, and more certainly readable by changing it simply one time.
+
+One more URL for fun, about JS for CSS users, for your site ?
+https://css-tricks.com/create-url-scheme/
+
+
