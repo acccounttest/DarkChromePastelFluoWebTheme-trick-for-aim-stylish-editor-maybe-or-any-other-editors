@@ -615,13 +615,10 @@ __________________________________
 Another script only for videos but with very minor changes and obviously with brighter backgrounds but it is not disturbing(i have very bright screen).
 Normal script name is zzz, but this one is videos.zzz
 
-
-
-
 Only 2 changes, suppression of direct div and video tags.
 
 
-#New exception for videos.zzz, domain and URL matching system is by default set on URL in the domain, meaning any part of the url after protocol in the scheme.
+# New exception for videos.zzz, domain and URL matching system is by default set on URL in the domain, meaning any part of the url after protocol in the scheme.
 _____________________________________________________________________________________________________________________________________________________________
 
 This URL doesn't work, you need to blacklist it and use domain(not url or url start by or others), support.google.com , never use www.
@@ -646,8 +643,10 @@ As you can see, easter egg bottom east, the chromium wheel appears in the backgr
 https://bugs.chromium.org/
 
 
+# 13 More GUI
+______________
 
-#Last tip is about specials pages and specials interfaces(yes one more time):
+# Last tip is about specials pages and specials interfaces(yes one more time):
 ____________________________________________________________________________
 
 There are different ways to obtain the interfaces accessed by URL scheme following: chrome://...(/).., chrome-extension:// , view-source: etc
