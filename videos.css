@@ -169,7 +169,7 @@ background-color: initial !important;
 /*background: initial !important;*/
 }
    
-* body:not(:hover):not(link):not(img):not(svg):not(button){
+* body:not(:hover):not(link):not(img):not(svg):not(button),*:hover ~ code{
            color: #C4862E !important;
 /*background-color:  rgba(255, 255, 255, 0.35) !important;*/
 background: -webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61,0.08) 0%,rgba(57,61,61,0.18) 8%,rgba(57,61,61,0.35) 70%,rgba(57,61,61,0.30) 72%,rgba(57,61,61,0.25) 76%,rgba(57,61,61,0.20) 80%,rgba(57,61,61,0.15) 85%,rgba(57,61,61,0.1) 90%,rgba(57,61,61,0.05) 95%,rgba(57,61,61,0) 100%) !important;
@@ -605,7 +605,7 @@ a[href$=".rss"] > span::before, a[href$=".rss"] > span *::before, a[href$=".rss"
 */
 [class*="-rss"],
 enclosure,
-:not(p) a[href$=".rss"],:not(p) > a[href$=".rss"] *,a[href$=".rss"] > span, a[href$=".rss"] > span *, a[href$=".rss"] span,p * a[href$=".rss"],p > a[href$=".rss"],div > a[href$=".rss"]
+:not(p) a[href$=".rss"],:not(p) > a[href$=".rss"] *,a[href$=".rss"] > span, a[href$=".rss"] > span *, a[href$=".rss"] span,p * a[href$=".rss"],p > a[href$=".rss"],div > a[href$=".rss"],
 :not(p) a[href*="/feed"],:not(p) > a[href*="/feed"] *,a[href*="/feed"] > span, a[href*="/feed"] > span *, a[href*="/feed"] span,p * a[href*="/feed"],p > a[href*="/feed"],div > a[href*="/feed"],
 :not(p) a[href$=".xml"],:not(p) > a[href$=".xml"] *,a[href$=".xml"] > span, a[href$=".xml"] > span *, a[href$=".xml"] span,p * a[href$=".xml"],p > a[href$=".xml"],div > a[href$=".xml"],
 object[type$="/xml"], object[type$="+xml"]{
@@ -625,7 +625,7 @@ object[type$="/xml"]:after, object[type$="+xml"]:after
 */
 [class*="-rss"]:after,
 enclosure:after,
-:not(p) a[href$=".rss"]:after,:not(p) > a[href$=".rss"] *:after,a[href$=".rss"] > span:after, a[href$=".rss"] > span *:after, a[href$=".rss"] span:after,p * a[href$=".rss"]:after,p > a[href$=".rss"]:after,div > a[href$=".rss"]
+:not(p) a[href$=".rss"]:after,:not(p) > a[href$=".rss"] *:after,a[href$=".rss"] > span:after, a[href$=".rss"] > span *:after, a[href$=".rss"] span:after,p * a[href$=".rss"]:after,p > a[href$=".rss"]:after,div > a[href$=".rss"],
 :not(p) a[href*="/feed"]:after,:not(p) > a[href*="/feed"] *:after,a[href*="/feed"] > span:after, a[href*="/feed"] > span *:after, a[href*="/feed"] span:after,p * a[href*="/feed"]:after,p > a[href*="/feed"]:after,div > a[href*="/feed"]:after,
 :not(p) a[href$=".xml"]:after,:not(p) > a[href$=".xml"] *:after,a[href$=".xml"] > span:after, a[href$=".xml"] > span *:after, a[href$=".xml"] span:after,p * a[href$=".xml"]:after,p > a[href$=".xml"]:after,div > a[href$=".xml"]:after,
 object[type$="/xml"]:after, object[type$="+xml"]:after
@@ -634,7 +634,6 @@ content:'<' !important;
 color:yellow !important;
 z-index:9999999 !important;
 }
-
 
 /*
 object[type^="text/"]
@@ -664,7 +663,6 @@ content:'>' !important;
 color:#cc66cc !important;
 }
 
-
 /*Here are the internal link*/
 /*
 a[href^="mailto:"],
@@ -672,16 +670,16 @@ a[href^="javascript:"]
 
 */
 
-
-
-
-
 code{
 background-color:-webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61,0.08) 0%,rgba(57,61,61,0.18) 8%,rgba(57,61,61,0.35) 70%,rgba(57,61,61,0.30) 72%,rgba(57,61,61,0.25) 76%,rgba(57,61,61,0.20) 80%,rgba(57,61,61,0.15) 85%,rgba(57,61,61,0.1) 90%,rgba(57,61,61,0.05) 95%,rgba(57,61,61,0) 100%)!important;
 color:inherit !important;
 /*text-decoration:strike !important;*/
 }
 
+code:hover{
+background:rgba(52,32,37) !important;
+}
+	
 button::before,paper-toggle-button::before{
 color:inherit !important;}/*or unset*/
 button,paper-toggle-button{
@@ -750,7 +748,6 @@ background:transparent !important;
 select:not(:hover) option:not(:disabled)
 {
 color:green !important;
-
 }
  
     /*
