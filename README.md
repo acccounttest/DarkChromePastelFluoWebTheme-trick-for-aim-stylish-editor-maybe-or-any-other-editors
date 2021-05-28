@@ -715,4 +715,16 @@ Advantage is , it's highly probable the font colors configured, cannot be extrem
 One more URL for fun, about JS for CSS users, for your site ?
 https://css-tricks.com/create-url-scheme/
 
+There is a new exception type, the domain blacklist filter.
+
+-----------------------------------------------------------
+
+There is a new exception type, the domain blacklist filter.
+Usually when you exclude a domain, it could be only by regex to the right part by a universal operator or the exact same URL first scheme part.
+But in a particular domain I wanted to blacklist domain and use the second script for videos, it appears blacklist domain does not work well, because the div of the video seems related to another domain of the tab, this makes a redundant black transparent layer over the video area.
+The only solution is disable temporally and totally the main script.
+
+https://www.tf1.fr/tmc/quotidien-avec-yann-barthes/videos/19h30-medias-olivier-duhamel-accuse-dinceste-le-livre-choc-de-camille-kouchner-75638893.html
+
+Maybe you could not play the video, I don't know even how I did, this is normally exclusively accessible only to the country of France, maybe this channel TMC is not regionally restricted.
 
