@@ -747,4 +747,4 @@ google.com/maps DOES NOT WORKS
 
 
 PS:Sorry for the on hover your youtube or google photo profile does not show, probably about img tag but don't touch anything. :)
-
+PS2:Blacklist though single click domain google.com affect as well gmaps so don't do it.
