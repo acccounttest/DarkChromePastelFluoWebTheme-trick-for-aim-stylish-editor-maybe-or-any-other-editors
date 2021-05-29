@@ -104,6 +104,10 @@ There is a list of main problems encountered during the usage of this global the
 
 
 
++Banners, most often not conflictual, often transparent you there or not there, so you can read easily longer entire page, very rarely the top of the page hide a part of a H tag title, since this is very often the same title of the page, previous link or tab, it's not a real problem, much more a tips to show more backgrounds or let read more text in a single page without fullscreen or much brower height.
+
+
+
 # RESOLUTIONS
 
 _________________
