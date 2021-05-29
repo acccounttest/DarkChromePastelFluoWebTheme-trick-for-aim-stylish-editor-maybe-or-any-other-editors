@@ -731,7 +731,8 @@ Maybe you could not play the video, I don't know even how I did, this is normall
 Same think is broken, sometimes the blacklist usage on a script is partially only, to demonstrate you, watch a youtube page, top right there is a iconic form that reune 9 squares into one, upon click it you open the google services choice page(on gmail or youtube services), so when you choose to blacklist site, you can observe the entire page even this popup apply perfectly to the current corresponding setting, but, on google maps this menu act differently, so whenever you decide blacklist domain(and you do well), all is deactivated but not this popup, exemple links stay in green, this is not surprising, the domain is probably slightly different, maybe require tests.
 NB:For google maps i tried anything, sometimes it works well sometimes you can't move mouse for move the map, so best on this is use the third script composed of one line(or maybe you can find the real domain either the extension for delete the black transparent layer, i tried unsuccessfully not all), this is particular too in the way you need absolutely use this regex(last option):
 
-(.*google.com/maps/.*) WORKS
+Sorry i cant write the dots followed by a star, so START=*
+(.STARgoogle.com/maps/.STAR) WORKS
 
 google.com/maps/.* DOES NOT WORKS
 
