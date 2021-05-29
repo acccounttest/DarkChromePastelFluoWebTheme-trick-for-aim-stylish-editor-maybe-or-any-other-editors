@@ -752,3 +752,17 @@ google.com/maps DOES NOT WORKS
 
 PS:Sorry for the on hover your youtube or google photo profile does not show, probably about img tag but don't touch anything. :)
 PS2:Blacklist though single click domain google.com affect as well gmaps so don't do it.
+
+Example of difficult site and even stronger needs:
+
+---------------------------------------------------
+
+A game, not in flash, but had equivalent (Isketch, not recent but had possibility to recognize rooms from screenshoots in hidden window).
+
+https://skribbl.io/
+
+This site is especially difficult in the way you need probably a strong extension to delete a element,
+in fact every part is well covered except the player list, the canvas pane to drawn, not much but its very preferable over whole white page, the one line script is excluded and the problem does not come from div tags.
+
+
+
