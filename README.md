@@ -770,28 +770,43 @@ Chrome incompatibilities
 ---------------------------------
 
 Do not use the darks theme flags in google chrome:
+
 -Web Platform Controls Dark Mode
+
 -Force Dark Mode for Web Contents
+
 As of this date because i do not use specially windows 10 and "darkmode" OS associated settings or extensions and applications.
 It may be probable theses settings can be cool and funnier but they should be anyway in conflict with my CSS scripts(and probably others), its completely unsure every match as dark in options input filter in chrome://flags cannot be all in conflict in the future.
 
 -One of the two options is only about scrollbars and form controls but it's simply nothing.
+
 -The others will render chrome website, certains chrome based protocol pages, browser options etc but will break this:
+
 	-Break webpages (Custom CSS may fail when Chrome's #enable-force-dark flag is enabled)
+	
 	-Important tags like searches usually in yellow, will be broken in a very dark brown.
+	
 
 
 Plus this ISN'T POSSIBLE and accepted queries answers:
+
 -whitelist "force dark mode" on certain websites or choose blacklist from chrome directly isn't possible.
+
 https://support.google.com/chrome/thread/28938011?hl=en
+
 -Use another browser plugin that changes nothing to the same problems of extension restrictions about policy and security.
 Chrome inner popup, can appear on a window and say depreciated command line usage switch, but i don't use it like that , i just use a flag option that does the same thing.
 
 Alternatives:
+
 -App Specific Override Force Dark
+
 https://www.reddit.com/r/android_beta/comments/bwevw0/app_specific_override_force_dark/
+
 -https://cascadea.app/ For MAC, macOS 10.14 and SAFARI.
+
 -A Complete Guide to Dark Mode on the Web
+
 https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/
 
 Do you wanna go further ?
