@@ -795,7 +795,18 @@ Plus this ISN'T POSSIBLE and accepted queries answers:
 https://support.google.com/chrome/thread/28938011?hl=en
 
 -Use another browser plugin that changes nothing to the same problems of extension restrictions about policy and security.
-Chrome inner popup, can appear on a window and say depreciated command line usage switch, but i don't use it like that , i just use a flag option that does the same thing.
+
+-Chrome inner popup, can appear on a window and say depreciated command line usage switch, but i don't use it like that , i just use a flag option that does the same thing.
+
+https://github.com/gdh1995/vimium-c/issues/111
+
+On my Win10, --force-dark-mode and the runtime flag #enable-force-dark are not the same:
+#enable-force-dark=Enabled means to force to use dark colors, but not tell Vimium C that it's in dark mode
+some colors in CSS rules are always replaced
+--force-dark-mode means to force all to be in dark mode, while a page can still use light color schemes.
+Tested on Chrome 79 and 80.
+
+
 
 Alternatives:
 
@@ -803,11 +814,14 @@ Alternatives:
 
 https://www.reddit.com/r/android_beta/comments/bwevw0/app_specific_override_force_dark/
 
--https://cascadea.app/ For MAC, macOS 10.14 and SAFARI.
+For MAC, macOS 10.14 and SAFARI.
+
+-https://cascadea.app/
 
 -A Complete Guide to Dark Mode on the Web
 
 https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/
 
-Do you wanna go further ?
+-Do you wanna go further ? Try new root: and maybe parse the DOM faster, don't forget this version is dynamic then it use much performance, maybe a next version will be less intensive.
+
 https://stackoverflow.com/questions/58735674/how-to-detect-enable-force-dark-flag-on-chrome-v78-using-javascript/60462984#60462984
