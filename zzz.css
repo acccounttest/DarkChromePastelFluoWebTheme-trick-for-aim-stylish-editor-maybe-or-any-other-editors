@@ -781,7 +781,7 @@ color:hsl(120, 100%, 50%) !important;
 }
 
 select:not(:hover){
-color:hsl(227, 66%, 23%) !important;
+color:#BE6969 !important;
 }
 
 input[type=checkbox]:not(:checked),input[type=checkbox]:checked,input[type=radio]:not(:checked),input[type=radio]:checked{ /* change "blue" browser chrome to yellow */
