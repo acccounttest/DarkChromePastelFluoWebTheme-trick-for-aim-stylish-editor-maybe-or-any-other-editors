@@ -1,7 +1,7 @@
 /*
 Problem while configuring regex aka regular expressions, the regex is not valided when the tab path are well identified and matching, absolutly need the option, starting by.
 */
-@-moz-document url-prefix("chrome://"), url-prefix("https://support.google"), url-prefix("https://docs.google"), url-prefix("view-source:"), url-prefix("file://"), domain("dailymotion.com"), domain("vimeo.com"), domain("facebook.com"), domain("youporn.com"), domain("game.cs-online.club"), domain("7sur7.be"), domain("odysee.com"), domain("rtbf.be"), domain("tf1.fr"), domain("allocine.fr"), regexp("chrome-extension://.*") {
+@-moz-document url-prefix("chrome://"), url-prefix("https://support.google"), url-prefix("https://docs.google"), url-prefix("view-source:"), url-prefix("file://"), domain("dailymotion.com"), domain("vimeo.com"), domain("facebook.com"), domain("game.cs-online.club"), domain("7sur7.be"), domain("odysee.com"), domain("rtbf.be"), domain("tf1.fr"), domain("allocine.fr"), regexp("chrome-extension://.*") {
 
 /*SCRIPT CONTENT*/
 
