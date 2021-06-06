@@ -931,8 +931,11 @@ Two problems encountered in the site codesandboxes.io:
 ------------------------------------------------------
 
 -Selection lists are more visible as everywhere but the manner to choose a couple of bg/fg is more goto an object adjacent to another and nothing else.
+
 -Switches are not fully compatible with any platform and framework.
+
 -When searching themes in the command palette, the theme name can be reduced to High Contrast at list end.
+
 
 Example of uncompatibles radios and checkboxes
 https://codesandbox.io/s/react-final-form-list-of-checkboxes-and-radio-buttons-qimew?file=/src/index.js
