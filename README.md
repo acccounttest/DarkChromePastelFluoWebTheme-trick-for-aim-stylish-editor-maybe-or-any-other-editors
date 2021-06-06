@@ -923,3 +923,20 @@ But, there is a but, the control of this new control is very random, it act like
 more its hard and pointer image show later or more rarely, I suggest you do it as soon as possible.
 
 Obviously all shortcuts are very fast for manipulating the code snippets though the google page does not work in the embedded Bing page, Bing is only related to tricky mouse fast usages for useless normal to enhanced by degraded, visualisation conditions.
+
+
+
+Two problems encountered in the site codesandboxes.io:
+
+------------------------------------------------------
+
+-Selection lists are more visible as everywhere but the manner to choose a couple of bg/fg is more goto an object adjacent to another and nothing else.
+-Switches are not fully compatible with any platform and framework.
+-When searching themes in the command palette, the theme name can be reduced to High Contrast at list end.
+
+Example of uncompatibles radios and checkboxes
+https://codesandbox.io/s/react-final-form-list-of-checkboxes-and-radio-buttons-qimew?file=/src/index.js
+
+Example of partially only compatibles switches:
+https://codesandbox.io/s/zyjfw?file=/src/styles.css
+
