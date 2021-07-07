@@ -59,7 +59,6 @@ background-image:inherit !important;
 background:inherit !important;
 }*/
 
-
 h1,h2,h3,li
 {
 background-color:rgba(0, 0, 0, 0.20) !important;
@@ -69,8 +68,6 @@ padding:0;
 }
 
 /*fix cannot exclude links or href after the div  :not([href]):() */
-
-    
     /*below iframe was for youtube, works well but its not frame directly but this one occup much more space than just vid + anything bordelic below , so hide it hidde really div with classes below that are really the vid to avoid the background */
 /*
 iframe{
