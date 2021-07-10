@@ -8,6 +8,9 @@ when important the header part for the domains, here its not the case, just use 
 URL STARTING BY https://www.youtube.com
 URL STARTING BY https://www.youtu.be
 */
-video{
+
+/*WARNING , to use this file please consider this script is part of zzzV3 only and must be used with the option that modify frame to be usable, here, as a tag class value added.*/
+/*This permit the video youtube player to continue to show the thumbnails while playing, at stop and at end of the videos and allow the embeded video of this domain tyo be visible and readable easily as usual.*/
+HTML:not([stylus-iframe]) video {
   position:absolute !important;
 }
