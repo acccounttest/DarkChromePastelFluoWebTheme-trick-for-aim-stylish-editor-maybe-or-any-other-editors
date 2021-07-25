@@ -925,3 +925,6 @@ https://codesandbox.io/s/zyjfw?file=/src/styles.css
 
 Coming soon.
 New presets and Gmap services URLS with manual blacklist, script switches, regex in interfaces ...
+
+This project development was not long but last at least one year, feel free to donate what you estimated you have been earn in term of time.
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/ot1985)
