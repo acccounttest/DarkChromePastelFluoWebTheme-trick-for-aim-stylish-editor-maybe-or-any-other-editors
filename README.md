@@ -935,3 +935,8 @@ I added a personal shortcut made in AHK, probably need fine tuning to be fully e
 This is needed for simulate the right clic on anything while using the appropriate chrome extension, and let the user choose the correct element in the menu and/or continue.
 See the folder Mandatory.
 
+
+The way you want a zoom of 80% , let you see youtube videos higher(and larger) than ever on youtube when not in full screen but on top on taskbar with a automatic redimensionner window, see my project sublimetab for that, it help for windows management, on top windows feature, press tab in sublime or any editor with shift lock, help with metro even deactivated and the general alt+tab usage.
+Normally the youtube thumbnails could be 5 columns(4 with left panel open), if you need the google 3 columns in HD, see my next projects in AHK.
+I am always using the extension mycinema.pro, which is always free and accessible on their website.
+
