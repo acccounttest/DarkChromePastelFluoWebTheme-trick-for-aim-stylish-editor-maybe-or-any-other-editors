@@ -932,5 +932,6 @@ This project development was not long but last at least one year, feel free to d
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/ot1985)
 
 I added a personal shortcut made in AHK, probably need fine tuning to be fully effective and efficient on every platform, the main deal was not use the menu key or the app key, situated usually between the right win and the right control of your keyboard, it make menu appears anywhere depending the last focused element, but we want the menu of the application while using the last focused element, it works well on chrome 91 Windows x64 8.1.
+This is needed for simulate the right clic on anything while using the appropriate chrome extension, and let the user choose the correct element in the menu and/or continue.
 See the folder Mandatory.
 
