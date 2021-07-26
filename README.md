@@ -55,13 +55,13 @@ _________________
 This a theme to dark web pages, chrome protocol UI and URL prefixes are not well done entirely(ex:chrome://), only the Stylus(ex Stylish) code editor inside the extension page configuration part, inside theme manager and editor is compatible, you should use another theme to have complete UI in the same theme. 
 
 
-%%
+```
 (((
 The current stylish editor or the way the theme is interpreted does not permit to allow or refuse(only chrome) a web site itself or a regex of part of the URL(Except Firefox, need an extension for chrome, anyway i ll publish list of extension related that works or not.).
 
 The most reliable way to do and keep them all is restrict maximum global scope to whole web and exceptionally shut it down.
 )))
-%%
+```
 
 
 --->It seems now Stylus is the extension name and should provide option for domain filtering on Chrome, need more tests.
@@ -405,6 +405,7 @@ For videos i have deleted possibility to use the right clic and show controls(mo
 
 
 
+```
 ((
 
 I forgot a little detail about Stylus(ex Stylish), it is really not intuitive, it can lost your file saved then subitly erase all content and titles of scripts, i had this behaviour when i had one script, it can do it several different times, you too, the popup could move(or since you want use the scrollbar.css it does a movement and all controls specially text are not fixed in size properly.
@@ -434,15 +435,16 @@ Step list is:
 -Dont clic delete in the script list, its instant and no save is available.
 
 ))
+```
 
 
-
+```
 ((
 
 In the scripts manage page, not the editor page, whats the purpose of theses options, only edited and only active, it filter in live the script list but does nothing on option only edited, works well with or without only edited.
 
 ))
-
+```
 
 
 # INSTALL RECAPITULATIVE STEPS
@@ -928,3 +930,7 @@ New presets and Gmap services URLS with manual blacklist, script switches, regex
 
 This project development was not long but last at least one year, feel free to donate what you estimated you have been earn in term of time.
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/ot1985)
+
+I added a personal shortcut made in AHK, probably need fine tuning to be fully effective and efficient on every platform, the main deal was not use the menu key or the app key, situated usually between the right win and the right control of your keyboard, it make menu appears anywhere depending the last focused element, but we want the menu of the application while using the last focused element, it works well on chrome 91 Windows x64 8.1.
+See the folder Mandatory.
+
