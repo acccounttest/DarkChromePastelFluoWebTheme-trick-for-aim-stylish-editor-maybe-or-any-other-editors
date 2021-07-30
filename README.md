@@ -47,13 +47,12 @@ ________
 
 
 # INFORMATION
-  
-Source: https://prograide.com/pregunta/5868/comment-creer-un-lien-vers-une-ancre-nommee-dans-multimarkdown
-
+--------------
 _________________
 
-This a theme to dark web pages, chrome protocol UI and URL prefixes are not well done entirely(ex:chrome://), only the Stylus(ex Stylish) code editor inside the extension page configuration part, inside theme manager and editor is compatible, you should use another theme to have complete UI in the same theme. 
+**Updates will be only in sections: Incompatibilities, Alternatives, Flag and exceptionnaly firefox or chrome sub-sections**
 
+This a theme to dark web pages, chrome protocol UI and URL prefixes are not well done entirely(ex:chrome://), only the Stylus(ex Stylish) code editor inside the extension page configuration part, inside theme manager and editor is compatible, you should use another theme to have complete UI in the same theme. 
 
 ```
 (((
@@ -793,6 +792,9 @@ some colors in CSS rules are always replaced
 --force-dark-mode means to force all to be in dark mode, while a page can still use light color schemes.
 Tested on Chrome 79 and 80.
 
+Another problem is the way a page can be broken by too much CSS , added response time or latency or frozen page can happend, it only happened on one domain, youtube, very rarely, the page can be blocked while playing, 1 or 2 seconds, but theses days it does not consume CPU but the frozen state seems to be permanent, so it's better to stop the video with the media control shortcuts prodiven with the flags of chrome.(There is equivalent in the --...- start options but idk the difference if there is diff).
+#global-media-controls-overlay-controls
+This flag add a button to the top right corner, no need an extension, the controls works on any domain :)
 
 # Alternatives:
 
