@@ -64,7 +64,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
     Sleep, 10
     Send, {Esc}
     Sleep, 10
-    MouseMove, 40,799
+    MouseMove, 40,899
     Send, {LButton down}
     Sleep, 50
     Send, {LButton up}
