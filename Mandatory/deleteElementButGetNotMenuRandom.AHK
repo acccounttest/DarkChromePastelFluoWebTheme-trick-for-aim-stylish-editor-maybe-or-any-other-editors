@@ -70,7 +70,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
     Send, {LButton up}
     Sleep, 10
     Send, {AppsKey}
-    Sleep, 100
+    Sleep, 250
     Send, {Up}
     Sleep, 10
     Send, {Up}
@@ -84,6 +84,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
     Send, {Enter}
     Sleep, 10
     MouseMove, %savex%,%savey%
-    return   
-
+    return
+; dont hesit to add or remove rela numbers needed, but it's better to keep higher timings and intercept the menu with same keys in case of troubles.
 }
