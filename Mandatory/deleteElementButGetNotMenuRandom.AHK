@@ -85,5 +85,4 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
     Sleep, 10
     MouseMove, %savex%,%savey%
     return   
-
 }
