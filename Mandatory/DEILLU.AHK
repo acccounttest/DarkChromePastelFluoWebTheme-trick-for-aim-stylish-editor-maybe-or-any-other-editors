@@ -62,7 +62,7 @@ return
 return
 
 ;HERE IS NEW ALTERNATIVE TO KILL LAST WINDOW(S)
-:*:wwx::
+;:*:wwx::
 ;APID:=0
 ;return
 
