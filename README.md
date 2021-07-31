@@ -43,6 +43,7 @@ ________
 - [Export](#Export)
 - [Egg](#Egg)
 - [Codesandboxes](#Codesandboxes)
+- [End](#End)
 
 
 
@@ -927,6 +928,9 @@ https://codesandbox.io/s/react-final-form-list-of-checkboxes-and-radio-buttons-q
 Example of partially only compatibles switches:
 https://codesandbox.io/s/zyjfw?file=/src/styles.css
 
+
+# End
+-----
 Coming soon.
 New presets and Gmap services URLS with manual blacklist, script switches, regex in interfaces ...
 
