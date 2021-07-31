@@ -53,6 +53,12 @@ return
 
 ;HERE IS A ENHANCED "ALWAYS ON TOP" OVER ALL OTHERS ON TOP THAT RESIST TOO MUCH AGAINST OTHERS WINDOWS(sublimetext, chrome...)
 ~LButton::
+    GetKeyState, state, RButton
+    if (state="D")
+    {
+        ;Better quit to let user press left button normally cause he will loose window focus, ex:Chrome.exe
+        return
+    }
     if !(APID = 0){
         ;Msgbox,%APID%
         ;WinSet, AlwaysOnTop, OFF, ahk_id %APID%
