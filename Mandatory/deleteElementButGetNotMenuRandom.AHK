@@ -10,7 +10,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ;VERY IMPORTANT COMMENTS
 ;VERY IMPORTANT COMMENTS
-;If you need it like that, who knows.
+;MADE FOR CHROME EXTENSION: CONTEXT DELETER: https://chrome.google.com/webstore/detail/contextdeleter/cdagpkhlnpefnkemlbcolbfjokjhgcda
 ;CoordMode, Mouse, Screen
 
 ;Warning this script is only intended to be used in latest Windows version release, use with
