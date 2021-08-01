@@ -56,21 +56,32 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
     WinGet, WinID, ID
     winactivate, ahk_pid WinID
     Sleep, 10
-    Send, {RButton down}
-    Sleep, 50
-    Send, {RButton up}
-    Sleep, 50
-    MouseGetPos,savex,savey
-    Sleep, 10
-    Send, {Esc}
-    Sleep, 10
-    MouseMove, 40,899
-    Send, {LButton down}
-    Sleep, 50
-    Send, {LButton up}
-    Sleep, 10
-    Send, {AppsKey}
-    Sleep, 100
+    ;FIRST VERSION
+    ;Send, {RButton down}
+    ;Sleep, 50
+    ;Send, {RButton up}
+    ;Sleep, 50
+    ;MouseGetPos,savex,savey
+    ;Sleep, 10
+    ;Send, {Esc}
+    ;Sleep, 10
+    ;MouseMove, 40,899
+    ;Send, {LButton down}
+    ;Sleep, 50
+    ;Send, {LButton up}
+    ;Sleep, 10
+    ;Send, {AppsKey}
+
+
+    ;SECOND VERSION
+    ;WinGet, WinID, ID
+    ;WinGetPos,,, chrx, chry, ahk_pid WinID
+    ;WinGetPos, X, Y, Width, Height, ahk_pid WinID
+    CoordMode, Mouse, Screen
+    MouseGetPos, xpos, ypos
+    ;finalposx,finalposy=
+    MouseClickDrag ,Right, xpos,ypos,0, 500
+    Sleep, 250
     Send, {Up}
     Sleep, 10
     Send, {Up}
@@ -83,6 +94,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
     Sleep, 10
     Send, {Enter}
     Sleep, 10
-    MouseMove, %savex%,%savey%
-    return   
+    MouseMove, %xpos%,%ypos%
+    return
 }
