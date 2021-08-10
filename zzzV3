@@ -273,7 +273,7 @@ border-radius: 130px !important;
   
 :not(*:hover) ~ code,:not(*:hover) > code,:not(*:hover) + code *{
 background: inherit !important;
-background-color:rgba(152,32,37,0.15) !important;
+background-color:rgba(37,32,37,0.15) !important;
 -webkit-border-radius: 30px !important;
 -moz-border-radius: 30px !important;
 border-radius: 30px !important;
@@ -283,7 +283,7 @@ border:rgba(37,32,152,0.4) solid 0.1px !important;
     
 *:hover ~ code,*:hover > code,*:hover + code *,*:hover ~ * code:not(:hover),*:hover ~ *:not(:hover) > code{
 background: inherit !important;
-background-color:rgba(152,32,37,0.05) !important;
+background-color:rgba(37,32,152,0.05) !important;
 /*  outline: rgba(52,32,37,0.3) solid 10px !important; */
 outline-color :rgba(40,80,255,0.02);
 outline-style:inset;
