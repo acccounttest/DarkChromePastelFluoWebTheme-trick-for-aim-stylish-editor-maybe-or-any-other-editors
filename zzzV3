@@ -360,9 +360,9 @@ background: -webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61
 }
 
 /* li:not(a) > em *:not(a) > em,*:not(a) > li*/
-li:not(a),label/*problÃ¨me avec un lien mais la forme change dans des balises et imbriquÃ©es*/
+li:not(a)/*problÃ¨me avec un lien mais la forme change dans des balises et imbriquÃ©es*/
 {
-font-size: 1.2em !important;
+font-size: 1.05em !important;
 color: #FFCC66 !important;
 /*background-color: rgba(0, 0, 0, 0.15) !important;*/
     /*background-color: red !important;*/
@@ -370,6 +370,8 @@ color: #FFCC66 !important;
 
 label{
   background-color: inherit !important;
+  font-size: 1.2em !important;
+  color: #FFCC66 !important;
 }
 
 /*
