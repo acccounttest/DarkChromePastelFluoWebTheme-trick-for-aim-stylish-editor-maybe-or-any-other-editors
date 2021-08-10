@@ -59,6 +59,7 @@ background-image:inherit !important;
 background:inherit !important;
 }*/
 
+
 h1,h2,h3,li
 {
 background-color:rgba(0, 0, 0, 0.20) !important;
@@ -68,6 +69,8 @@ padding:0;
 }
 
 /*fix cannot exclude links or href after the div  :not([href]):() */
+
+    
     /*below iframe was for youtube, works well but its not frame directly but this one occup much more space than just vid + anything bordelic below , so hide it hidde really div with classes below that are really the vid to avoid the background */
 /*
 iframe{
@@ -82,10 +85,14 @@ iframe{
 
 iframe{
   z-index:9999 !important;
-  overflow:hidden !important;
+  overflow: hidden visible !important;
   resize:both !important;/*"all-scroll", "auto", or "hidden".*/
   padding:1.6px !important;
   margin:1.6px !important;
+    box-sizing: content-box !important;
+   -moz-box-sizing: content-box !important;
+   -webkit-box-sizing: content-box !important; 
+/*  min-height: -webkit-fill-available !important; */
   /*min-height: 30px;
   min-width: 30px;
   max-height: fit-content;
@@ -98,7 +105,7 @@ html{
 }
   
 body{
-    height:auto !important;
+/*     height:auto !important; */
   outline: blue solid 0.4px !important;
   border:blue solid 0.4px !important;
 }
@@ -140,6 +147,7 @@ video, video *,figure, figcaption{
   /*z-index:99999 !important;*/
   /*background-image: unset !important;*/
   position:inherit !important;
+/*  resize:both !important; */
 }
 
 /*visibility: transparent !important;
@@ -163,16 +171,40 @@ div[class*="video"],div[class*="Video"],div[class*="player"],div[class*="Player"
 
 
     
-    body{/*never use height auto in body, it hide things, or any others untested value*/
+ body{/*never use height auto in body, it hide things, or any others untested value*/
+/*   height:  -webkit-fill-available !important ; */
+/*      height: auto !important ; */
   overflow: auto !important;
-    overflow-y: visible !important;/*scroll*/
-    resize: both !important;
+/*     overflow-x: visible !important; */
+/*      overflow-x:  visible !important; */
+        overflow-y: visible !important;
+/*   maybe */
+/*      height: min-content !important; */
+/*   below no alone */
+/*   width: min-content !important; */
+/*      overflow-y: visible !important; */
+    resize:both !important;
+        box-sizing: border-box!important;
+      -moz-box-sizing:border-box !important;
+   -webkit-box-sizing: border-box !important; 
+/*      max-height: none !important; */
+/*   max-width:unset !important; */
+/*   min-height: inherit !important; */
 }
     
     html{
     overflow: auto !important;
-        overflow-y: visible !important;/*scroll*/
+/*  overflow-x: visible !important; */
+        overflow-y: visible !important;
+        height: 100vh !important;
+/*   width: 100vw !important; */
     resize: both !important;
+        box-sizing: border-box !important;
+   -moz-box-sizing: border-box !important;
+   -webkit-box-sizing: border-box !important; 
+/*      min-height: inherit !important; */
+/*      max-width:unset !important; */
+/*      max-height:none !important; */
     }
     
     pre,code,*[class*=code]{
@@ -246,14 +278,14 @@ background-color:rgba(152,32,37,0.15) !important;
 -moz-border-radius: 30px !important;
 border-radius: 30px !important;
 /*outline: rgba(52,32,37,0.3) solid 1px !important;*/
-border:rgba(152,32,37,0.4) solid 0.1px !important;
+border:rgba(37,32,152,0.4) solid 0.1px !important;
   }
     
 *:hover ~ code,*:hover > code,*:hover + code *,*:hover ~ * code:not(:hover),*:hover ~ *:not(:hover) > code{
 background: inherit !important;
 background-color:rgba(152,32,37,0.05) !important;
 /*  outline: rgba(52,32,37,0.3) solid 10px !important; */
-outline-color :rgba(255,80,40,0.02);
+outline-color :rgba(40,80,255,0.02);
 outline-style:inset;
 outline-width:75px;
   }
