@@ -184,7 +184,7 @@ div[class*="video"],div[class*="Video"],div[class*="player"],div[class*="Player"
 /*   width: min-content !important; */
 /*      overflow-y: visible !important; */
     resize:both !important;
-        box-sizing: border-box!important;
+        box-sizing: border-box !important;
       -moz-box-sizing:border-box !important;
    -webkit-box-sizing: border-box !important; 
 /*      max-height: none !important; */
@@ -196,7 +196,7 @@ div[class*="video"],div[class*="Video"],div[class*="player"],div[class*="Player"
     overflow: auto !important;
 /*  overflow-x: visible !important; */
         overflow-y: visible !important;
-        height: 100vh !important;
+/*         height: 100vh !important; */
 /*   width: 100vw !important; */
     resize: both !important;
         box-sizing: border-box !important;
