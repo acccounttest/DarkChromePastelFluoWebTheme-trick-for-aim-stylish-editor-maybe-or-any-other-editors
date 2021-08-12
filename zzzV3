@@ -210,6 +210,7 @@ div[class*="video"],div[class*="Video"],div[class*="player"],div[class*="Player"
     pre,code,*[class*=code]{
 overflow:auto !important;
 resize:both !important;/*"all-scroll", "auto", or "hidden".*/
+font-size:1.075em !important;
     }
     
 
@@ -273,17 +274,17 @@ border-radius: 130px !important;
   
 :not(*:hover) ~ code,:not(*:hover) > code,:not(*:hover) + code *{
 background: inherit !important;
-background-color:rgba(37,32,37,0.15) !important;
+background-color:rgba(0,157,166,0.15) !important;
 -webkit-border-radius: 30px !important;
 -moz-border-radius: 30px !important;
 border-radius: 30px !important;
 /*outline: rgba(52,32,37,0.3) solid 1px !important;*/
-border:rgba(37,32,152,0.4) solid 0.1px !important;
+border:rgba(37,32,182,0.4) solid 0.1px !important;
   }
     
 *:hover ~ code,*:hover > code,*:hover + code *,*:hover ~ * code:not(:hover),*:hover ~ *:not(:hover) > code{
 background: inherit !important;
-background-color:rgba(37,32,152,0.05) !important;
+background-color:rgba(17,132,152,0.05) !important;
 /*  outline: rgba(52,32,37,0.3) solid 10px !important; */
 outline-color :rgba(40,80,255,0.02);
 outline-style:inset;
