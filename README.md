@@ -121,10 +121,10 @@ _________________
 
 
 
-0.x EM like size of font used for commentaries while the number of answer increment in the inner as the commentaries grows.
+Commentaries are now fixed in a higher size, just like the bubbles' font in most website you visit as well in links .
 
 
-BUTTONS Sometimes like in Gdrive, something interesting
+BUTTONS Sometimes like in Gdrive, and the others.
 
 
 
@@ -144,11 +144,11 @@ RSS Usually more or not enough effects
 
 
 
-MENUS Unreadable cause no contrast switch available
+MENUS Unreadable cause no contrast switch available, the only major problem left to the user intention.
 
 
 
-ICONS Can be hidden but always switched , or , dark then need a visual switch to be allowed to be discerned.
+ICONS Can be hidden but always switched , or , dark then need a visual switch to be allowed to be discerned, please delete any giant with a click,see mandatory folder.
 
 
 
@@ -172,7 +172,7 @@ IMGS Source of problems since, IDK if its youtube related but normally not, prob
 
 
 
-CHECKBOXES Misplaced tick or exceptionally unattended check/uncheck when click another wanted item, always works.
+CHECKBOXES Misplaced tick or exceptionally unattended check/uncheck when click another wanted item, always works but can show and false and true, or double true, just like in a html table, you can see the X but not the V, black.
 
 
 
@@ -199,7 +199,7 @@ There is a active script counter on the icon on the addon toolbar of chrome, it 
 
 be lower than the actual situation reveals, i had 1 on 2 but both were activated and working even touching anything,i 
 
-clicked as normally and all was fine again.
+clicked as normally and all was fine again; note it can happend and it should normal as others script activate or not as more.
 
 
 
@@ -208,7 +208,7 @@ NEXT
 -----
 
 Try to figure a switch (not a HTML) to allow script to stop switch contrast ratio but more retain current or default global disposition of all fg/bg contrast.
-
+Seems works pretty well very extreme basic CSS lines and Gmap service like.
 
 
 # CONFIGURATION
