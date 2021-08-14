@@ -616,7 +616,7 @@ color:inherit !important;
 
 
 
-* a > span, * a > span *,* a span,*[data-url]{
+* a > span, * a > span * ,* a span,*[data-url]{
 text-decoration-color: currentColor !important;
 text-decoration: wavy !important;
 color:#85c247 !important;
@@ -701,7 +701,7 @@ xlink:href=
 xlinkHref*/
 
 /*
-a[href$=".rss"] > span::before, a[href$=".rss"] > span *::before, a[href$=".rss"] span::before
+a[href$=".rss"] > span::before, a[href$=".rss"] > span * ::before, a[href$=".rss"] span::before
 */
 [class*="-rss"],
 enclosure,
