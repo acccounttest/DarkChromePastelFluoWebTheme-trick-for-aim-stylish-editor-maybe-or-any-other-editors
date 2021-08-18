@@ -737,8 +737,11 @@ google.com/maps/ DOES NOT WORKS
 google.com/maps DOES NOT WORKS
 
 
+
 PS:Sorry for the on hover your Youtube or google photo profile does not show, probably about img tag but don't touch anything. :)
 PS2:Blacklist though single click domain google.com affect as well Gmaps so don't do it.
+PS3:I propose you to follow the Gmaps scripts per domain in another project:
+[https://github.com/acccounttest/DarkGMaps](DarkGMaps)
 
 
 # Difficult-Example
