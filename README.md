@@ -744,7 +744,7 @@ PS2:Blacklist though single click domain google.com affect as well Gmaps so don'
 
 PS3:I propose you to follow the Gmaps scripts per domain in another project:
 
-[https://github.com/acccounttest/DarkGMaps](DarkGMaps)
+https://github.com/acccounttest/DarkGMaps
 
 
 # Difficult-Example
