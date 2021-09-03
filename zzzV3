@@ -1,3 +1,4 @@
+@-moz-document regexp(".*:\\/\\/(?!(.*google.*/.*(tbm=isch|tbs=imgo|tbm=lcl).*|.*google.*/maps/d/u.*)).*") {
 /*Author:Senethril
 Date:21-03-21
 Name:DarkChromePastelFluoWebTheme-trick-for-aim-stylish-editor-maybe-or-any-other-editors
@@ -58,7 +59,11 @@ background-color: inherit !important;
 background-image:inherit !important;
 background:inherit !important;
 }*/
-
+    
+    
+/* html[stylus-iframe*="tbm=lcl"] * {
+    display:none !important;    
+} */
 
 h1,h2,h3,li
 {
@@ -934,4 +939,22 @@ section{
     transform: translateZ(0);
   animation: mymove 100s infinite;
 }  */
+    
+/* html > *:hover {-webkit-filter: invert(90%);color:hsl(120,120,100,5);background-color: hsl(120,120,100,5);} */
+	
+	iframe[src="https://0l6dh.sse.codesandbox.io"],html[stylus-iframe="https://codesandbox.io"],html[stylus-iframe="https://codesandbox.io"] body{
+    color:inherit !important;
+    background:inherit !important;
+    background-color:inherit !important;
+        
+}
+    /*the Iframe was unecessary there and empty*/
+    html[stylus-iframe="https://codesandbox.io"] body iframe,html[stylus-iframe="https://codesandbox.io"] body iframe > * {
+        display:  none !important;
+        visibility: hidden !important;
+        background:inherit !important;
+    background-color:inherit !important;
+    }
+	
+}
 }
