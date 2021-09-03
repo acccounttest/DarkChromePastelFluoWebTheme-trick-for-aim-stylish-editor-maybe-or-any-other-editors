@@ -877,14 +877,15 @@ During the process of the verification of all corresponding tab titles to all th
 
 @-moz-document url-prefix("chrome://"), url-prefix("https://support.google"), url-prefix("https://docs.google"), url-prefix("view-source:"), url-prefix("file://"), domain("dailymotion.com"), domain("vimeo.com"), domain("facebook.com"), domain("youporn.com"), domain("game.cs-online.club"), domain("7sur7.be"), domain("odysee.com"), domain("rtbf.be"), domain("tf1.fr"), domain("allocine.fr"), regexp("chrome-extension://.*") {
 
+New site(that was buggy in DarkGMaps project)
+--------
 
+for train the usability and reliability, as fast as we can mix css files and funnier thematics
 
-New site for train the usability and reliability, as fast as we can mix css files and funnier thematics
-
--------------------------------------------------------------------------------------------------------
-
-https://codesandbox.io/s/smoother-interactions-on-the-web-getcoalescedevents-forked-luov7?file=/index.html
+	https://codesandbox.io/s/smoother-interactions-on-the-web-getcoalescedevents-forked-luov7?file=/index.html
+	
 	https://codesandbox.io/
+	
 Default workbench theme: Default High Contrast
 
 If at any moment you can't scroll while being able to cancel any slider(or transparent) you could check at see disposition as two files upper another below, total 3 opened pane view, change theme is the only way to obtain current file opened in each panes identified as current but you can lose that functionality after another theme later, no special headers on this site, anyway all should be easily readable at any moment but unfortunately not ergonomically.
@@ -937,6 +938,7 @@ https://codesandbox.io/s/zyjfw?file=/src/styles.css
 
 # End
 -----
+
 Coming soon.
 New presets and Gmap services URLS with manual blacklist, script switches, regex in interfaces ...
 
@@ -951,4 +953,120 @@ See the folder Mandatory.
 The way you want a zoom of 80% , let you see youtube videos higher(and larger) than ever on youtube when not in full screen but on top on taskbar with a automatic redimensionner window, see my project sublimetab for that, it help for windows management, on top windows feature, press tab in sublime or any editor with shift lock, help with metro even deactivated and the general alt+tab usage.
 Normally the youtube thumbnails could be 5 columns(4 with left panel open), if you need the google 3 columns in HD, see my next projects in AHK.
 I am always using the extension mycinema.pro, which is always free and accessible on their website.
+
+# Preset samples, Google exceptions, domain mixing
+---
+___
+
+
+# Traduction ,archives, edu, doc , support
+---
+
+New problem with theses two URLS from Google:
+ - https://translate.google.com/translate?hl=fr&sl=en&u=https://support.google.com/csfirst/answer/10191837%3Fhl%3Den&prev=search&pto=aue
+ - https://support-google-com.translate.goog/csfirst/answer/7476834?hl=en&ref_topic=7476813&_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr&_x_tr_pto=ajax,sc,elem
+
+We can solve the problem only by using this new URL for the script, videos only, as a starting URL part.
+https://support-google-com.translate.goog
+
+And blacklisting only one URL, https://support-google-com.translate.goog/csfirst/answer/7476834?hl=en&ref_topic=7476813&_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr&_x_tr_pto=ajax,sc,elem
+because the other URL was already applying, just the frame domain included was not applied yet, so use the frame functionality of the plugin for it to works. 
+
+Note we do not need put theses domains in the second script(videos only), zzz script is fine and it's unnecessary:
+ - https://translate.google.com/
+ - https://support.google.com/
+
+This seems to work too:
+ - https://docs-google-com.translate.goog/document/
+ - https://edu-google-com.translate.goog/code-with-google/?
+ - https://csfirst-withgoogle-com.translate.goog/c/cs-first/en/
+
+This last URL https://docs-google-com.translate.goog/document/:
+ - There is a bug on this page, the popup prevent always do anything but it's possible with the mandatory folder, to make works the menu of the menu key well always the same with the focus.
+ - Can't click in the link while the popup is turning infinitely for asking to reload the page cause it couldn't be loaded but it did, the first page is readable but the popup draggable can be killed, use the delete element of the mandatory folder, then scroll and the right click works.
+
+Goto:
+
+		https://code.org/educate/regional-partner
+The above URL did not shown correctly the gmaps frame, not zoomable map but it can open it in the other tab and is at, click on [ ] top right:
+	https://www.google.com/maps/d/u/0/viewer?mid=1dKLjL6y3AKo45c7weK__JI3sxijfbmzq&ll=42.91691326116637%2C-102.7337877281251&z=5
+Then it needed to deactivate the zzz script to works when mouse under the map
+Solution is reuse the header part and regex on domains but starting the only rule by a real blacklist of domains, this could get performance impact, so it's not recommended, no difference ATM:
+ - Less performance for start the styling, any delay is a flash, regex cost isn't lightweight.
+ - Less factorisation of the same domain as they all use wildcards, pretty unreadable as soon as domain multiplies.
+
+Better let's try a few exceptions, no need to expand the domains, it is special domains.
+
+
+# Google search images, another but manual REGEX blacklisting
+---
+
+2 new problems with Google and images domains blacklist and whitelist filters, all have been included in header part only of the zzz script.
+
+So use 1:
+regexp(".*:\\/\\/(?!(.*google.*/.*(tbm=isch|tbs=imgo).*)).*")
+Add other domains like this:
+regexp(".*:\\/\\/(?!(.*google.*/.*(tbm=isch|tbs=imgo).*|2|3|4|5|6)).*")
+
+*Found recently tbm=lcl is too
+*Found one gmap matching in DarkGmaps project.
+
+
+# Other Google domain matchings
+---
+
+tbm: to be matched
+tbm=isch: to be matched = image search
+tbm=isch&q=chicken: search "chicken" from Google Image Search
+you can do the same with tbs
+
+tbs: to be searched
+tbs=imgo: to be searched = image object
+tbs=imgo&q=chicken: search "chicken (image object)" from Google
+
+Applications: tbm=app
+Blogs: tbm=blg
+Books: tbm=bks
+Discussions: tbm=dsc
+Images: tbm=isch
+News: tbm=nws
+Patents: tbm=pts
+Places: tbm=plcs
+Recipes: tbm=rcp
+Shopping: tbm=shop
+Video: tbm=vid
+
+# sources
+---
+
+	https://forum.userstyles.org/discussion/35257/excluding-certain-sites
+	http://www.seroundtable.com/google-search-filters-gone-17993.html
+	http://stenevang.wordpress.com/2013/02/22/google-search-url-request-parameters/
+	https://developers.google.com/custom-search/docs/xml_results#xml-results-for-image-search-queries
+
+Note the scripts are not made like Usercss.
+The script are not sync now with all the userscript URLS, in a soon future they will be, the video only V3 script will be updated the next time.
+
+You can see now the script zzz is not listed in the menu, checked or not, it does not match the URL.
+If you want more protocols, try verify the start without slashed at start of the URL matching string, normally it should not work; ex: view-source:
+
+Final listing
+The script list is most often sorted in this way:
+ - 3 Gmaps scripts, depend on a source but apply anywhere.
+ - 2 Gsearch scripts, depending on the countries.
+ - A scroll script, not yet returned because not only reusing the style.
+ - Videos only script, for second usage, no updates for performance since it's mostly videos sites and all other of your exceptions.
+ - Youtube script(for fix only scrollbars, thumbnails always middle of all videos and only on over playing or not)
+ - Main ZZZ script
+ - Ideally, another old or new version of any script you want.
+
+
+# New recommandation
+----
+Put an identical script without the header part could be useful, too, it can permit you to switch the script instantly and verify which is correct or better, essential if you use more than 2 scripts.
+So add a video only all.css when you discover news video domains and don't want to spend time to realize, add a script always on for all.
+
+
+Please consider if you type :// directly into a google search or get ://(not escaped or converted) in your URL then the main script could continue to be allowed and activated on the page we don't want, like always.
+
 
