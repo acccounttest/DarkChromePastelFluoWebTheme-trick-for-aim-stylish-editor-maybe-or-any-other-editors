@@ -335,13 +335,22 @@ color: -webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61,0.08
 */
 
 
-tr{
+tr:not(tr.icon){
   /*color:orange !important;*/
   background: -webkit-radial-gradient(center,circle closest-corner, rgba(0,16,0,1.0) 15%,rgba(0,0,16,0.8) 75%) !important;
 }
 
+	
+	/*currentColor is changing colors orange and lightblue instead differents others colors**/
+	
+/* td.icon,td.icon *{
+background-color:default !important;
+background:default !important;
+color: default !important;
+} */
+	
 
-td
+td:not(td.icon)
 {
 font-size: 1.05em !important;
 color: rgba(222,102,17) !important;
@@ -941,8 +950,8 @@ section{
 }  */
     
 /* html > *:hover {-webkit-filter: invert(90%);color:hsl(120,120,100,5);background-color: hsl(120,120,100,5);} */
-	
-	iframe[src="https://0l6dh.sse.codesandbox.io"],html[stylus-iframe="https://codesandbox.io"],html[stylus-iframe="https://codesandbox.io"] body{
+    
+    iframe[src="https://0l6dh.sse.codesandbox.io"],html[stylus-iframe="https://codesandbox.io"],html[stylus-iframe="https://codesandbox.io"] body{
     color:inherit !important;
     background:inherit !important;
     background-color:inherit !important;
@@ -955,6 +964,6 @@ section{
         background:inherit !important;
     background-color:inherit !important;
     }
-	
+    
 }
 }
