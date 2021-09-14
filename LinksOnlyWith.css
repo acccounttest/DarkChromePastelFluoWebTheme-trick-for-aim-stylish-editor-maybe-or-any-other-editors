@@ -1,0 +1,80 @@
+/*If you want only links script, change the colour the same in visited and not visited from original main script(s)*/
+/*Warning this is a new file for links only, but not only, made for run with zzz and videos and others scripts*/
+/*ZZZ and VIDEOS scripts correction for color of links when too much highlights, need a darker colour.*/
+
+* a > span, * a > span * ,* a span,*[data-url]{
+text-decoration-color: currentColor !important;
+text-decoration: wavy !important;
+color:#265C00 !important;
+/*background-color:unset !important;
+background-image:unset !important;
+background: unset !important;*/
+}
+
+
+* a > span::before, * a > span *::before, * a span::before{
+text-decoration-color: currentColor !important;
+text-decoration-line:underline !important;
+text-decoration-style:wavy !important;
+background-color:unset !important;
+background-image:unset !important;
+background:unset !important;
+}
+
+
+/*
+*[xmlns\:xhtml]
+*[xmlns\\3Axlink],
+*[xlink\\3Ahref]
+*/
+[xmlns\:xhtml]:not(html),[xmlns\:xlink]:not(html),[xlink\:href]:not(html),[xmlns]:not(html),[xlink]:not(html),[xlinkHref]:not(html)
+{
+text-decoration-color: currentColor !important;
+text-decoration-line:underline !important;
+text-decoration-style:dotted !important;
+background-color:unset !important;
+background-image:unset !important;
+background:unset !important;
+}
+
+p * a,p > * a,div > * a{
+color:#265C00 !important;
+text-decoration-line:underline !important;
+text-decoration-style:dashed !important;
+text-decoration-color:#265C00 !important;
+text-decoration-thickness: 0.3px !important;
+/*fix with https://drafts.csswg.org/css-text-decor-4/#text-underline-position-property*/
+}
+
+
+:not(p) * a,:not(p) > * a *{
+/*text-decoration-color: currentColor !important;*/
+/*font-size: 1.0em !important;*/
+text-decoration-color: #265C00 !important;
+color:#265C00 !important;
+/*background-color: none !important;*/
+}
+
+/*
+,*[xmlns:xhtml]
+,*[xlink:href]
+*[xmlns:xlink]
+*/
+
+*[href],[xlink],[xmlns],[xlinkHref],[xmlns\:xhtml],[xmlns\:xlink],[xlink\:href]
+{
+/*font-size: 1.0em !important;*/
+/*text-decoration-color: currentColor !important;*/
+/*text-decoration-color: #265C00 !important;*/
+color:#265C00 !important; 
+}
+
+
+/*
+WHY NOT ? #540A87 even better with very bright hilights in links.
+*[href]:visited,*[data-url]:visited,[xmlns]:visited,[xlink]:visited,[xlinkHref]:visited,[xmlns\:xhtml]:visited,[xmlns\:xlink]:visited,[xlink\:href]:visited,:not(p) a:visited,:not(p) > a:visited * ,*[data-url]:visited
+{
+color:#CC3399 !important;
+text-decoration-color: #CC3399 !important;
+}
+*/
