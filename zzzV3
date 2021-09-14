@@ -340,15 +340,15 @@ tr:not(tr.icon){
   background: -webkit-radial-gradient(center,circle closest-corner, rgba(0,16,0,1.0) 15%,rgba(0,0,16,0.8) 75%) !important;
 }
 
-	
-	/*currentColor is changing colors orange and lightblue instead differents others colors**/
-	
+    
+    /*currentColor is changing colors orange and lightblue instead differents others colors**/
+    
 /* td.icon,td.icon *{
 background-color:default !important;
 background:default !important;
 color: default !important;
 } */
-	
+    
 
 td:not(td.icon)
 {
@@ -911,11 +911,12 @@ select:not(:hover){
 color:#BE6969 !important;
 }
 
-input[type=checkbox]:not(:checked),input[type=checkbox]:checked,input[type=radio]:not(:checked),input[type=radio]:checked{ /* change "blue" browser chrome to yellow */
+input[type=range],input[type=checkbox]:not(:checked),input[type=checkbox]:checked,input[type=radio]:not(:checked),input[type=radio]:checked{ /* change "blue" browser chrome to yellow */
 filter: invert(145%) hue-rotate(150deg) brightness(1.9) !important;
 color: hsl(262, 63%, 18%) !important;
 width: 10px !important;
 height: 10px !important;
+accent-color: auto !important;
 /*margin: 10px !important;*/
 /*-webkit-appearance: none;
 -moz-appearance: none;
@@ -966,4 +967,5 @@ section{
     }
     
 }
+
 }
