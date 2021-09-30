@@ -1,5 +1,6 @@
  # Is this important ?
----
+___
+
 **Note: Consider below lapsed, i added another solution, both included in the script, first is commented out, just start it and reuse always proper default app menu key for bring to context menu, choose always same good item in the right click per example.**
 Now you can use a shortcut to the right click menu entry wanted.
  - 1.Choose the coordinate to replace in the AHK script, this make a left click at a moment appropriated, you need this click, else, the key will not use the application menu but more the focused element menu practically the same but not with same extensions entries list, just like the right click is done without focus, more or less filled.
@@ -25,7 +26,8 @@ If you have a POPUP problem with AHK asking you, wrong character incompatible at
 
 
  # Menu key can be too done with shift +10
----
+___
+
 Maybe your keyboard is not up to date or really evolved, try use the menu key, or the app key, with shift +f10.
 You will require, if your keyboard does not own this key, change the menu key in the script by +f10, note others OS can use others logo or key name.
 Use +f10 for detection and send with +{f10}
