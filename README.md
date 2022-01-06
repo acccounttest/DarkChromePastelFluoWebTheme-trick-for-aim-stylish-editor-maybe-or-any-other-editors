@@ -206,10 +206,11 @@ clicked as normally and all was fine again; note it can happend and it should no
 NEXT
 
 -----
-
+DOES NOT APPLY SINCE I FOUND HOW FIX THE MORE TAGS AND LINKS BY CONTRAST OF FOREGROUND TEXT OR BACKGROUND CONTENTS.
+(((
 Try to figure a switch (not a HTML) to allow script to stop switch contrast ratio but more retain current or default global disposition of all fg/bg contrast.
 Seems works pretty well very extreme basic CSS lines and Gmap service like.
-
+)))
 
 # CONFIGURATION
 
