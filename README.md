@@ -1069,4 +1069,13 @@ So add a video only all.css when you discover news video domains and don't want 
 
 Please consider if you type :// directly into a google search or get ://(not escaped or converted) in your URL then the main script could continue to be allowed and activated on the page we don't want, like always.
 
+New version of file "linksonly" in version 2(choose only one version), it's a version that is more to help against the 2 last lacks of zzz script:
+ - Tags because they contains the most simple link tag
+ - Highlights can be hidden, but this version does nothing with links foreground while they are viewable when their background is changed, like with a chrome extension, the unhiilight can be done with zzz but not in this script.
 
+ - Links not enough readable by contrast, not acceptable so blink is a new way of not change it later
+There is a performance cost that should be residual since there are new possibilities.
+The initial proper colour for the underlined styles are modified in different versions of lower contrast of different intensities.
+This is not intended to works with visited links for different securities reasons, this is not the case this time.
+The changes on tags can be enhanced but they are certainly not all done.
+Certain content contains can be modified and this is not great, hopefully the hover works as normaly.
