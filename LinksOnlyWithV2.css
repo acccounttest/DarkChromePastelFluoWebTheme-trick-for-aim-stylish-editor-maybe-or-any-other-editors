@@ -2,13 +2,15 @@
 /*Warning this is a new file for links only, but not only, made for run with zzz and videos and others scripts*/
 /*ZZZ and VIDEOS scripts correction for color of links when too much highlights, need a darker colour.*/
 
+/*This version include a blink effect that permit to correct 2 ideas, last tags and last links not well readable cause too much bright.*/
+
 * a > span, * a > span * ,* a span,*[data-url]{
 text-decoration-color: currentColor !important;
 text-decoration: wavy !important;
-color:#265C00 !important;
 /*background-color:unset !important;
 background-image:unset !important;
 background: unset !important;*/
+ /*   animation: blinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;*/
 }
 
 
@@ -19,6 +21,7 @@ text-decoration-style:wavy !important;
 background-color:unset !important;
 background-image:unset !important;
 background:unset !important;
+/*    animation: blinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;*/
 }
 
 
@@ -35,15 +38,17 @@ text-decoration-style:dotted !important;
 background-color:unset !important;
 background-image:unset !important;
 background:unset !important;
+ /*   animation: blinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;*/
+
 }
 
 p * a,p > * a,div > * a{
-color:#265C00 !important;
 text-decoration-line:underline !important;
 text-decoration-style:dashed !important;
 text-decoration-color:#265C00 !important;
 text-decoration-thickness: 0.3px !important;
 /*fix with https://drafts.csswg.org/css-text-decor-4/#text-underline-position-property*/
+  /*  animation: blinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;*/
 }
 
 
@@ -51,8 +56,8 @@ text-decoration-thickness: 0.3px !important;
 /*text-decoration-color: currentColor !important;*/
 /*font-size: 1.0em !important;*/
 text-decoration-color: #265C00 !important;
-color:#265C00 !important;
 /*background-color: none !important;*/
+/*animation: blinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;*/
 }
 
 /*
@@ -61,13 +66,28 @@ color:#265C00 !important;
 *[xmlns:xlink]
 */
 
-*[href],[xlink],[xmlns],[xlinkHref],[xmlns\:xhtml],[xmlns\:xlink],[xlink\:href]
+*[href],[xlink],[xmlns]:not(html),[xlinkHref],[xmlns\:xhtml],[xmlns\:xlink],[xlink\:href]
 {
 /*font-size: 1.0em !important;*/
 /*text-decoration-color: currentColor !important;*/
-/*text-decoration-color: #265C00 !important;*/
-color:#265C00 !important; 
+/*text-decoration-color: #00CC14 !important;*/
+   /* animation: blinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;;*/
 }
+
+
+a[href]:not(:hover){
+	/*animation: blinker 1s ease-in-out 3s infinite alternate;*/
+	
+	animation-name: blinker;
+	animation-delay:2s;
+	animation-duration:1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: steps(5, end);
+	animation-direction:alternate;
+	color:#265C00;
+
+}
+
 
 
 /*
@@ -76,5 +96,12 @@ WHY NOT ? #540A87 even better with very bright hilights in links.
 {
 color:#CC3399 !important;
 text-decoration-color: #CC3399 !important;
+animation: blinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;
 }
 */
+
+
+@-webkit-keyframes blinker { 0%{color:#85C247 !important; text-decoration-color: #85C247 !important;} 100% { color:#265C00 !important;text-decoration-color: #265C00 !important;opacity:0.6}}
+@keyframes blinker { 0%{color:#85C247 !important; text-decoration-color: #85C247 !important;} 100% { color:#265C00 !important;text-decoration-color: #265C00 !important;opacity:0.6}
+	
+}
