@@ -3,6 +3,10 @@
 /*ZZZ and VIDEOS scripts correction for color of links when too much highlights, need a darker colour.*/
 
 /*This version include a blink effect that permit to correct 2 ideas, last tags and last links not well readable cause too much bright.*/
+/*
+This version add: 
+-a blink effect supplemental(if blink move content when on hover, maybe link or perf issue)
+-a better contrast and visibility for all links, darker underline for less light under text in different contrast ratio and more same colors*/
 
 * a > span, * a > span * ,* a span,*[data-url]{
 text-decoration-color: currentColor !important;
@@ -77,7 +81,11 @@ text-decoration-color: #265C00 !important;
 
 a[href]:not(:hover){
 	/*animation: blinker 1s ease-in-out 3s infinite alternate;*/
-	
+	text-space-collapse: preserve;
+	/*text-height: 1.1 em;*/
+	font-weight: bolder;
+	font-size:1.075em !important;
+	letter-spacing: -1px !important;
 	animation-name: blinker;
 	animation-delay:2s;
 	animation-duration:1s;
