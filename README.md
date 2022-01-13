@@ -191,7 +191,7 @@ PDF
 
 
 
-CHROME PLUGIN BUG
+CHROME-PLUGIN-BUG
 
 ------------------
 
