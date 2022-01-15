@@ -490,7 +490,7 @@ https://github.com/openstyles/stylus/wiki/Stylish-alternatives
 
 # NEXT YOU DO, YOU CHANGE, YOU DELETE
 __________
-1. - [URLS3](#URLS2)
+1. - [URLS3](<!--#urls2-->)
 Chrome UI
 
 ----------
