@@ -25,7 +25,7 @@ ________
 1. - --->>>>>>>>> [INSTALL RECAPITULATIVE STEPS](#INSTALL-RECAPITULATIVE-STEPS) <<<<<<<<<--
 
 1. - [URLS](#URLS)
-# urls2
+<!--# urls2-->
 1. - [NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE](#NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE-)
 
 1. [x] [More GUI](#MoreGUI)
