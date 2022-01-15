@@ -486,8 +486,9 @@ https://github.com/openstyles/stylus/wiki/Stylish-alternatives
 
 
 
-# NEXT YOU DO,-YOU CHANGE,-YOU DELETE
 
+# NEXT YOU DO,-YOU CHANGE,-YOU DELETE
+[NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE](#NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE-)
 __________
 
 Chrome UI
