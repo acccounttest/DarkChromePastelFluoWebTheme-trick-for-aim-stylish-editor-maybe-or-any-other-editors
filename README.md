@@ -23,8 +23,10 @@ ________
 1. - [HELP](#HELP)
 
 1. - --->>>>>>>>> [INSTALL RECAPITULATIVE STEPS](#INSTALL-RECAPITULATIVE-STEPS) <<<<<<<<<--
-
-1. # - [URLS](#URLS) ##### ___
+ ##### ___
+ 
+1. # - [URLS](#URLS)
+ [id/name]: http://link-url/
 <!--# urls2-->
 1. - [NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE](#NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE-)
 
@@ -480,6 +482,7 @@ __________________________________
 
 _________________
 [back](#___)
+[Reference link][id/name]
 Stylus page of alternatives programs, free or not and only same supported functionalities
 
 https://github.com/openstyles/stylus/wiki/Stylish-alternatives
