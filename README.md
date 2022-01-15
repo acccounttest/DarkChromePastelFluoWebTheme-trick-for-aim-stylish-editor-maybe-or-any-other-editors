@@ -24,7 +24,7 @@ ________
 
 1. - --->>>>>>>>> [INSTALL RECAPITULATIVE STEPS](#INSTALL-RECAPITULATIVE-STEPS) <<<<<<<<<--
 # ___
-1. # - [URLS](#URLS-)
+1. # - [URLS](#URLS)
 <!--# urls2-->
 1. - [NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE](#NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE-)
 
@@ -476,10 +476,10 @@ __________________________________
 
 
 
-# URLS-
+# URLS
 
 _________________
-
+[back](#___)
 Stylus page of alternatives programs, free or not and only same supported functionalities
 
 https://github.com/openstyles/stylus/wiki/Stylish-alternatives
@@ -489,8 +489,9 @@ https://github.com/openstyles/stylus/wiki/Stylish-alternatives
 
 
 # NEXT YOU DO, YOU CHANGE, YOU DELETE
+
 __________
-1. - [back](# ___)
+
 Chrome UI
 
 ----------
