@@ -26,8 +26,7 @@ ________
 
 1. - [URLS](#URLS)
 
-1. - # NEXT YOU DO,YOU CHANGE,YOU DELETE
-
+1. - [NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE](#NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE-)
 
 1. [x] [More GUI](#MoreGUI)
 - [interfaces](#interfaces)
