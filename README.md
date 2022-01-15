@@ -479,7 +479,7 @@ __________________________________
 # URLS
 
 _________________
-[back](#___)
+[back](##___)
 Stylus page of alternatives programs, free or not and only same supported functionalities
 
 https://github.com/openstyles/stylus/wiki/Stylish-alternatives
