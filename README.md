@@ -479,9 +479,6 @@ __________________________________
 
 
 # URLS
-
-_________________
-[back](#___)
 [Reference link][id/name]
 Stylus page of alternatives programs, free or not and only same supported functionalities
 
