@@ -91,7 +91,7 @@ iframe{
 iframe{
   z-index:9999 !important;
   overflow: hidden visible !important;
-  resize:both !important;/*"all-scroll", "auto", or "hidden".*/
+  resize:both !important;/* both "all-scroll", "auto", or "hidden".*/
   padding:1.6px !important;
   margin:1.6px !important;
     box-sizing: content-box !important;
@@ -888,8 +888,43 @@ background:transparent !important;
 select:not(:hover) option:not(:disabled)
 {
 color:#5A20F4 !important;/*#5C27A1*/
-
+height:1.1em !important;
 }
+
+
+select[multiple*=multiple] option:not(:disabled)
+{
+color:#DBCE6B !important;/*#5C27A1*/
+height:1.1em !important;
+}
+
+select[multiple*=multiple] option:hover:not(:disabled)
+{
+color:#2E8A64 !important;/*#5C27A1*/
+height:1.1em !important;
+}
+
+select[multiple*=multiple] option:disabled
+{
+color:#C75F45 !important;/*#5C27A1*/
+height:1.0em !important;
+}
+
+kbd{
+  background:black !important;
+  color:yellow !important;
+  font-size:1.2em !important;
+  vertical-align:middle !important;
+  padding: 0 auto !important;
+}
+
+/*:not(:focus) :focus after select is simply not working*/
+select[multiple*=multiple] option:not(:disabled):checked
+{
+color:#61E580 !important;/*#5C27A1*/
+height:1.2em !important;
+}
+
  
     /*
 select:hover option
