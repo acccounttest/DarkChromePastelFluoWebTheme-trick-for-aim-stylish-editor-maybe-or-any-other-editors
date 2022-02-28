@@ -1,4 +1,4 @@
-@-moz-document regexp(".*:\\/\\/(?!(.*google.*/.*(tbm=isch|tbs=imgo|tbm=lcl).*|.*google.*/maps/d/u.*)).*") {
+@-moz-document regexp(".*:\\/\\/(?!(.*google.*/.*(tbm=isch|tbs=imgo|tbm=lcl).*|.*google.*/maps/d/u.*|.*ultimedia.com.*)).*") {
 /*Author:Senethril
 Date:21-03-21
 Name:DarkChromePastelFluoWebTheme-trick-for-aim-stylish-editor-maybe-or-any-other-editors
