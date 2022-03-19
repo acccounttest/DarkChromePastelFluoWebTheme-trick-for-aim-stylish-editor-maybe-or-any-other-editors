@@ -1,0 +1,115 @@
+
+/*
+* a > span, * a > span * ,* a span,*[data-url]{
+text-decoration-color: currentColor !important;
+text-decoration: wavy !important;
+}
+*/
+
+ /*   animation: blinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;*/
+/*background-color:unset !important;
+background-image:unset !important;
+background: unset !important;*/
+
+
+/*
+* a > span::before, * a > span *::before, * a span::before{
+text-decoration-color: currentColor !important;
+text-decoration-line:underline !important;
+text-decoration-style:wavy !important;
+background-color:unset !important;
+background-image:unset !important;
+background:unset !important;
+}
+*/
+
+/*    animation: blinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;*/
+
+
+a[href]:not(:hover){
+    /*animation: blinker 1s ease-in-out 3s infinite alternate;*/
+    text-space-collapse: preserve !important;
+    text-height: max-size !important;
+    line-height:110% !important;
+    /*line-height: 50%;
+    word-spacing:0.5;
+    font-size-adjust: 1.1;*/
+    font-weight: bolder !important;
+    font-size:1.175em !important;
+    letter-spacing: -1px !important;
+    animation-name: blinker !important;
+    animation-delay:2s !important;
+    animation-duration:1s !important;
+    animation-iteration-count: infinite !important;
+    animation-timing-function: steps(5, end) !important;
+    animation-direction:alternate !important;
+    color:#265C00;
+}
+
+/*
+*[xmlns\:xhtml]
+*[xmlns\\3Axlink],
+*[xlink\\3Ahref]
+*/
+[xmlns\:xhtml]:not(html),[xmlns\:xlink]:not(html),[xlink\:href]:not(html),[xmlns]:not(html),[xlink]:not(html),[xlinkHref]:not(html)
+{
+text-decoration-color: currentColor !important;
+text-decoration-line:underline !important;
+text-decoration-style:dotted !important;
+background-color:unset !important;
+background-image:unset !important;
+background:unset !important;
+ /*   animation: blinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;*/
+
+}
+
+p * a,p > * a,div > * a{
+text-decoration-line:underline !important;
+text-decoration-style:dashed !important;
+text-decoration-color:#265C00 !important;
+text-decoration-thickness: 0.3px !important;
+/*fix with https://drafts.csswg.org/css-text-decor-4/#text-underline-position-property*/
+  /*  animation: blinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;*/
+}
+
+:not(p) * a,:not(p) > * a{
+/*text-decoration-color: currentColor !important;*/
+/*font-size: 1.0em !important;*/
+text-decoration-color: #265C00 !important;
+/*background-color: none !important;*/
+/*animation: blinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;*/
+}
+
+
+/*
+,*[xmlns:xhtml]
+,*[xlink:href]
+*[xmlns:xlink]
+*/
+
+/*
+*[href],[xlink],[xmlns]:not(html),[xlinkHref],[xmlns\:xhtml],[xmlns\:xlink],[xlink\:href]
+{*/
+/*font-size: 1.0em !important;*/
+/*text-decoration-color: currentColor !important;*/
+/*text-decoration-color: #00CC14 !important;*/
+   /* animation: blinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;;*/
+/*}*/
+
+
+/*
+WHY NOT ? #540A87 even better with very bright hilights in links.
+[href]:visited,[data-url]:visited,[xmlns]:visited,[xlink]:visited,[xlinkHref]:visited,[xmlns\:xhtml]:visited,[xmlns\:xlink]:visited,[xlink\:href]:visited,:not(p) a:visited,:not(p) > a:visited * ,[data-url]:visited
+{
+color:#CC3399 !important;
+text-decoration-color: #CC3399 !important;
+animation: blinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;
+}
+*/
+
+
+
+@-webkit-keyframes blinker { 0%{color:#85C247 !important; text-decoration-color: #85C247 !important;} 100% { color:#265C00 !important;text-decoration-color: #265C00 !important;opacity:0.6}}
+@keyframes blinker { 0%{color:#85C247 !important; text-decoration-color: #85C247 !important;} 100% { color:#265C00 !important;text-decoration-color: #265C00 !important;opacity:0.6}
+    
+}
