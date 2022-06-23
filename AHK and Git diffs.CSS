@@ -1,4 +1,4 @@
-@-moz-document regexp("https://www.autohotkey.com/.*"), regexp(".*github.com/.*commit/.*") {
+@-moz-document regexp("https://www.autohotkey.com/.*"), regexp(".*github.com/.*") {
 pre,
 code {
     overflow: hidden !important;
