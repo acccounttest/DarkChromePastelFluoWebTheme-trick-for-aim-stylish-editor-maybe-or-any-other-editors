@@ -1,4 +1,4 @@
-@-moz-document regexp("https://www.autohotkey.com/.*"), regexp(".*github.com/.*") {
+/*so here is the diff for not get scroll and bars and space between lines, bar per line was not a problem*/
 pre,
 code {
     overflow: hidden !important;
@@ -60,9 +60,8 @@ code:hover {
     color: inherit !important;
     background: inherit !important;
 }
-
+/*below due to problems with the green button code and popup deseapear or filled with scrollbars and/or visible content*/
 *[class*=code] {
-    overflow: hidden !important;
-    background: none !important;
-}
+    overflow: inherit !important;
+    background: inherit !important;
 }
