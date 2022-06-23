@@ -1,0 +1,68 @@
+@-moz-document regexp("https://www.autohotkey.com/.*"), regexp(".*github.com/.*commit/.*") {
+pre,
+code {
+    overflow: hidden !important;
+    resize: both !important;
+    /*"all-scroll", "auto", or "hidden".*/
+    font-size: 1.075em !important;
+    ;
+    -webkit-filter: invert(5%);
+    background: rgba(3, 14, 29, 0.5) !important;
+}
+
+
+*:hover ~ *:not(*:hover) > code {
+    -webkit-border-radius: 130px !important;
+    -moz-border-radius: 130px !important;
+    border-radius: 130px !important;
+    /* border:rgba(152,32,37,0.3) solid 1px !important; */
+    background: rgba(3, 14, 29, 0.5) !important;
+    /*  outline: rgba(52,32,37,0.3) solid 2px !important; */
+}
+
+
+:not(*:hover) ~ code,
+:not(*:hover) > code,
+:not(*:hover) + code * {
+    background: rgba(3, 14, 29, 0.5) !important;
+    -webkit-border-radius: 30px !important;
+    -moz-border-radius: 30px !important;
+    border-radius: 30px !important;
+    /*outline: rgba(52,32,37,0.3) solid 1px !important;*/
+    border: rgba(37, 32, 182, 0.4) solid 0.1px !important;
+}
+
+*:hover ~ code,
+*:hover > code,
+*:hover + code *,
+*:hover ~ * code:not(:hover),
+*:hover ~ *:not(:hover) > code {
+    background: rgba(3, 14, 29, 0.5) !important;
+    /*  outline: rgba(52,32,37,0.3) solid 10px !important; */
+    outline-color: rgba(40, 80, 255, 0.02);
+    outline-style: inset;
+    outline-width: 75px;
+}
+
+pre {
+    background-color: rgba(3, 14, 29, 0.5) !important;
+}
+pre span *,
+code *,
+pre *,
+textarea {
+    background-color: rgba(3, 14, 29, 0.5) !important;
+}
+
+
+code:hover {
+    /*background:rgba(152,132,137,0.5) !important;*/
+    color: inherit !important;
+    background: inherit !important;
+}
+
+*[class*=code] {
+    overflow: hidden !important;
+    background: none !important;
+}
+}
