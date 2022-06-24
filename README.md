@@ -456,25 +456,21 @@ __________________________________
 
 -Get the browser extension, this main aim is provide themes secured in simple CSS with code editor in chrome(useless)
 
-- The extension can filters URL matching their needs but no blacklist at all, only maybe the idea with extensions for only a browser and code for filters URLS directly and not from the extension editor itself and not for others browsers, original behavior tend to fail and bug itself easily, at least in "antiperfmode", without any operator demanding and/or combined with big resources demanding pages, only one solution, change file or try the version static better, you could try delete some rules after the two first including general tags.
+- The file, or the paste you get, fill it in the browser extension editor, and name it, then import it and save it, load a page that is not included in google services for test it well, avoid first printing in GAFAM, especially those with videos, the only problem.
 
-- The file, or the paste you get, fill it in the browser extension editor, and name it, then save it, load a page that is not included in google services for test it well, avoid first printing in GAFAM, especially those with videos, the only problem.
+- Delete the video problem does not solve the performance or the visuals common problems but help a little bit as it is a version under for performance reason we would not lost in videos or in other website as the "videosonly" script is considered as secondary script when there are not well visible videos/background(s).
 
-- Delete the video problem does not solve the performance or the visuals common problems.
+- Add/Edit translucency maybe means more performance or less, the most demanding performance is the script for links only, should be not used alone.
 
-- Add/Edit translucency maybe means more performance or less, without taking in account the fact the tags can switch or loose background by inheritance and/or better than default keywords for reporting the default behavior on something related, like the real or false labels wanted behavior possibility.
+- The extension can filters URL matching their needs but the interface tend to sometimes reset the list of URL matching type, you have to be sure and check sometimes if you put stars(*) into matching URL inputs, they should absolutely remains as regexp matching, this happend generally by using the interface, option and more specifically export and import operations, they include the list of URLS.
 
-- The script no need user choices, but i preferred separate them to let a chance to approach something 99.5% usable and visible against something 99 % usable and 50% less visible(combined effects), same tags:
+- The script no need user choices, the most problematic tags:
 
 - + Links(total ignorance of visited or/and links clickable = at least 0.001%) in this conception, the only exception for this one is with images or XML links, example SVG, not even socials networks.
 
 - + Titles(when really assembled from 0 knowledge or very poor content)
 
-
-
-
-
-
+- + Videos websites.
 
 
 
@@ -484,12 +480,8 @@ Stylus page of alternatives programs, free or not and only same supported functi
 
 https://github.com/openstyles/stylus/wiki/Stylish-alternatives
 
-
-
-
-
 # NEXT YOU DO, YOU CHANGE, YOU DELETE
-
+---
 __________
 
 Chrome UI
@@ -502,9 +494,7 @@ Maybe i can add more compatibility because even with DOM loaded and loading , st
 
 Most important minimal feature to be release in addition to this script, we got the domain filter for every browser, 
 
-now you need to find how to get ride of the new backgrounds, only made for chrome when you:
-
-
+Now you need to find(not in w10 or more recent browser but tags help, anti flash not needed anymore in older PCs) how to get ride of the new backgrounds, only made for chrome when you:
 
 - Start to load(partially fixed) or wait the response.
 
