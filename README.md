@@ -4,27 +4,27 @@
 ________
 ________
 ##### ______________________________________________________
-1. - [INFORMATION](#INFORMATION)
+* - [INFORMATION](#INFORMATION)
 ##### ______________________________________________________
-1. - [PROBLEMS](#PROBLEMS)
+* - [PROBLEMS](#PROBLEMS)
 ##### ______________________________________________________
-1. - [RESOLUTIONS](#RESOLUTIONS)
+* - [RESOLUTIONS](#RESOLUTIONS)
 ##### ______________________________________________________
-1. - [CHROME PLUGIN BUG](#CHROME-PLUGIN-BUG)
+* - [CHROME PLUGIN BUG](#CHROME-PLUGIN-BUG)
 ##### ______________________________________________________
-1. - [CONFIGURATION](#CONFIGURATION)
+* - [CONFIGURATION](#CONFIGURATION)
 ##### ______________________________________________________
-1. - [MORE](#MORE)
+* - [MORE](#MORE)
 ##### ______________________________________________________
-1. - [FIREFOX](#browsers)
+* - [FIREFOX](#browsers)
 ##### ______________________________________________________
-1. - [CHROME EXTENSIONS](#CHROME-EXTENSIONS)
+* - [CHROME EXTENSIONS](#CHROME-EXTENSIONS)
 ##### ______________________________________________________
-1. - [HELP](#HELP)
+* - [HELP](#HELP)
 ##### ______________________________________________________
-3. - --->>>>>>>>> [INSTALL RECAPITULATIVE STEPS](#INSTALL-RECAPITULATIVE-STEPS) <<<<<<<<<--
+* - --->>>>>>>>> [INSTALL RECAPITULATIVE STEPS](#INSTALL-RECAPITULATIVE-STEPS) <<<<<<<<<--
 ##### ______________________________________________________
-3. # - [URLS](#URLS)
+* # - [URLS](#URLS)
  [id/name]: #--urls
 <!--# urls2-->
 - [NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE](#NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE-)
