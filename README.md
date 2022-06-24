@@ -3,29 +3,28 @@
 # ChromePastelFluoWebTheme ((( and ))) means we passed from stylish to stylus or any other except if you are pro ?
 ________
 ________
-
+##### ______________________________________________________
 1. - [INFORMATION](#INFORMATION)
-
+##### ______________________________________________________
 1. - [PROBLEMS](#PROBLEMS)
-
+##### ______________________________________________________
 1. - [RESOLUTIONS](#RESOLUTIONS)
-
+##### ______________________________________________________
 1. - [CHROME PLUGIN BUG](#CHROME-PLUGIN-BUG)
-
+##### ______________________________________________________
 1. - [CONFIGURATION](#CONFIGURATION)
-
+##### ______________________________________________________
 1. - [MORE](#MORE)
-
+##### ______________________________________________________
 1. - [FIREFOX](#browsers)
-
+##### ______________________________________________________
 1. - [CHROME EXTENSIONS](#CHROME-EXTENSIONS)
-
+##### ______________________________________________________
 1. - [HELP](#HELP)
-
-1. - --->>>>>>>>> [INSTALL RECAPITULATIVE STEPS](#INSTALL-RECAPITULATIVE-STEPS) <<<<<<<<<--
- ##### ___
- 
-1. # - [URLS](#URLS)
+##### ______________________________________________________
+3. - --->>>>>>>>> [INSTALL RECAPITULATIVE STEPS](#INSTALL-RECAPITULATIVE-STEPS) <<<<<<<<<--
+##### ______________________________________________________
+3. # - [URLS](#URLS)
  [id/name]: #--urls
 <!--# urls2-->
 - [NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE](#NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE-)
