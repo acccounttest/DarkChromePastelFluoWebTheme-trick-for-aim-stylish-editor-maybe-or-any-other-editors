@@ -28,9 +28,8 @@ ________
 1. # - [URLS](#URLS)
  [id/name]: #--urls
 <!--# urls2-->
-1. - [NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE](#NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE-)
-
-1. [x] [More GUI](#MoreGUI)
+- [NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE](#NEXT-YOU-DO,-YOU-CHANGE,-YOU-DELETE-)
+- [More GUI](#MoreGUI)
 - [interfaces](#interfaces)
 - [Firefox](#Firefox)
 - [Chrome](#Chrome)
