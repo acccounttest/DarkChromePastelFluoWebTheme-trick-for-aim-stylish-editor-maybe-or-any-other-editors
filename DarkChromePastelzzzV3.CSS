@@ -335,28 +335,34 @@ color: -webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61,0.08
 */
 
 
-tr:not(tr.icon){
+
+
+
+
+
+tr:not(tr.icon):not(tr[stylus-iframe^=https://github.com]){
   /*color:orange !important;*/
   background: -webkit-radial-gradient(center,circle closest-corner, rgba(0,16,0,1.0) 15%,rgba(0,0,16,0.8) 75%) !important;
-}
-
-    
-    /*currentColor is changing colors orange and lightblue instead differents others colors**/
-    
+} 
+/*currentColor is changing colors orange and lightblue instead differents others colors**/ 
 /* td.icon,td.icon *{
 background-color:default !important;
 background:default !important;
 color: default !important;
 } */
     
-
-td:not(td.icon)
+td:not(td.icon):not(td[stylus-iframe^=https://github.com])
 {
 font-size: 1.05em !important;
 color: rgba(222,102,17) !important;
 background: -webkit-radial-gradient(center,circle closest-corner, rgba(0,16,0,1.0) 15%,rgba(0,0,16,0.8) 75%) !important;
 /*background: -webkit-radial-gradient(center,farthest-corner, rgba(54,43,27,1.0) 15%,rgba(30,67,64,0.8) 75%) !important;*/
 }
+
+
+
+
+
 
 div * polygon,svg
 {
@@ -382,6 +388,19 @@ color: #FFCC66 !important;
 /*background-color: rgba(0, 0, 0, 0.15) !important;*/
     /*background-color: red !important;*/
 }
+/*
+*::marker
+{
+size:1.2em !important;
+height:1.2 em !important;
+width:1.2 em !important;
+color: #FFCC66 !important;
+background:#FECA30 !important;
+outline-color :rgba(40,80,255,0.02);
+outline-style:inset;
+outline-width:75px;
+}
+*/
 
 label{
   background-color: inherit !important;
@@ -663,6 +682,7 @@ text-decoration-style:dotted !important;
 background-color:unset !important;
 background-image:unset !important;
 background:unset !important;
+/*opacity:0 !important;*/
 }
 
 p * a,p > * a,div > * a{
@@ -694,7 +714,8 @@ color:#85C247 !important;
 /*font-size: 1.0em !important;*/
 /*text-decoration-color: currentColor !important;*/
 /*text-decoration-color: #85C247 !important;*/
-color:#85C247 !important; 
+color:#85C247 !important;
+/*opacity:1 !important;*/
 }
 
 
@@ -971,7 +992,6 @@ zoom:1.05;
     /*✔*/
 input[type=checkbox]:checked:after {content: '\2713';color: #2ebac4;position: absolute;line-height: 1rem;font-size:1.5rem;margin-left:-4px;margin-top:-8px;}
 input[type=radio]:checked:after{content: '\2713';color: #2ebac4;position: absolute;line-height: 1rem;font-size:1.5rem;margin-left:-2px;margin-top:-6px;}
-    
     /*
     @keyframes mymove {
  0% {background-color: red;}
@@ -987,14 +1007,14 @@ section{
     
 /* html > *:hover {-webkit-filter: invert(90%);color:hsl(120,120,100,5);background-color: hsl(120,120,100,5);} */
     
-    iframe[src="https://0l6dh.sse.codesandbox.io"],html[stylus-iframe="https://codesandbox.io"],html[stylus-iframe="https://codesandbox.io"] body{
+    iframe[src^=https://0l6dh.sse.codesandbox.io],html[stylus-iframe^=https://codesandbox.io],html[stylus-iframe^=https://codesandbox.io] body{
     color:inherit !important;
     background:inherit !important;
     background-color:inherit !important;
         
 }
     /*the Iframe was unecessary there and empty*/
-    html[stylus-iframe="https://codesandbox.io"] body iframe,html[stylus-iframe="https://codesandbox.io"] body iframe > * {
+    html[stylus-iframe^=https://codesandbox.io] body iframe,html[stylus-iframe^=https://codesandbox.io] body iframe > * {
         display:  none !important;
         visibility: hidden !important;
         background:inherit !important;
@@ -1002,5 +1022,4 @@ section{
     }
     
 }
-
 }
