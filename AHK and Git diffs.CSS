@@ -1,4 +1,4 @@
-/*so here is the diff for not get scroll and bars and space between lines, bar per line was not a problem*/
+@-moz-document regexp("https://www.autohotkey.com/.*"), regexp(".*github.com/.*") {
 pre,
 code {
     overflow: hidden !important;
@@ -60,8 +60,22 @@ code:hover {
     color: inherit !important;
     background: inherit !important;
 }
-/*below due to problems with the green button code and popup deseapear or filled with scrollbars and/or visible content*/
+
+/*
 *[class*=code] {
-    overflow: inherit !important;
-    background: inherit !important;
+    overflow: revert !important;
+    background: revert !important;
+}*/
+
+
+/*
+table,table *,colgroup, colgroup *,col,col *
+{
+     overflow: default !important;
+     background: default !important;
+    background-image:default !important;
+    color:default !important;
+    background-color: default !important;
+        background-image:default !important;
+}*/
 }
