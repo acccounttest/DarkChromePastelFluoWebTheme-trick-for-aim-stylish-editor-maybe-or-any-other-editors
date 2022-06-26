@@ -1072,3 +1072,12 @@ The initial proper colour for the underlined styles are modified in different ve
 This is not intended to works with visited links for different securities reasons, this is not the case this time.
 The changes on tags can be enhanced but they are certainly not all done.
 Certain content contains can be modified and this is not great, hopefully the hover works as normaly.
+
+
+
+# Attributes regexp values string starting by or equals must not works when surrounded by quotes anymore
+---
+>
+Latest CSS levels of conception maybe due to this, it seems the CSS engine has changed how rules are definitively applied with old versions, because when using stylish the old synthax was fine until no other characters comme break the reading of the specific attribute value cibling rule, the quotes are no more working, they become unecessary, and therefore can be certainly matched if present in the URL, they should not be part of it as literally, the synthax error raise lot of them directly when you start a string without quotes at each parts of the script concerned, while it is working, latest example with github.
+>
+Try last lines of main script beginning and ending with quotes, it will make the rule to report an error in the editor but will works the website never more the invert, it was working before because i needed it for codesandbox.io, this one become resistant to domain matching, have to resize useless frames instead to to resize them probably. 
