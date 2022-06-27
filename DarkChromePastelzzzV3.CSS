@@ -340,7 +340,8 @@ color: -webkit-radial-gradient(center, circle closest-corner, rgba(57,61,61,0.08
 
 
 
-tr:not(tr.icon):not(tr[stylus-iframe^=https://github.com]){
+tr:not(tr.icon)
+{
   /*color:orange !important;*/
   background: -webkit-radial-gradient(center,circle closest-corner, rgba(0,16,0,1.0) 15%,rgba(0,0,16,0.8) 75%) !important;
 } 
@@ -351,7 +352,7 @@ background:default !important;
 color: default !important;
 } */
     
-td:not(td.icon):not(td[stylus-iframe^=https://github.com])
+td:not(td.icon)
 {
 font-size: 1.05em !important;
 color: rgba(222,102,17) !important;
@@ -1007,19 +1008,19 @@ section{
     
 /* html > *:hover {-webkit-filter: invert(90%);color:hsl(120,120,100,5);background-color: hsl(120,120,100,5);} */
     
-    iframe[src^=https://0l6dh.sse.codesandbox.io],html[stylus-iframe^=https://codesandbox.io],html[stylus-iframe^=https://codesandbox.io] body{
+    iframe[src^="https://0l6dh.sse.codesandbox.io"],iframe[src^="https://5ozv2.sse.codesandbox.io"],html[stylus-iframe^="https://codesandbox.io"],html[stylus-iframe^="https://codesandbox.io"] body{
     color:inherit !important;
     background:inherit !important;
     background-color:inherit !important;
         
 }
     /*the Iframe was unecessary there and empty*/
-    html[stylus-iframe^=https://codesandbox.io] body iframe,html[stylus-iframe^=https://codesandbox.io] body iframe > * {
+    html[stylus-iframe^="https://codesandbox.io"] body iframe,html[stylus-iframe^="https://codesandbox.io"] body iframe > * {
         display:  none !important;
         visibility: hidden !important;
         background:inherit !important;
     background-color:inherit !important;
     }
-    
+
 }
 }
