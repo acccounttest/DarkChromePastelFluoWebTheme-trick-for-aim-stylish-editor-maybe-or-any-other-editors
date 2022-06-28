@@ -1,5 +1,4 @@
-/*Old version made only for Firefox*/
-@-moz-document url-prefix("http://"), url-prefix("https://"), regexp("^(chrome|http|https)://(?!browser/content/devtools/).*") {
+@-moz-document url-prefix("https://www.ebay.com") {
 div.fsScrollDiv{
 color:grey !important;
 background-color: grey !important;
@@ -142,7 +141,7 @@ background: #cc66cc !important;
 
 
 
-
+/*
 *[style*=color: #000000]
 {
  color:#191970 !important;
@@ -166,7 +165,7 @@ background-color: #191970 !important;
 color:#191970 !important;
 background-color: #191970 !important;
 }
-
+*/
 
 
 
@@ -322,7 +321,7 @@ h1
 {color: red !important;}
 h2
 {color:#B40404 !important;}
-h3, !a h3
+h3
 {color:#FE2E2E !important;}
   
 h4
