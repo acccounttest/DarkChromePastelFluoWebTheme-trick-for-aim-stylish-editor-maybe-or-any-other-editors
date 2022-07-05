@@ -1,16 +1,6 @@
-/*This is not videos only V3, this is the patch for youtube when using zzzV3*/
-
-/*
-Normally you could add this with a special header recognized when importing a content in a new script, do not use import new section at start, just click the button replace style
-when important the header part for the domains, here its not the case, just use copy paste into the code part and add your own domains yourself, maybe the second is not necessary.*/
-
-/*
-URL STARTING BY https://www.youtube.com
-URL STARTING BY https://www.youtu.be
-*/
-
-/*WARNING , to use this file please consider this script is part of zzzV3 only and must be used with the option that modify frame to be usable, here, as a tag class value added.*/
-/*This permit the video youtube player to continue to show the thumbnails while playing, at stop and at end of the videos and allow the embeded video of this domain tyo be visible and readable easily as usual.*/
+@-moz-document url-prefix("https://www.youtube.com"), url-prefix("https://www.youtu.be") {
 HTML:not([stylus-iframe]) video {
   position:absolute !important;
+}
+
 }
