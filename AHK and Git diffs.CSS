@@ -11,6 +11,17 @@ code {
 }
 
 
+blockquote > div:not(:hover){
+	background:default !important;
+	color:initial !important;
+}
+
+span
+{
+	font-size: 1.075em !important;
+	background: rgba(3, 14, 29, 0.5) !important;
+}
+
 *:hover ~ *:not(*:hover) > code {
     -webkit-border-radius: 130px !important;
     -moz-border-radius: 130px !important;
