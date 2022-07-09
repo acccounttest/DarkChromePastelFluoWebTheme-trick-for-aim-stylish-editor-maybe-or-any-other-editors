@@ -8,5 +8,14 @@ code {
     ;
     -webkit-filter: invert(0.175%);
     background: rgba(3, 14, 29, 0.5) !important;
+}E
+
+/*OR YOU CAN USE MAIN SCRIPT INSTEAD VIDEOSONLY, BUT UNCOMMENT CODE BELOW TO FIX THE GREEN BUTTON NAMED CODE IN EVERY MAIN REPOSITORY PAGE*/
+/*
+*[class*=code] {
+    overflow: revert !important;
+    background: revert !important;
 }
+*/
+
 }
