@@ -1,0 +1,12 @@
+@-moz-document regexp(".*github.com.*") {
+pre,
+code {
+    overflow: hidden !important;
+    resize: both !important;
+    /*"all-scroll", "auto", or "hidden".*/
+    font-size: 1.075em !important;
+    ;
+    -webkit-filter: invert(0.175%);
+    background: rgba(3, 14, 29, 0.5) !important;
+}
+}
