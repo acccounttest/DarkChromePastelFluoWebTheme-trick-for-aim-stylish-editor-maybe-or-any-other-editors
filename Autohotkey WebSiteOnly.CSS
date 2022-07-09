@@ -1,4 +1,4 @@
-@-moz-document regexp("https://www.autohotkey.com/.*"), regexp(".*github.com/.*") {
+@-moz-document regexp("https://www.autohotkey.com/.*") {
 pre,
 code {
     overflow: hidden !important;
@@ -6,21 +6,36 @@ code {
     /*"all-scroll", "auto", or "hidden".*/
     font-size: 1.075em !important;
     ;
-    -webkit-filter: invert(5%);
+    -webkit-filter: invert(0.175%);
     background: rgba(3, 14, 29, 0.5) !important;
 }
-
 
 blockquote > div:not(:hover){
 	background:default !important;
 	color:initial !important;
 }
 
+
 span
 {
 	font-size: 1.075em !important;
-	background: rgba(3, 14, 29, 0.5) !important;
+	background: rgba(90, 14, 29, 0.5) !important;
 }
+
+span:hover,pre:hover
+{
+	color:#FFCC66 !important;
+}
+
+
+.content:not(span):not(pre)
+{
+	color: #FFCC66 !important;
+	font-size: 1.375em !important;
+	/*text-shadow: 1px 1px #000!important;*/
+	
+}
+
 
 *:hover ~ *:not(*:hover) > code {
     -webkit-border-radius: 130px !important;
