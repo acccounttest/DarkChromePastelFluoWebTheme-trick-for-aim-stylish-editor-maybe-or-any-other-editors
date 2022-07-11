@@ -3,3 +3,4 @@
  - 2:Difference between zoom of the page,80 and 100 % is not famous.
  - 3:Links blinking effect when activated.
  - 
+![Twitch good or bad streamer](https://gfycat.com/playfulflimsyleafwing)
