@@ -470,6 +470,75 @@ __________________________________
 
 - + Videos websites.
 
+managing scripts with shortcut of shortcuts.
+---
+
+Commercial domains is a problem, the reading is not always easier so it's better to achieve a proper reading by using old script(s) combined with newer, sometimes like in Ebay or Amazon, where the theme change often, it may be more usefully this time with theses domains to have to put the mouse pointer out of the window or aim another area in the website, this is rarely the case for an entire block of repetitive information, rather certain links description or detailed information in rare global unique common website, menus or tags, the most of the time you can even choose the invert operation, be or not inside or on hover the element area(s).
+
+There three ways to modify a domain per script and others to not to try :
+ - Use the GUI but only in the pop-up(that can be reconfigured to act like a window but it's main utility with an option is to sort auto latest activated script, this extension allow a shortcut to continue to choose a number just after it opened the list, if you want there is possibility to reach the same enumerated script with a digit shortcut even when the pop-up is sorted dynamically, the configuration, editor and script list managing pages, so it require a script, you can achieve that by reusing the script <kbd>alt+enter</kbd> to enable/disable on the fly the "linksonly" script via the Stylus options tab opened and closed, it could fail even when you keep always the window the same width and height both in popup but much less in page options of the extension full script list page.
+Anyway if you prefer use a static list and get shortcut of shortcuts available without script and mouse position, you can just create a new script, in AHK this time, see mandatory folder of this project, and send one key for two, or more simply reuse a <kbd>digit</kbd> directly without have to press multiple keys in the same time, one after one is good and not usual, its not like you can press <kbd>shift-lock</kbd> or <kbd>escape</kbd> followed by the first line keys of your keyboard upper the letters, the line of digits or the <kbd>F-keys</kbd> in the CTM project).
+So the best sort for me is,(note all the tests scripts are not recreated in this repository, you have to import only the code, not the importation method with the domains filtering rules as the additional and surrounding headers):
+ - test videos only script(global and always off)
+ - test *main v2* script(global and always off)
+ - test *main v1* script(global and always off, and content can be missing/hidden)
+ - test *rares codes* (AHK website itself and lesser part duplicated in Github, uncomment for use with different main alternative script, main or videosonly can be used on any website, or both even if no frame are used or visible).
+ - 
+ - *mainv3*(global but domains) always on, can be grayed out
+ - *videos only*(global but domains) always on, can be grayed out
+ - *Linksonly*(global but not browser or extensions) usually on or off
+ - *Resizeall*(global but not browser) usually off
+ - 
+ - *Scrolls*(global) always on
+ - *YoutuAnd*(domain) always on
+ - *Rarecodes*(domain(s)) always on but could be cloned for tests
+ - *Revertallcolors*(global) always off
+ - *Others* script usually not to be switched, eventually modified further in the time:
+    + Gmaps iframe
+    + Gmaps
+    + Gmaps users
+    + Gsearch .be 1080 (an example with a country website)
+    + Gsearch .com 1080 (commercial website)
+
+The problem is there is no much entry available in the pop-up because activated script must always remains at top, so in fact the real sort is more like, hopefully all entries are shown only if eligible to the current tab domain name :
+ * mainV3, scrolls and videos only (usually always at least one or two or more are activated) and links only prefixed with an underscore.
+ * 4 test(s) script(s) you need put an underscore in the start of the name to get them upper in the list and be able to use shortcuts to switch them faster.
+ * resize all, revertall, testv2 and debugs, tools and outdated scripts.
+
+ For this i suggest you to rename theses scripts:
+  - _A Testmain V2
+  - _A Testvideosonly
+  - _zLinksOnly (This one is not really necessary on main pop-up, there is not a long list, we could resize it height will not remains, it must be in same position in the stylus options scripts page)
+  - _TestRare
+  - _Test V1
+  
+The order can always differ even without the stylus option about the pop-up, the auto sorting script list, mainly scrolls script can remain to the top of the list, note grayed out script in the list are fixed to the top and certain script can be added in the end, specifically for the current tab too, its the same version but only in frame(s) of the page, they can be visible, transparent and black, or invisible, and surrounded with blue borders, theses can be as well grayed out occasionally.
+
+
+Real problems:
+---
+
++ The other ways they add options to blacklist or white list domains in two separated areas, can override my settings or are always with one or two lists, i you want understand how Google play with domains and "regex" i suggest you to see previous chapters of this "readme" document.
+
++ About the problem of the configuration of domain using the code editor page of all scripts, below that area there are sections, but this is more probably about the code editor, where you need to install any new script by the best way, the importation of code that forget and transform nothing.
+
++ The second configuration point necessitate to configure stylus option(s) in its own interface, its the same web-page but it require to apply one or two option(s) minimum to be fully functional with these(s) script(s).
+
++ Third step is auto-updates can be done using a URL in an optional input, and made automatically from the script configuration itself, into the parameters page, i do not use it, as the theme website(there are others) can inject you code hidden in image or know if you use their script, the website is very slow to respond, sometimes updates aren't just working, it may depend more the platform used, otherwise the option given permit to search and find new script in the editor but sorts and content can be filtered only approximately and the title or a domain, there should be much more choices outside, after all is accessible and updated, but lately there always data lost and i experimented myself in very old time, lot of content disappear, but it is here, always clone your script even those in double in the case the "regex" mode reinitialize more or less it can with the rules when the user miss a click or when the extension want! 
+
++ The real problem is sometimes, by manual operation or not, (or one select first entry or another while scrolling up before quit the interface, the first choice risk to be selected maybe with the same opened menu but not real selected new entry until the menu or the tab or the user close it maybe indirectly, and no way to know what was the previous except by its location so i imagine the same sort of all kind of matching rule type), while by using importation or other interface buttons, the list of filtering domains change all the regular expression by "start by", you can recognize it when certain entry contains stars and are not in "regex" mode, note all "regex" rules are always to the bottom of the rules list, not near the code editor.
+SO to solve the problem of the closing of the stylus options page, i can suggest to use the CTM project, it can close a tab with <kbd>ctrl + w</kbd> even outside, multiply scrolls, replays in order the tab and associated actions with extensions replacement and scripting. 
+
++ Verify the rules are all consistent, any other edition like importation after exportation, can alter the escaping method of certain specials characters, just verify time to time if you use often the interface or are not used to use every aspect of the extension stylus interaction areas.
+
++ In the case you need another script that has been not already duplicated, eventually use their matching tab in live functionality to know in real time what's tab is what rule applied successfully in current URLs list(s), sometimes even without frame(s) or advanced stylus option activated, the "regex" rule could not be applied, the rule can be correct but the exact same rule without the last dot and start can works in a new another rule "starting by".
+
+
+Further menus
+---
+ - Kind of resizing anchors, like in the the frames bottom right corners (necessity to erase them, if resize is a good compromise, if you look at CTM project in this account in Github,), appear with the script videos only in videos website or, using a script like resize everything, available for those that buy any other project, it permit to resize your main reading column or a site in another.
+ - Selects and menus, theses can get their contrast of text intact, no matter you are in or outside, you should always get them readable and full of colors.
+
 
 
 # URLS
