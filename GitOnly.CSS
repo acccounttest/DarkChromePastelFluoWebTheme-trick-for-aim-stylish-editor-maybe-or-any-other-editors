@@ -8,8 +8,10 @@ code {
     ;
     -webkit-filter: invert(0.175%);
     background: rgba(3, 14, 29, 0.5) !important;
-}E
-
+}
+/*
+Note too the code below make deseapear certains 99.9 scrollbars but can hide too scrollbars in certains elements like blockquote, but not the resize anchor.
+*/
 /*OR YOU CAN USE MAIN SCRIPT INSTEAD VIDEOSONLY, BUT UNCOMMENT CODE BELOW TO FIX THE GREEN BUTTON NAMED CODE IN EVERY MAIN REPOSITORY PAGE*/
 /*
 *[class*=code] {
@@ -17,5 +19,5 @@ code {
     background: revert !important;
 }
 */
-
+/*SO UNCOMMENT WITH MAIN SCRIPT NOT VIDEOSONLY*/
 }
