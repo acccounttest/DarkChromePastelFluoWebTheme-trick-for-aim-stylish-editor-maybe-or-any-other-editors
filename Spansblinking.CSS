@@ -9,7 +9,7 @@ body:hover * span:not(:hover),frame:hover * span:not(:hover)
     animation-timing-function: steps(5, end) !important;
     animation-direction:alternate !important;*/
 	/*background: rgba(3, 14, 29, 0.5) !important;*/
-	animation: blinkingBackground 3s infinite;
+	animation: blinkingBackground 3s;
 	
 	/*opacity:0.8 !important;*/
 }
@@ -23,3 +23,11 @@ body:hover * span:not(:hover),frame:hover * span:not(:hover)
 	85%		{background-color: revert;}
 		100%	        { opacity:revert !important; }
 	}
+
+
+
+body:not(:hover) * span:not(:hover),frame:not(:hover) * span:not(:hover)
+{
+	background-color: #010a05 !important;
+	/*opacity:0.8 !important;*/
+}
