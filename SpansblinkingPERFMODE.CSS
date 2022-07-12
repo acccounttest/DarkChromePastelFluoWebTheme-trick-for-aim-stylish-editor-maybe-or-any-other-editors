@@ -1,0 +1,23 @@
+/*
+body:hover * span:not(:hover),frame:hover * span:not(:hover)
+{
+	animation: blinkingBackground 3s;
+}
+
+
+@keyframes blinkingBackground{
+		0%		{ background-color: #010a05;}
+		25%		{}
+		70%		{ }
+		75%		{ opacity:0.5 !important;}
+	85%		{background-color: revert;}
+		100%	        { opacity:revert !important; }
+	}*/
+
+
+
+body:not(:hover) * span:not(:hover),frame:not(:hover) * span:not(:hover)
+{
+	background-color: #010a05 !important;
+	/*opacity:0.8 !important;*/
+}
