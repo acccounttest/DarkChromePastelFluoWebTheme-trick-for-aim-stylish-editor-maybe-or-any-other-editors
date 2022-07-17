@@ -1146,4 +1146,9 @@ Certain content contains can be modified and this is not great, hopefully the ho
 
 # Attributes regexp values string starting by or equals must not works when surrounded by quotes anymore
 ---
-> IDK, maybe it works maybe not, while binary operators in CSS should continue to works, this seems became pretty hard with codesandbox.io and attribute values matching domains with regexp.
+> IDK, maybe it works maybe not, especially frames that need hover or not, while binary operators in CSS should continue to works, this seems became pretty hard with codesandbox.io and attribute values matching domains with regexp.
+
+# More Scrollbars
+---
+Extremely rarely, with the *main script V3 of **DarkChromePastelFluo** *, a web dynamic dark theme, this project script can add one more scrollbar, so you could have two of them, it's not a problem with the scroll of the <kbd>mouse middle button</kbd>, there is not even a latency or two <kbd>scrolled</kbd> scrollbars, but with the CTM <kbd>left mouse click</kbd> is used longer as a page <kbd>scrolling</kbd> locked, the page <kbd>scrolling</kbd> could be affected in a way it does not works with the good scrollbar, and will not pass to the other scrollbar as last resort, the right or middle sides of the page use the other scrollbar, only left of the page works with the good scrollbar, move <kbd>mouse</kbd> at start of the operation does not help much, note without that another project the <kbd>left button</kbd> should works as usual, more easily the middle than the right side.
+Ex: https://*.rt.com/
