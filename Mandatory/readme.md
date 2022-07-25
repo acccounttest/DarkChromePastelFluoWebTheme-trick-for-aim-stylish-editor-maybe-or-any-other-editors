@@ -4,7 +4,7 @@ ___
 **Note: Consider below lapsed, pass the first title section, i have added another solution, both included in the script, first is commented out, just start it and reuse always proper default app menu key for bring to context menu, choose always same good item in the <kbd> right click </kbd> per example, now there is three timers to use the <kbd> context menu key </kbd>.**
 Now you can use a shortcut to the <kbd> right click </kbd> menu entry wanted.
  - 1.Choose the coordinate to replace in the **AHK script**, this make a <kbd> left click </kbd> at a moment appropriated, you need this <kbd> click </kbd>, else, the key will not use the application menu but more the focused element menu practically the same but not with same extensions entries list, just like the <kbd> right click </kbd> is done without focus, more or less filled(New lists are more easily accessible with the project **CTM**).
- - 2.So you need to choose too the item order and replace it in the script, replace the lines with the numbers of ```sleep``` and ```send <kbd> {up} </kbd>``` as necessary.
+ - 2.So you need to choose too the item order and replace it in the script, replace the lines with the numbers of ```ahk sleep``` and ```ahk send {up}``` as necessary.
 
 The problem is the <kbd> left click </kbd>, it is necessary, if not, even with <kbd> escape sent </kbd>, the menu used will be depending on the element type and its focus, even if you see two white menus blink a moment.
 
