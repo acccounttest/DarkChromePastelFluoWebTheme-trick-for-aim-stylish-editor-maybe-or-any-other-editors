@@ -59,11 +59,14 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
         if (Errorlevel)
         {
             Send,!+x
+            ;Click to remove element
         }
         else
         {
             Send,^x
+            ;Behind the overlay
             ;Old extension unavailable, instead use it just for cookies or to erase areas.
+            ;
         }
     }
     else
