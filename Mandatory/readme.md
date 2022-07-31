@@ -3,7 +3,7 @@ ___
 
 **Note: Consider below lapsed, pass the first title section, i have added another solution, both included in the script, first is commented out, just start it and reuse always proper default app menu key for bring to context menu, choose always same good item in the <kbd> right click </kbd> per example, now there is three timers to use the <kbd> context menu key </kbd>.**
 Now you can use a shortcut to the <kbd> right click </kbd> menu entry wanted.
- - 1.Choose the coordinate to replace in the **AHK script**, this make a <kbd> left click </kbd> at a moment appropriated, you need this <kbd> click </kbd>, else, the key will not use the application menu but more the focused element menu practically the same but not with same extensions entries list, just like the <kbd> right click </kbd> is done without focus, more or less filled(New lists are more easily accessible with the project **CTM**).
+ - 1.Choose the coordinate to replace in the *AHK script*, this make a <kbd> left click </kbd> at a moment appropriated, you need this <kbd> click </kbd>, else, the key will not use the application menu but more the focused element menu practically the same but not with same extensions entries list, just like the <kbd> right click </kbd> is done without focus, more or less filled(New lists are more easily accessible with the project **CTM**).
  - 2.So you need to choose too the item order and replace it in the script, replace the lines with the numbers of ```sleep``` and ```send {up}``` as necessary.
 
 The problem is the <kbd> left click </kbd>, it is necessary, if not, even with <kbd> escape sent </kbd>, the menu used will be depending on the element type and its focus, even if you see two white menus blink a moment.
@@ -16,13 +16,13 @@ My browser size is 1756 and 1065, I try to keep the zoom at 80 %.
 I have never found an extension to manage and control the menus of this application, so i did this and I can call my extension function directly without needing to <kbd> right click </kbd>, see white, search if the entry is at the right position, <kbd> click </kbd> on it, and sometimes repeatedly.
 
 Warning if the <kbd> click </kbd> is made on a hand pointer icon or more principally on a link, or something else, or if the mouse coordinate end on a link, either a wrong link is opened, current page change or a order is executed wrongly by the wrong item in the wrong menu(or approximative):
- - It will execute the item in the wrong menu, my example is on Google search page, if all associated searches are fill the bottom of the page, same for below.
+ - It will execute the item in the wrong menu, my example is on *Google* search page, if all associated searches are fill the bottom of the page, same for below.
  - The element will not be deleted but more your predefined coordinates of your mouse, where there is an associated research button, then the current *tab* will load the link under the associated search, but the element will be deleted before ...
 
 So please change that coordinate in the bottom of your application.
 
 
-If you have a POPUP problem with AHK asking you, wrong character incompatible at line number x, then your file encoding is messed, proove , if the file stay in your notification area, you try to reload the file but the popup remains front of you, you have to save the file with encoding utf-8 preferably with BOM, easily doable in **Sublime text - 3**.
+If you have a POPUP problem with AHK asking you, wrong character incompatible at line number x, then your file encoding is messed, proove , if the file stay in your notification area, you try to reload the file but the popup remains front of you, you have to save the file with encoding utf-8 preferably with BOM, easily doable in *Sublime text - 3*.
 
 
  # Menu key can be too done with <kbd> shift +10 </kbd>
@@ -35,13 +35,37 @@ Use <kbd> +f10 </kbd> for detection and send with <kbd> +{f10} </kbd>
  # Found a bug on 2 applications:
 ___
 
-**Mpc-0be**, so maybe all others videos players, it play a movie that can block the fullscreen application to the background/foreground.
-If the application was made to be always on top only, always on top like i used by my shortcut(project *SublimeTab*) because it was not specially needed or required by all the others chain of applications.
+*Mpc-be*, so maybe all others videos players, it play a movie that can block the fullscreen application to the background/foreground.
+If the application was made to be always on top only, always on top like i used by my shortcut(project **SublimeTab**) because it was not specially needed or required by all the others chain of applications.
 This application was stuck and since the window status is set, and should not specially, the application remains always on top, no more kills.
 
-**Notepad**, Maybe the windows position and shortcuts can be different or not act like always, theses applications are experimental and behavior are though to be unique, sometimes it differ slighly, certainly with AHK.
+*Notepad*, Maybe the windows position and shortcuts can be different or not act like always, theses applications are experimental and behavior are though to be unique, sometimes it differ slighly, certainly with AHK.
 
  # Now three usages:
 ___
 
 Instead use the context menu key down repetitively, now it should works 100%, just the old way permit sometimes to aim anything without alternate temporally all the shortcut, the aim is found before try the operation, the result should be demonstrated if successfull or not, only something related to the search operation can make it not in the same erasure of content ordered(or rarely more operations needed), the advantage of the <kbd> wheel </kbd> is missing but there are temporary shortcut with the keyboard plus the <kbd> left click </kbd> is the trigger of the final operation, it is in another extension part but only from the <kbd> right click menu </kbd>.
+
+
+ # Fix the third functionnality can bring the second.
+___
+If the <kbd> SC15D </kbd> key was pressed longer or normaly it call too the first or second functionnality, to accept only the first, just add one line.
+Please add one of theses two solutions, depending where it is used, consider it included in the project **CTM**:
+Use of the solutions below by adding the line(s) starting by --------> without it.
+```ahk
+;This directive(starting by a <kbd> hashtag </kbd>) is mandatory as default is 1
+-------->#MaxThreadsPerHotkey, 1
+;REST OF ALL THE CODE FROM THE BEGINNING HEADERS
+```
+
+```ahk
+-------->#MaxThreadsPerHotkey, 2
+;...
+SC15D::
+;...
+-------->KeyWait,SC15D,U
+;any var as a switch to try avoid repeatitive loop in a trigger like <kbd> SC15D </kbd>:: even without starting by a <kbd> tild </kbd> character.
+return
+```
+
+**Adblock** and **uBlockOrigin** include two others aiming system to blacklist definitvely object of the same page, ony the third trigger, the longer <kbd> context menu </kbd> key, can do that too.
