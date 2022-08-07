@@ -6,7 +6,7 @@
 Below is the proof you can find good streamer because there is no overridden dark transparent layout(s) hover its streaming page, you could delete them or resize them, sometimes it can begin more hard to deal with them, maybe they are not that good.
 
 
-![Twitch good or bad streamer]
+The Twitch good or bad streamer never more seen as overlayed by a stack of layout backgrounds, text is very difficult to read to a clear view, the most of the time one layer was made over, currently it is more an single fully fulled frame completely invisible even its borders and is deployed after a single left click inside the video area, no way to know now :)
 
 <img src="https://media2.giphy.com/media/1iwiUZIFmCZePaw7CZ/giphy.gif?cid=790b76113db9de8dec7696356465f5f7d68f717968825d65&rid=giphy.gif&ct=g" width="500" height="500">
 
