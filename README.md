@@ -1152,3 +1152,18 @@ Certain content contains can be modified and this is not great, hopefully the ho
 ---
 Extremely rarely, with the *main script V3 of **DarkChromePastelFluo** *, a web dynamic dark theme, this project script can add one more scrollbar, so you could have two of them, it's not a problem with the scroll of the <kbd>mouse middle button</kbd>, there is not even a latency or two <kbd>scrolled</kbd> scrollbars, but with the CTM <kbd>left mouse click</kbd> is used longer as a page <kbd>scrolling</kbd> locked, the page <kbd>scrolling</kbd> could be affected in a way it does not works with the good scrollbar, and will not pass to the other scrollbar as last resort, the right or middle sides of the page use the other scrollbar, only left of the page works with the good scrollbar, move <kbd>mouse</kbd> at start of the operation does not help much, note without that another project the <kbd>left button</kbd> should works as usual, more easily the middle than the right side.
 Ex: https://*.rt.com/
+
+
+
+# Undocumented FTM, but see script order lists.
+---
+There can be scripts for only few domains and these are not excluded in the main script, we use them both at the same time, its contradictory because versions are supposing overriding almost completely all the visuals aspects and not change much but better while incrementing and alone.
+
+For only in Ebay and Challonge websites.
+
+Challonge website, we can see what dual in the tourney has been not fully played or for other reasons when the user name is in double(in white and orange or only orange if you change scripts used), but it can as well win/loose or not participate.
+
+See **DarkChromePastelV1EbayAndChallonge.CSS** script in this repository.
+
+PS: this is not the only domain that should be tested with this unique old V1 script version.
+PS2:on Ebay it require much of the script deleters in the mandatory folder, yes many easter eggs are presents.
