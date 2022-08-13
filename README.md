@@ -1167,3 +1167,25 @@ See **DarkChromePastelV1EbayAndChallonge.CSS** script in this repository.
 
 PS: this is not the only domain that should be tested with this unique old V1 script version.
 PS2:on Ebay it require much of the script deleters in the mandatory folder, yes many easter eggs are presents.
+
+
+
+ # Another reason of an example of script generated and ordered.
+---
+
+The URL https://autoitscript.fr/ is a problem, the "BB" forum main area parts and around is very clear, the other URL is not filled plenty and fully as most other websites, the east and the south, it fill only the quart of the page at 80% zoom level.
+The only way to read correctly the code parts and text orange on gray background is be hover but better is use another main script only for this domain, for example, the code boxes and text parts are best with version 1 coupled :
+- So instead create another script for this domain particularly, we add another main but the order of activation is important(see configuration for name properly all the scripts), so the order should affect the final effects, i repeat keep script list as static in Stylish pop-up is bugged anyway.
+- The code boxes must be hovered by a previous link inside it like in the first page, the second does not offer so much different background colors by hovering the links around.
+- You can appreciate the script in the version 1 show by default certain background tags not rounded that never existed, this is something more.
+- Configure two different URLs:
+ + https://autoitscript
+ + https://www.autoitscript
+This is the first time it happened for me, the need to duplicate a URL with or not after the URL scheme name and the double slash, but there are certainly others existing useful websites for all of us.
+
+
+
+Certain websites can be suppressed of the main alternative script to be instead used by the main script, the text was yellow on very clear gray so unreadable, sometimes certain website act like this they revert to a same older scripts list combination and order:
+ - dhnet.be
+ - jeuxvideo.com
+
