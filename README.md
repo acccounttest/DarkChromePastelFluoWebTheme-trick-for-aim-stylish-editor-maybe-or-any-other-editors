@@ -72,9 +72,7 @@ Exemple using another theme made for Git Pages[https://acccounttest.github.io/Da
 
 This last URL is not representative of all possibilities and exceptions, usually UI tend to be more often changed, the foreground/background can change up to 3-4-5 different combinations, here the code tag is not much influenced.
 
-*
-The new private version is free too but published only via the other project CTM, this is easier despite all the reliability of all the installed scripts, the installation, configuration, usage and maintainability are better though an all-in-one installer that is subject to change continuously and may be back up and merged by the user, all theses prerequisite are needed due to the erasures of both the extension config and the scripts or by the user inadvertence that can be done even on the same hard disk but not on the same machine, or simply indefinitely, the services online are permanently disrupted and the necessity to them is no more, the personalized URL is tempting but seems not works for everything, the website itself is often not reachable, responding or simulating an occupation.
-*
+*The new private version is free too but published only via the other project CTM, this is easier despite all the reliability of all the installed scripts, the installation, configuration, usage and maintainability are better though an all-in-one installer that is subject to change continuously and may be back up and merged by the user, all theses prerequisite are needed due to the erasures of both the extension config and the scripts or by the user inadvertence that can be done even on the same hard disk but not on the same machine, or simply indefinitely, the services online are permanently disrupted and the necessity to them is no more, the personalized URL is tempting but seems not works for everything, the website itself is often not reachable, responding or simulating an occupation.*
 
 # PROBLEMS
 
