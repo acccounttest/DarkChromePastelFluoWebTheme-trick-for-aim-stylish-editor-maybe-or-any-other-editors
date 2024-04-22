@@ -1,41 +1,7 @@
-@-moz-document regexp(".*:\\/\\/(?!(.*google.*/.*(tbm=isch|tbs=imgo|tbm=lcl).*|.*google.*/maps/d/u.*|.*ultimedia.com.*)).*") {
+@-moz-document regexp(".*:\\/\\/.*") {
 /*Author:Senethril
 Date:21-03-21
-Name:DarkChromePastelFluoWebTheme-trick-for-aim-stylish-editor-maybe-or-any-other-editors
-Url:https://github.com/acccounttest/DarkChromePastelFluoWebTheme-trick-for-aim-stylish-editor-maybe-or-any-other-editors/blob/main/zzz.css#&amp;THINK TO GO CLICK ON ...
-Aim:Install more extensions
 */
-/*trick for aim stylish editor maybe or any other editors
-@-moz-document regexp("^data:text/html;.*div%20id='editor'.*")*/
-/*url-prefix("about:stylish-edit"), 
-@-moz-document url(chrome://browser/content/scratchpad.xul), url(chrome://stylish/content/edit.xul)*/
-
-/*
-dom inspector ??
-@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
-@-moz-document url(chrome://inspector/content/viewers/dom/dom.xul)
-*/
-
-/*regexp('^chrome://(?!browser/content/devtools/).*'),*/
- /*regexp('^chrome://(?!browser/content/devtools/).*'),*/
- /*,*/
-
-/*
-@-moz-document url("about:blank"),url-prefix(http://),url-prefix(https://),regexp('^(chrome|http|https)://(?!browser/content/devtools/).*')
-*/
-/*
-for IE  below*/
-/*
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
- */  
-
-/*@media screen and (-webkit-min-device-pixel-ratio:0)*/
-/* ^(?!https?://(www\.)?(discordapp\.com|example\.com).*).*$ */
-
-/*regexp("https?:\\/\\/(?!(www\\.youtube\\.com|forum\\.userstyles\\.com|lycos\\.com|aol\\.com|roblox\\.com)).*")*/
-/*@-moz-document regexp('https://userstyles\.org/.*')*/
-/*does firefix need double bacslah normally its 1 for js 2 for css, 1 for chorme only then?*/
-
 @namespace url(http://www.w3.org/1999/xhtml);   
 @media screen and (-webkit-min-device-pixel-ratio:0)
 {
